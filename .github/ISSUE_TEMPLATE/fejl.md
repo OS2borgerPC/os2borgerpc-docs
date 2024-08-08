@@ -1,12 +1,12 @@
 ---
 name: Fejl
 about: Systemet virker ikke som det plejer. Der er noget galt.
-title: "[FEJL]"
+title: "[FEJL]:"
 labels: bug
 assignees: agnetemoos
 
 ---
 
-Beskriv fejlen og hvordan den kan fremprovokeres. Udviklerne har brug for at kunne reproducerere fejlen for at kunne løse den. Er fejlen knyttet til specifik hardware, skal det tydeligt fremgå.
+Beskriv fejlen og hvordan den kan fremprovokeres. Vi har brug for at kunne genskabe fejlen, før vi kan løse den. Er fejlen knyttet til specifik hardware, skal det tydeligt fremgå.
 
-Tilføj screen shots - de er meget værdifulde.
+Tilføj gerne screen shots - de er meget værdifulde.
