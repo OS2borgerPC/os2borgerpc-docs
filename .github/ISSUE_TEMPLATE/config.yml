@@ -1,3 +1,8 @@
 blank_issues_enabled: false
 
+contact_links:
+  - name: Sikkerhedsproblem
+    url: https://community.example.com
+    about: Har du opdaget et potentielt sikkerhedsbrist eller overværet en sikkerhedshændelse? Indrapporter den NU - vi reagerer hurtigt. 
+
 
