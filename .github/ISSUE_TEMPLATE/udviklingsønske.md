@@ -1,6 +1,6 @@
 ---
 name: Udviklingsønske
-about: Ønsker til ny eller udvidet funktionalitet.
+about: Foreslå ny funktionalitet.
 title: 'Præcis titel der opsummerer indholdet '
 labels: enhancement
 assignees: agnetemoos
