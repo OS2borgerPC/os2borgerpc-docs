@@ -3,7 +3,7 @@ name: Fejl
 about: Systemet virker ikke som det plejer. Der er noget galt.
 title: Præcis titel der opsummerer indholdet
 labels: bug
-assignees: agnetemoos
+assignees: agnetemoos, Tgjerulff
 
 ---
 
