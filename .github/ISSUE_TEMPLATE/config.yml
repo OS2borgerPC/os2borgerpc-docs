@@ -1,0 +1,6 @@
+blank_issues_enabled: false
+
+issue_templates:
+  - name: Bug report
+    description: Report a bug in the project
+    labels: [bug]
