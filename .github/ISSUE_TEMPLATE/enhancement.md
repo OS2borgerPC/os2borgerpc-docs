@@ -3,7 +3,7 @@ name: Udviklingsønske
 about: Foreslå ny funktionalitet.
 title: 'Præcis titel der opsummerer indholdet '
 labels: enhancement
-assignees: agnetemoos
+assignees: agnetemoos, Tgjerulff
 
 ---
 
