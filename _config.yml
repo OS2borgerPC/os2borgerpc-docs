@@ -9,8 +9,16 @@ aux_links:
 
 collections:
   pages:
+    permalink: "/:collection/:path/"
     output: true
-    permalink: /:collection/:path/
   scripts:
+    permalink: "/:collection/:path/"
     output: true
-    permalink: /:collection/:path/
+just_the_docs:
+  collections:
+    pages:
+      name: Sider
+      nav_fold: true
+    scripts:
+      name: Scripts
+      nav_fold: false
