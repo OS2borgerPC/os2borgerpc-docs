@@ -8,5 +8,7 @@ OS2borgerPC har indbyggede sikkerhedsforanstaltninger, der beskytter brugernes p
 OS2BorgerPC er et omkostningseffektivt og driftsstabilt alternativ til licensbelagt software til offentligt tilgængelige arbejdsstationer.  
 
 ## Dokumentation
-Dokumentation af systemet er baseret på OS2offdig/os2-docs-template og udgivet via Github Pages.
 Besøg vores brugervenlige dokumentations website på adressen https://os2borgerpc.github.io/os2borgerpc-docs/
+
+Dokumentation af systemet er baseret på OS2offdig/os2-docs-template og udgivet via Github Pages.
+
