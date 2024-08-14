@@ -10,5 +10,5 @@ OS2BorgerPC er et omkostningseffektivt og driftsstabilt alternativ til licensbel
 ## Dokumentation
 Besøg vores brugervenlige dokumentations website på adressen https://os2borgerpc.github.io/os2borgerpc-docs/
 
-Dokumentation af systemet er baseret på [OS2offdig/os2-docs-template](https://github.com/OS2offdig/os2-docs-template) og udgivet via Github Pages.
+Dokumentation af systemet er bygget med [OS2offdig/os2-docs-template](https://github.com/OS2offdig/os2-docs-template) og udgivet via Github Pages.
 
