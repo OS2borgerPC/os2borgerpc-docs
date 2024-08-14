@@ -18,7 +18,7 @@ just_the_docs:
   collections:
     pages:
       name: Sider
-      nav_fold: true
+      nav_fold: false
     scripts:
       name: Scripts
       nav_fold: false
