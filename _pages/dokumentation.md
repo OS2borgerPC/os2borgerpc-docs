@@ -1,7 +1,6 @@
 ---
 title: "Eksisterende dokumentation"
 nav_order: 1
-layout: default
 ---
 Oversigt over den dokumentation der pt. findes i OS2BorgerPC.
 
