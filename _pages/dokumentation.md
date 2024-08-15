@@ -17,7 +17,7 @@
 - [Kort beskrivelse](https://github.com/OS2borgerPC/os2borgerpc-client/blob/master/README.rst) (README Github -> Read the docs EN)
 - [Filoversigt](https://github.com/OS2borgerPC/os2borgerpc-client/blob/master/docs/source/dev.rst) (docs folder -> Read the Docs EN)
 - [Release history](https://github.com/OS2borgerPC/os2borgerpc-client/blob/master/NEWS.rst) (NEWS Github -> Read the Docs EN)
-- 
+  
 ### OS2BorgerPC Image 
 - [Kort beskrivelse](https://github.com/OS2borgerPC/os2borgerpc-image/blob/master/README.rst) (README Github -> Read the Docs EN)
 - [Release history](https://github.com/OS2borgerPC/os2borgerpc-image/blob/master/NEWS.rst) (NEWS Github -> Read the Docs EN)
@@ -27,8 +27,7 @@
 - [Hardware known issues](https://github.com/OS2borgerPC/os2borgerpc-image/blob/development/docs/source/hardware_known_issues.rst) (docs folder -> Read the Docs)
 - [Technical information about the image building process](https://github.com/OS2borgerPC/os2borgerpc-image/blob/master/image/README.rst) (image folder README EN)
 - [Guide to creating an OS2BorgerPC image](https://github.com/OS2borgerPC/os2borgerpc-image/blob/master/docs/source/dev.rst)(docs folder -> Read the docs EN)
-- 
-- 
+  
 ### OS2BorgerPC Kiosk Image
 - [Kort beskrivelse](https://github.com/OS2borgerPC/os2borgerpc-kiosk-image/blob/master/README.rst) (README Github -> Read the docs EN)
 - [Guide to creating an OS2BorgerPC Kiosk Image](https://github.com/OS2borgerPC/os2borgerpc-kiosk-image/blob/master/image/README.rst) (image folder -> Read the Docs, EN) 
