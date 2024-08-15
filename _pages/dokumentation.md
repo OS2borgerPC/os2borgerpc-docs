@@ -37,7 +37,7 @@
 - [Upgrade guide 16.04 til 20.04](https://github.com/OS2borgerPC/os2borgerpc-kiosk-image/blob/master/docs/upgrade.rst) (docs folder -> Read the docs EN)
 
 ### OS2BorgerPC scripts
-[Scriptkategori oversigt, anbefalede sikkerhedsscripts pr. image version](https://github.com/OS2borgerPC/os2borgerpc-scripts) (README Github)
+[Scriptkategori oversigt, anbefalede sikkerhedsscripts pr. image version](https://github.com/OS2borgerPC/os2borgerpc-scripts/blob/master/README.md) (README Github EN)
 
 
 
