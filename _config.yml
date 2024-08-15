@@ -19,8 +19,6 @@ just_the_docs:
     pages:
       name: Sider
       nav_fold: false
-      layout: default
     scripts:
       name: Scripts
       nav_fold: false
-      layout: default
