@@ -19,11 +19,12 @@
 - [Kort beskrivelse på engelsk](https://github.com/OS2borgerPC/os2borgerpc-image/blob/master/README.rst) (README Github -> Read the Docs)
 - [Release history](https://github.com/OS2borgerPC/os2borgerpc-image/blob/master/NEWS.rst) (NEWS Github -> Read the Docs)
 - [Hardware known issues](https://github.com/OS2borgerPC/os2borgerpc-image/blob/master/docs/source/hardware_known_issues.rst)(docs folder -> Read the Docs)
-- [Guide to creating an image](https://github.com/OS2borgerPC/os2borgerpc-image/blob/master/docs/source/dev.rst)(docs folder -> Read the docs)
+- [Guide to creating an OS2BorgerPC image](https://github.com/OS2borgerPC/os2borgerpc-image/blob/master/docs/source/dev.rst)(docs folder -> Read the docs)
 - 
 - 
 ### OS2BorgerPC Kiosk Image
 - [Kort beskrivelse på engelsk](https://github.com/OS2borgerPC/os2borgerpc-kiosk-image/blob/master/README.rst) (README Github -> Read the docs)
+- [Guide to creating an OS2BorgerPC Kiosk Image](https://github.com/OS2borgerPC/os2borgerpc-kiosk-image/blob/master/image/README.rst) (image folder -> Read the Docs) 
 - [Release history](https://github.com/OS2borgerPC/os2borgerpc-kiosk-image/blob/master/NEWS.rst) (NEWS Github -> Read the Docs)
 - [OS2BorgerPC Kiosk installationsguide](https://github.com/OS2borgerPC/os2borgerpc-kiosk-image/blob/master/docs/source/dev.rst) (docs folder -> Read the docs)
 - [Upgrade guide 16.04 til 20.04](https://github.com/OS2borgerPC/os2borgerpc-kiosk-image/blob/master/docs/upgrade.rst) (docs folder -> Read the docs)
