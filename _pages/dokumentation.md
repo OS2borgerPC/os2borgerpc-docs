@@ -15,6 +15,10 @@
 - [Governancerapport](https://github.com/OS2borgerPC/os2borgerpc-admin-site/blob/master/Governancerapport.md) (Markdown Github)
 
 ### OS2borgerPC Client
+- [Kort beskrivelse på engelsk](https://github.com/OS2borgerPC/os2borgerpc-client/blob/master/README.rst) (README Github -> Read the docs)
+- [Filoversigt](https://github.com/OS2borgerPC/os2borgerpc-client/blob/master/docs/source/dev.rst) (docs folder -> Read the Docs)
+- [Release history](https://github.com/OS2borgerPC/os2borgerpc-client/blob/master/NEWS.rst) (NEWS Github -> Read the Docs)
+- 
 ### OS2BorgerPC Image 
 - [Kort beskrivelse på engelsk](https://github.com/OS2borgerPC/os2borgerpc-image/blob/master/README.rst) (README Github -> Read the Docs)
 - [Release history](https://github.com/OS2borgerPC/os2borgerpc-image/blob/master/NEWS.rst) (NEWS Github -> Read the Docs)
