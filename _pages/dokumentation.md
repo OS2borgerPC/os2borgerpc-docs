@@ -16,6 +16,9 @@
 
 ### OS2borgerPC Client
 - [Kort beskrivelse på engelsk](https://github.com/OS2borgerPC/os2borgerpc-client/blob/master/README.rst) (README Github -> Read the docs)
+- [Fremstilling af USB-nøgle med Linux filsystem](https://github.com/OS2borgerPC/os2borgerpc-image/blob/master/docs/client_docs/USB_noegle_med_ext.pdf) (PDF, ODT på Github)
+- [Installationsguide gammel](https://github.com/OS2borgerPC/os2borgerpc-image/blob/master/docs/OS2BorgerPC_installation_guide_old_da.pdf) (PDF på Github da,en,sv)
+- [Installationsguide](https://github.com/OS2borgerPC/os2borgerpc-image/blob/master/docs/OS2BorgerPC_installation_guide_da.pdf) (PDF på Github da,en,sv)
 - [Filoversigt](https://github.com/OS2borgerPC/os2borgerpc-client/blob/master/docs/source/dev.rst) (docs folder -> Read the Docs)
 - [Release history](https://github.com/OS2borgerPC/os2borgerpc-client/blob/master/NEWS.rst) (NEWS Github -> Read the Docs)
 - 
