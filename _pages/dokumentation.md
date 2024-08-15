@@ -11,15 +11,15 @@
 - [Guide til opsætning af sikkerhedsovervågning via sikkerhedsregler](https://github.com/OS2borgerPC/os2borgerpc-admin-site/blob/master/admin_site/static/docs/OS2BorgerPC-sikkerhedsoverv%C3%A5gning.pdf) (PDF på Github)
 - [Release history](https://os2borgerpc-admin.readthedocs.io/en/latest/news.html) (NEWS Github -> Read the Docs)
 - [Kort installationsvejledning](https://github.com/OS2borgerPC/os2borgerpc-admin-site/blob/master/admin_site/INSTALL) (Markdown Github)
-- [Revisionssvar](https:// github.com/OS2borgerPC/os2borgerpc-admin-site/blob/master/admin_site/static/docs/Audit_doc_da.pdf) (PDF på Github)
+- [Revisionssvar](https://github.com/OS2borgerPC/os2borgerpc-admin-site/blob/master/admin_site/static/docs/Audit_doc_da.pdf) (PDF på Github)
 - [Governancerapport](https://github.com/OS2borgerPC/os2borgerpc-admin-site/blob/master/Governancerapport.md) (Markdown Github)
 
 ### OS2borgerPC Client
 ### OS2BorgerPC Image 
 - [Kort beskrivelse på engelsk](https://github.com/OS2borgerPC/os2borgerpc-image/blob/master/README.rst) (README Github -> Read the Docs)
 - [Release history](https://github.com/OS2borgerPC/os2borgerpc-image/blob/master/NEWS.rst) (NEWS Github -> Read the Docs)
-- [Hardware known issues](https://github.com/OS2borgerPC/os2borgerpc-image/blob/development/docs/source/hardware_known_issues.rst)(docs folder -> Read the Docs)
-- [Guide to creating an image](https://github.com/OS2borgerPC/os2borgerpc-image/blob/development/docs/source/dev.rst)(docs folder -> Read the docs)
+- [Hardware known issues](https://github.com/OS2borgerPC/os2borgerpc-image/blob/master/docs/source/hardware_known_issues.rst)(docs folder -> Read the Docs)
+- [Guide to creating an image](https://github.com/OS2borgerPC/os2borgerpc-image/blob/master/docs/source/dev.rst)(docs folder -> Read the docs)
 - 
 - 
 ### OS2BorgerPC Kiosk Image
