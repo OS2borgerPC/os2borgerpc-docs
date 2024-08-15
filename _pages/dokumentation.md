@@ -1,7 +1,7 @@
 ## Overblik over eksisterende dokumentation
 
 ### OS2borgerPC Admin Site
-- [Kort beskrivelse på engelsk](https://github.com/OS2borgerPC/os2borgerpc-admin-site/blob/master/README.rst) (README Github -> Read the docs))
+- [Kort beskrivelse på engelsk](https://github.com/OS2borgerPC/os2borgerpc-admin-site/blob/master/README.rst) (README Github -> Read the docs)
 - [Meget velskrevet brugervejledning](https://github.com/OS2borgerPC/os2borgerpc-admin-site/tree/master/admin_site/templates/documentation) (Dybt begravet på Github i HTML-filer)
 - [Arkitekturdiagram](https://os2borgerpc-admin.readthedocs.io/en/latest/dev.html#architectural-diagram) (docs folder -> Read the Docs)
 - [Datamodel](https://os2borgerpc-admin.readthedocs.io/en/latest/dev.html#models-database-visualized) (docs folder -> Read the Docs)
@@ -23,6 +23,10 @@
 - 
 - 
 ### OS2BorgerPC Kiosk Image
+- [Kort beskrivelse på engelsk](https://github.com/OS2borgerPC/os2borgerpc-kiosk-image/blob/master/README.rst) (README Github -> Read the docs)
+- [Release history](https://github.com/OS2borgerPC/os2borgerpc-kiosk-image/blob/master/NEWS.rst) (NEWS Github -> Read the Docs)
+- [OS2BorgerPC Kiosk installationsguide](https://github.com/OS2borgerPC/os2borgerpc-kiosk-image/blob/master/docs/source/dev.rst) (docs folder -> Read the docs)
+- [Upgrade guide 16.04 til 20.04](https://github.com/OS2borgerPC/os2borgerpc-kiosk-image/blob/master/docs/upgrade.rst) (docs folder -> Read the docs)
 
 ### OS2BorgerPC scripts
 [Scriptkategori oversigt, anbefalede sikkerhedsscripts pr. image version](https://github.com/OS2borgerPC/os2borgerpc-scripts) (README Github)
