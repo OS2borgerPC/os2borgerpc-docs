@@ -1,18 +1,17 @@
 ## Overblik over eksisterende dokumentation
 
 ### OS2borgerPC Admin Site
-- [Kort beskrivelse på engelsk](https://github.com/OS2borgerPC/os2borgerpc-admin-site/blob/master/README.rst) (README Github -> Read the docs)
-- [Meget velskrevet brugervejledning](https://github.com/OS2borgerPC/os2borgerpc-admin-site/tree/master/admin_site/templates/documentation) (Dybt begravet på Github i HTML-filer)
-- [Arkitekturdiagram](https://os2borgerpc-admin.readthedocs.io/en/latest/dev.html#architectural-diagram) (docs folder -> Read the Docs)
-- [Datamodel](https://os2borgerpc-admin.readthedocs.io/en/latest/dev.html#models-database-visualized) (docs folder -> Read the Docs)
-- [Konfiguration af customer admins til administration af sites](https://github.com/OS2borgerPC/admin-site/raw/development/admin_site/static/docs/configuring_customer_admins.pdf) (PDF på Github)
-- [Teknisk guide til at konfiguration af Django der muliggør customer admins](https://github.com/OS2borgerPC/os2borgerpc-admin-site/blob/master/admin_site/static/docs/configuring_customer_admins.pdf) (PDF på Github)
-- [Guide til brug af strømbesparende funktion](https://github.com/OS2borgerPC/os2borgerpc-admin-site/blob/master/admin_site/static/docs/Guide_til_brug_af_str%C3%B8mbesparingsfunktioner.pdf) (PDF på Github)
-- [Guide til opsætning af sikkerhedsovervågning via sikkerhedsregler](https://github.com/OS2borgerPC/os2borgerpc-admin-site/blob/master/admin_site/static/docs/OS2BorgerPC-sikkerhedsoverv%C3%A5gning.pdf) (PDF på Github)
-- [Release history](https://os2borgerpc-admin.readthedocs.io/en/latest/news.html) (NEWS Github -> Read the Docs)
-- [Kort installationsvejledning](https://github.com/OS2borgerPC/os2borgerpc-admin-site/blob/master/admin_site/INSTALL) (Markdown Github)
-- [Revisionssvar](https://github.com/OS2borgerPC/os2borgerpc-admin-site/blob/master/admin_site/static/docs/Audit_doc_da.pdf) (PDF på Github)
-- [Governancerapport](https://github.com/OS2borgerPC/os2borgerpc-admin-site/blob/master/Governancerapport.md) (Markdown Github)
+- [Kort beskrivelse](https://github.com/OS2borgerPC/os2borgerpc-admin-site/blob/master/README.rst) (README Github -> Read the docs en)
+- [Meget velskrevet brugervejledning](https://github.com/OS2borgerPC/os2borgerpc-admin-site/tree/master/admin_site/templates/documentation) (Dybt begravet på Github i HTML-filer da)
+- [Arkitekturdiagram og datamodel](https://github.com/OS2borgerPC/os2borgerpc-admin-site/blob/development/docs/source/dev.rst) (docs folder -> Read the Docs en)
+- [Konfiguration af customer admins til administration af sites](https://github.com/OS2borgerPC/os2borgerpc-admin-site/blob/master/admin_site/static/docs/customer_admin_guide_da.pdf) (PDF på Github da,en,sv)
+- [Teknisk guide til at konfiguration af Django der muliggør customer admins](https://github.com/OS2borgerPC/os2borgerpc-admin-site/blob/master/admin_site/static/docs/configuring_customer_admins.pdf) (PDF på Github en)
+- [Guide til brug af strømbesparende funktion](https://github.com/OS2borgerPC/os2borgerpc-admin-site/blob/master/admin_site/static/docs/Wake_plan_user_guide_da.pdf) (PDF på Github da,en,sv)
+- [Guide til opsætning af sikkerhedsovervågning via sikkerhedsregler](https://github.com/OS2borgerPC/os2borgerpc-admin-site/blob/master/admin_site/static/docs/OS2BorgerPC_security_rules_da.pdf) (PDF på Github da,en,sv)
+- [Release history](https://os2borgerpc-admin.readthedocs.io/en/latest/news.html) (NEWS Github -> Read the Docs en)
+- [Kort installationsvejledning](https://github.com/OS2borgerPC/os2borgerpc-admin-site/blob/master/admin_site/INSTALL) (Markdown Github en)
+- [Revisionssvar](https://github.com/OS2borgerPC/os2borgerpc-admin-site/blob/master/admin_site/static/docs/Audit_doc_da.pdf) (PDF på Github da,sv,en)
+- [Governancerapport](https://github.com/OS2borgerPC/os2borgerpc-admin-site/blob/master/Governancerapport.md) (Markdown Github da)
 
 ### OS2borgerPC Client
 - [Kort beskrivelse på engelsk](https://github.com/OS2borgerPC/os2borgerpc-client/blob/master/README.rst) (README Github -> Read the docs)
