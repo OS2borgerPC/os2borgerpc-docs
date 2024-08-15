@@ -1,4 +1,9 @@
-## Overblik over eksisterende dokumentation
+---
+title: "Eksisterende dokumentation"
+nav_order: 1
+permalink: /dokumentation/
+---
+Oversigt over den dokumentation der pt. findes i OS2BorgerPC.
 
 ### OS2borgerPC Admin Site
 - [Kort beskrivelse](https://github.com/OS2borgerPC/os2borgerpc-admin-site/blob/master/README.rst) (README Github -> Read the docs EN)
