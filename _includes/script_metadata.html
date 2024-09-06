@@ -11,7 +11,6 @@
     <a href="{{page.source_prefix}}{{ page.source }}" target="_blank">Kildekode</a>
     <button onclick="copyToClipboard('{{page.source_prefix}}{{ page.source }}')">Copy to Clipboard</button>
   </p>
-  <p><strong>Last Updated:</strong> {% github_last_modified {{ page.source_prefix }}{{ page.source }} %}</p>
 {% endif %}
 
 {% if page.parameters %}
