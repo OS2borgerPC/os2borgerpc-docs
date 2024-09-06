@@ -1,0 +1,33 @@
+{% if page.title %}
+  <h1>{{ page.title }}</h1>
+{% endif %}
+
+{% if page.category %}
+  <p><strong>Category:</strong> {{ page.category }}</p>
+{% endif %}
+
+{% if page.source %}
+  <p><strong>Source:</strong>
+    <a href="{{page.source_prefix}}{{ page.source }}" target="_blank">Kildekode</a>
+    <button onclick="copyToClipboard('{{page.source_prefix}}{{ page.source }}')">Copy to Clipboard</button>
+  </p>
+  <p><strong>Last Updated:</strong> {% github_last_modified {{ page.source_prefix }}{{ page.source }} %}</p>
+{% endif %}
+
+{% if page.parameters %}
+  <p><strong>Parameters:</strong> {{ page.parameters }}</p>
+{% endif %}
+
+<script>
+  async function copyToClipboard(url) {
+    try {
+      const response = await fetch(url);
+      const text = await response.text();
+      await navigator.clipboard.writeText(text);
+      alert('Script content copied to clipboard!');
+    } catch (err) {
+      console.error('Failed to copy: ', err);
+      alert('Failed to copy script content.');
+    }
+  }
+</script>
