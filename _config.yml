@@ -36,4 +36,6 @@ defaults:
       type: scripts
     values:
       layout: script
-      source_prefix: "https://raw.githubusercontent.com/OS2borgerPC/os2borgerpc-scripts/master/"
+      submodules:
+        - "/assets/os2borgerpc-scripts/"
+      
