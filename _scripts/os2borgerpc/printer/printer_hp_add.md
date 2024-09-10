@@ -1,7 +1,7 @@
 ---
 title: "Printer - HP: Tilføj (ældre) HP-printer"
 category: "Printer"
-source: os2borgerpc/printer/printer_hp_add.sh
+source: /assets/os2borgerpc-scripts/os2borgerpc/printer/printer_hp_add.sh
 parameters:
   - name: "0 = USB, 1 = Netværksprinter"
     type: "integer"

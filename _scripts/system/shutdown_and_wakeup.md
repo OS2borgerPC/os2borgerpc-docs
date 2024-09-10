@@ -1,7 +1,7 @@
 ---
 title: "System - Luk ned og vågn op dagligt"
 category: "System"
-source: common/system/shutdown_and_wakeup.sh
+source: /assets/os2borgerpc-scripts/common/system/shutdown_and_wakeup.sh
 ---
 
 ## Beskrivelse

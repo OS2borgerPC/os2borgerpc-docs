@@ -1,7 +1,7 @@
 ---
 title: "System - Fjern sudo og user expiration fra auth.log"
 category: "System"
-source: common/system/clear_sudo_from_auth_log.sh
+source: /assets/os2borgerpc-scripts/common/system/clear_sudo_from_auth_log.sh
 ---
 
 ## Beskrivelse

@@ -1,7 +1,7 @@
 ---
 title: "Udfases - Desktop - Fjern brugerskifte fra menuen"
 category: "Udfases"
-source: os2borgerpc/udfases/dconf_disable_user_switching.sh
+source: /assets/os2borgerpc-scripts/os2borgerpc/udfases/dconf_disable_user_switching.sh
 parameters:
 compatible_versions:
   - "Ubuntu 22.04"

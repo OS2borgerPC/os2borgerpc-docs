@@ -1,7 +1,7 @@
 ---
 title: "Skanner - Vis tilgængelige skannere"
 category: "Skanner"
-source: os2borgerpc/skanner/list_scanners.sh
+source: /assets/os2borgerpc-scripts/os2borgerpc/skanner/list_scanners.sh
 parameters:
 compatible_versions:
 compatible_images:

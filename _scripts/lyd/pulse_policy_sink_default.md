@@ -1,7 +1,7 @@
 ---
 title: "Lyd - Sæt standard-lydudgang (sink)"
 category: "Lyd"
-source: common/lyd/pulse_policy_sink_default.sh
+source: /assets/os2borgerpc-scripts/common/lyd/pulse_policy_sink_default.sh
 parameters:
   - name: "Aktivér?"
     type: "checkbox"

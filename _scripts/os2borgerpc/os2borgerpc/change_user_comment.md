@@ -1,7 +1,7 @@
 ---
 title: "OS2borgerPC - Skift navn for Borger-brugeren"
 category: "OS2BorgerPC"
-source: os2borgerpc/os2borgerpc/change_user_comment.sh
+source: /assets/os2borgerpc-scripts/os2borgerpc/os2borgerpc/change_user_comment.sh
 parameters:
   - name: "Navn for Borger-brugeren"
     type: "string"

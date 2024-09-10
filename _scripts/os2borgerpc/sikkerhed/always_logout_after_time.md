@@ -1,7 +1,7 @@
 ---
 title: "Sikkerhed - Log altid ud efter X minutter uden besked"
 category: "Sikkerhed"
-source: os2borgerpc/sikkerhed/always_logout_after_time.sh
+source: /assets/os2borgerpc-scripts/os2borgerpc/sikkerhed/always_logout_after_time.sh
 parameters:
   - name: "Minutter (parametret)"
     type: "integer"

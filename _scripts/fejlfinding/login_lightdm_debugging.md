@@ -1,7 +1,7 @@
 ---
 title: "Fejlfinding - Opstart / Login"
 category: "Fejlfinding"
-source: common/fejlfinding/login_lightdm_debugging.sh
+source: /assets/os2borgerpc-scripts/common/fejlfinding/login_lightdm_debugging.sh
 parameters:
 compatible_versions: []
 compatible_images:   

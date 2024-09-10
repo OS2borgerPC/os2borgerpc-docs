@@ -1,7 +1,7 @@
 ---
 title: "Skanner - Opret delt Samba-mappe til skan"
 category: "Skanner"
-source: os2borgerpc/skanner/scans_samba_dir.sh
+source: /assets/os2borgerpc-scripts/os2borgerpc/skanner/scans_samba_dir.sh
 parameters:
   - name: "Installer Samba og opret delt mappe?"
     type: "checkbox"

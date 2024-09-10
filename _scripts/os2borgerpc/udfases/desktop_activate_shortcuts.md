@@ -1,7 +1,7 @@
 ---
 title: "Udfases - Desktop - Aktiver genveje"
 category: "Udfases"
-source: os2borgerpc/udfases/desktop_activate_shortcuts.sh
+source: /assets/os2borgerpc-scripts/os2borgerpc/udfases/desktop_activate_shortcuts.sh
 parameters:
 compatible_versions:
   - "Ubuntu 22.04"

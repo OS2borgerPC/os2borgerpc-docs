@@ -1,7 +1,7 @@
 ---
 title: "System - Skjul musemarkør ved muse-inaktivitet"
 category: "System"
-source: common/system/cursor_hide_inactive.sh
+source: /assets/os2borgerpc-scripts/common/system/cursor_hide_inactive.sh
 ---
 
 ## Beskrivelse

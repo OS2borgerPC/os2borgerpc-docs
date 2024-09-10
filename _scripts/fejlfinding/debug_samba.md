@@ -1,7 +1,7 @@
 ---
 title: "Fejlfinding - Samba"
 category: "Fejlfinding"
-source: common/fejlfinding/debug_samba.sh
+source: /assets/os2borgerpc-scripts/common/fejlfinding/debug_samba.sh
 parameters:
 compatible_versions: []
 compatible_images:

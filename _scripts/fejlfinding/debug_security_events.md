@@ -1,7 +1,7 @@
 ---
 title: "Fejlfinding - Sikkerhedshændelser"
 category: "Fejlfinding"
-source: common/fejlfinding/debug_security_events.sh
+source: /assets/os2borgerpc-scripts/common/fejlfinding/debug_security_events.sh
 parameters:
   - name: "Type (se beskrivelse)"
     type: "string"

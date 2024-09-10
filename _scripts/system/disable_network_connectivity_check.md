@@ -1,7 +1,7 @@
 ---
 title: "System - Fjern Network Managers Forbindelsestjek (Netics)"
 category: "System"
-source: common/system/disable_network_connectivity_check.sh
+source: /assets/os2borgerpc-scripts/common/system/disable_network_connectivity_check.sh
 ---
 
 ## Beskrivelse

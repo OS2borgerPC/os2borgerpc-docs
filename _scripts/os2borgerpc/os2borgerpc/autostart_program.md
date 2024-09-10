@@ -1,7 +1,7 @@
 ---
 title: "OS2borgerPC - Autostart program"
 category: "OS2BorgerPC"
-source: os2borgerpc/os2borgerpc/autostart_program.sh
+source: /assets/os2borgerpc-scripts/os2borgerpc/os2borgerpc/autostart_program.sh
 parameters:
   - name: "Slå 'Tip of the Day' fra"
     type: "checkbox"

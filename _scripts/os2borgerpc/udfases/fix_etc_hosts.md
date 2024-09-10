@@ -1,7 +1,7 @@
 ---
 title: "Udfases - Fix /etc/hosts"
 category: "Udfases"
-source: os2borgerpc/udfases/fix_etc_hosts.sh
+source: /assets/os2borgerpc-scripts/os2borgerpc/udfases/fix_etc_hosts.sh
 parameters:
 compatible_versions:
   - "Ubuntu 22.04"

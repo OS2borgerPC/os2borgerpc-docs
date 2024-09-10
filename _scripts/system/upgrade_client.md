@@ -1,7 +1,7 @@
 ---
 title: "System - Opgrader klient nu"
 category: "System"
-source: common/system/upgrade_client.sh
+source: /assets/os2borgerpc-scripts/common/system/upgrade_client.sh
 ---
 
 ## Beskrivelse

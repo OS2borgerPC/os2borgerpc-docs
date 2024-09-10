@@ -1,7 +1,7 @@
 ---
 title: "System - Skift navn på en computer"
 category: "System"
-source: common/system/change_computer_name.sh
+source: /assets/os2borgerpc-scripts/common/system/change_computer_name.sh
 ---
 
 ## Beskrivelse

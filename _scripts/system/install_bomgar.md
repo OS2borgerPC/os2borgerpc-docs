@@ -1,7 +1,7 @@
 ---
 title: "System - BeyondTrust: Installer klient (Bomgar)"
 category: "System"
-source: common/system/install_bomgar.sh
+source: /assets/os2borgerpc-scripts/common/system/install_bomgar.sh
 ---
 
 ## Beskrivelse

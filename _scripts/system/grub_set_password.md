@@ -1,7 +1,7 @@
 ---
 title: "System - GRUB: Skift kodeord"
 category: "System"
-source: common/system/grub_set_password.py
+source: /assets/os2borgerpc-scripts/common/system/grub_set_password.py
 ---
 
 ## Beskrivelse

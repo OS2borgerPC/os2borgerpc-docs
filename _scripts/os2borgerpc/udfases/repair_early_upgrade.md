@@ -1,7 +1,7 @@
 ---
 title: "Udfases - 22.04 opgradering - Reparer tidlig opgradering"
 category: "Udfases"
-source: os2borgerpc/udfases/repair_early_upgrade.sh
+source: /assets/os2borgerpc-scripts/os2borgerpc/udfases/repair_early_upgrade.sh
 parameters:
 compatible_versions:
   - "Ubuntu 22.04"

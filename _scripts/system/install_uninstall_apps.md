@@ -1,7 +1,7 @@
 ---
 title: "System - Installer/Fjern applikation/program"
 category: "System"
-source: common/system/install_uninstall_apps.sh
+source: /assets/os2borgerpc-scripts/common/system/install_uninstall_apps.sh
 ---
 
 ## Beskrivelse

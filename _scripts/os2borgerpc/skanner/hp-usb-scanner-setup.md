@@ -1,7 +1,7 @@
 ---
 title: "Skanner - Opsæt HP USB Skanner"
 category: "Skanner"
-source: os2borgerpc/skanner/hp-usb-scanner-setup.sh
+source: /assets/os2borgerpc-scripts/os2borgerpc/skanner/hp-usb-scanner-setup.sh
 parameters:
 compatible_versions:
   - "Ubuntu 22.04"

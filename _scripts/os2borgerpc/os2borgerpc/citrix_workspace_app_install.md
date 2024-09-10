@@ -1,7 +1,7 @@
 ---
 title: "OS2borgerPC - Citrix Workspace App: Installer"
 category: "OS2BorgerPC"
-source: os2borgerpc/os2borgerpc/citrix_workspace_app_install.sh
+source: /assets/os2borgerpc-scripts/os2borgerpc/os2borgerpc/citrix_workspace_app_install.sh
 parameters:
   - name: "DEB"
     type: "file"

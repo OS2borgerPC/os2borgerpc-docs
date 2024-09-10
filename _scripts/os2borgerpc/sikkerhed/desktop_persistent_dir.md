@@ -1,7 +1,7 @@
 ---
 title: "Sikkerhed - Vedvarende mappe på skrivebordet"
 category: "Sikkerhed"
-source: os2borgerpc/sikkerhed/desktop_persistent_dir.sh
+source: /assets/os2borgerpc-scripts/os2borgerpc/sikkerhed/desktop_persistent_dir.sh
 parameters:
   - name: "Tilføj?"
     type: "checkbox"

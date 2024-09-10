@@ -1,7 +1,7 @@
 ---
 title: "System - Vis computers oppetid"
 category: "System"
-source: common/system/uptime.sh
+source: /assets/os2borgerpc-scripts/common/system/uptime.sh
 ---
 
 ## Beskrivelse

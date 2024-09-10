@@ -1,7 +1,7 @@
 ---
 title: "Lyd - Sæt volumen på lydudgang"
 category: "Lyd"
-source: common/lyd/pulse_policy_sink_volume.sh
+source: /assets/os2borgerpc-scripts/common/lyd/pulse_policy_sink_volume.sh
 parameters:
   - name: "Aktivér?"
     type: "checkbox"

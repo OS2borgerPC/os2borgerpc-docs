@@ -1,7 +1,7 @@
 ---
 title: "Printer - Tilføj netværksprinter (PPD-fil skal angives)"
 category: "Printer"
-source: os2borgerpc/printer/network_printer_add_ppd.sh
+source: /assets/os2borgerpc-scripts/os2borgerpc/printer/network_printer_add_ppd.sh
 parameters:
   - name: "Navn (OBS: INGEN ÆØÅ, mellemrum eller apostrofer)"
     type: "string"

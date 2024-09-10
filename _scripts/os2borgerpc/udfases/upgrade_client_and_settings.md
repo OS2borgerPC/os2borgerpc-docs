@@ -1,7 +1,7 @@
 ---
 title: "Udfases - Opgrader klient og klientindstillinger til nyeste version nu"
 category: "Udfases"
-source: common/udfases/upgrade_client_and_settings.sh
+source: /assets/os2borgerpc-scripts/common/udfases/upgrade_client_and_settings.sh
 parameters:
 compatible_versions:
   - "Ubuntu 22.04"

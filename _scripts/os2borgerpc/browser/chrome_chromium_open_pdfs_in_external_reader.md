@@ -1,7 +1,7 @@
 ---
 title: "Browser - Chrome/Chromium: Åbn PDF i standard PDF-program"
 category: "Browser"
-source: os2borgerpc/browser/chrome_chromium_open_pdfs_in_external_reader.sh
+source: /assets/os2borgerpc-scripts/os2borgerpc/browser/chrome_chromium_open_pdfs_in_external_reader.sh
 parameters:
   - name: "Aktiver?"
     type: "checkbox"

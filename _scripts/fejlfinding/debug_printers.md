@@ -1,7 +1,7 @@
 ---
 title: "Fejlfinding - Printere"
 category: "Fejlfinding"
-source: common/fejlfinding/debug_printers.sh
+source: /assets/os2borgerpc-scripts/common/fejlfinding/debug_printers.sh
 parameters:
 compatible_versions: []
 compatible_images:

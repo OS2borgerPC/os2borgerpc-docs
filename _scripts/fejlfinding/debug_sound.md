@@ -1,7 +1,7 @@
 ---
 title: "Fejlfinding - Lyd"
 category: "Fejlfinding"
-source: common/fejlfinding/debug_sound.sh
+source: /assets/os2borgerpc-scripts/common/fejlfinding/debug_sound.sh
 parameters:
 compatible_versions: []
 compatible_images:

@@ -1,7 +1,7 @@
 ---
 title: "Udfases - Chrome - Autostart tilføj/fjern"
 category: "Udfases"
-source: os2borgerpc/udfases/chrome_autostart.sh
+source: /assets/os2borgerpc-scripts/os2borgerpc/udfases/chrome_autostart.sh
 parameters:
   - name: "Tilføj"
     type: "checkbox"

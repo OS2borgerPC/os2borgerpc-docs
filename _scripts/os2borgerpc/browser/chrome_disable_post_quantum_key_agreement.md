@@ -1,7 +1,7 @@
 ---
 title: "Browser - Chrome: Løs problem med TLS 1.3 Hybridized Kyber Support"
 category: "Browser"
-source: os2borgerpc/browser/chrome_disable_post_quantum_key_agreement.sh
+source: /assets/os2borgerpc-scripts/os2borgerpc/browser/chrome_disable_post_quantum_key_agreement.sh
 parameters:
   - name: "Aktiver?"
     type: "checkbox"

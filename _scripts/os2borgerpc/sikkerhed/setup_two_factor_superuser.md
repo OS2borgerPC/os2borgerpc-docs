@@ -1,7 +1,7 @@
 ---
 title: "Sikkerhed - Totrinsbekræftelse for superuser"
 category: "Sikkerhed"
-source: sikkerhed/setup_two_factor_superuser.sh
+source: /assets/os2borgerpc-scripts/sikkerhed/setup_two_factor_superuser.sh
 parameters:
   - name: "Aktivér?"
     type: "checkbox"

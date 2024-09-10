@@ -1,7 +1,7 @@
 ---
 title: "Sikkerhed - Log Borger ud efter X minutters inaktivitet med besked"
 category: "Sikkerhed"
-source: os2borgerpc/sikkerhed/inactivity_logout_after_time.sh
+source: /assets/os2borgerpc-scripts/os2borgerpc/sikkerhed/inactivity_logout_after_time.sh
 parameters:
   - name: "Aktiver?"
     type: "checkbox"

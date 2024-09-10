@@ -1,7 +1,7 @@
 ---
 title: "System - Konfigurer WPA2 Enterprise-forbindelse"
 category: "System"
-source: common/system/wpa2_enterprise_wifi_configure_and_connect.sh
+source: /assets/os2borgerpc-scripts/common/system/wpa2_enterprise_wifi_configure_and_connect.sh
 ---
 
 ## Beskrivelse

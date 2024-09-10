@@ -1,7 +1,7 @@
 ---
 title: "22.04 opgradering - Opgradering til Ubuntu 22.04 trin 3"
 category: "22.04 opgradering"
-source: common/22_04_opgradering/os2borgerpc_lts_upgrade_in_place_step_3.sh
+source: /assets/os2borgerpc-scripts/common/22_04_opgradering/os2borgerpc_lts_upgrade_in_place_step_3.sh
 parameters: []
 compatible_versions: 
   - "Ubuntu 20.04"

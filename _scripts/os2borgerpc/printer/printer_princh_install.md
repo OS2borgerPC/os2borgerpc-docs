@@ -1,7 +1,7 @@
 ---
 title: "Printer - Installer Princh Cloud Printer"
 category: "Printer"
-source: os2borgerpc/printer/printer_princh_install.sh
+source: /assets/os2borgerpc-scripts/os2borgerpc/printer/printer_princh_install.sh
 parameters:
 compatible_versions:
   - "Ubuntu 22.04"

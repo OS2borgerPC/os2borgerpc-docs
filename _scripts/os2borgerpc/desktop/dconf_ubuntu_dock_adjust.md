@@ -1,7 +1,7 @@
 ---
 title: "Desktop - Juster Ubuntu Dock (programmenu)"
 category: "Desktop"
-source: os2borgerpc/desktop/dconf_ubuntu_dock_adjust.sh
+source: /assets/os2borgerpc-scripts/os2borgerpc/desktop/dconf_ubuntu_dock_adjust.sh
 parameters:
   - name: "Ønsket position for menuen (LEFT er standard)"
     type: "options"

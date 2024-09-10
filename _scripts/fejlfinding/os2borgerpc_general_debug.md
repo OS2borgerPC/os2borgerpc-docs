@@ -1,7 +1,7 @@
 ---
 title: "Fejlfinding - OS2borgerPC generel"
 category: "Fejlfinding"
-source: common/fejlfinding/os2borgerpc_general_debug.sh
+source: /assets/os2borgerpc-scripts/common/fejlfinding/os2borgerpc_general_debug.sh
 parameters:
 compatible_versions: []
 compatible_images:

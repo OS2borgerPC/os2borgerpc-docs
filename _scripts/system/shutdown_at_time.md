@@ -1,7 +1,7 @@
 ---
 title: "System - Luk ned dagligt"
 category: "System"
-source: common/system/shutdown_at_time.sh
+source: /assets/os2borgerpc-scripts/common/system/shutdown_at_time.sh
 ---
 
 ## Beskrivelse

@@ -1,7 +1,7 @@
 ---
 title: "OS2borgerPC Kiosk - Installér og skift til HWE-kerne"
 category: "OS2BorgerPC Kiosk"
-source: os2borgerpc/os2borgerpc_kiosk/chromium_os2display_activate.sh
+source: /assets/os2borgerpc-scripts/os2borgerpc/os2borgerpc_kiosk/chromium_os2display_activate.sh
 parameters:
   - name: "Installér og skift til HWE-kerne"
     type: "checkbox"

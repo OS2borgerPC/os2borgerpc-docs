@@ -1,7 +1,7 @@
 ---
 title: "System - Vis netværksenheder og -adresser"
 category: "System"
-source: common/system/network_connections.sh
+source: /assets/os2borgerpc-scripts/common/system/network_connections.sh
 ---
 
 ## Beskrivelse

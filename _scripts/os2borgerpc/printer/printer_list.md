@@ -1,7 +1,7 @@
 ---
 title: "Printer - Vis liste"
 category: "Printer"
-source: os2borgerpc/printer/printer_list.sh
+source: /assets/os2borgerpc-scripts/os2borgerpc/printer/printer_list.sh
 parameters:
   - name: "Vis forkortet oversigt"
     type: "checkbox"

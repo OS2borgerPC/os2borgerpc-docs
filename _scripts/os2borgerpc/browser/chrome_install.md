@@ -1,7 +1,7 @@
 ---
 title: "Browser - Chrome: Installer"
 category: "Browser"
-source: os2borgerpc/browser/chrome_install.sh
+source: /assets/os2borgerpc-scripts/os2borgerpc/browser/chrome_install.sh
 parameters:
   - name: "Installér?"
     type: "checkbox"

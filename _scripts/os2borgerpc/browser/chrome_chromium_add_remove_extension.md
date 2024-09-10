@@ -1,7 +1,7 @@
 ---
 title: "Browser - Chrome/Chromium: Tilføj/Fjern Udvidelse(r)"
 category: "Browser"
-source: os2borgerpc/browser/chrome_chromium_add_remove_extension.sh
+source: /assets/os2borgerpc-scripts/os2borgerpc/browser/chrome_chromium_add_remove_extension.sh
 parameters:
   - name: "Aktivér"
     type: "checkbox"

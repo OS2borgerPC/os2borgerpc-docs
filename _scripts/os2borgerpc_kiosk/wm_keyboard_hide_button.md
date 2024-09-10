@@ -1,7 +1,7 @@
 ---
 title: "OS2borgerPC Kiosk - Chromium med onboard-tastatur skjul/vis"
 category: "OS2BorgerPC Kiosk"
-source: os2borgerpc/os2borgerpc_kiosk/wm_keyboard_hide_button.sh
+source: /assets/os2borgerpc-scripts/os2borgerpc/os2borgerpc_kiosk/wm_keyboard_hide_button.sh
 parameters:
   - name: "Tilføj knappen?"
     type: "checkbox"

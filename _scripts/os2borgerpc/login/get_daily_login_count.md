@@ -1,7 +1,7 @@
 ---
 title: "Login - Send løbende antal login dagligt til adminsitet"
 category: "Login"
-source: os2borgerpc/login/get_daily_login_count.sh
+source: /assets/os2borgerpc-scripts/os2borgerpc/login/get_daily_login_count.sh
 parameters:
   - name: "Aktiver?"
     type: "checkbox"

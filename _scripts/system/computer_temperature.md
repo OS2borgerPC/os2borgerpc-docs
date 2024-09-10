@@ -1,7 +1,7 @@
 ---
 title: "System - CPU temperaturmåling"
 category: "System"
-source: common/system/computer_temperature.sh
+source: /assets/os2borgerpc-scripts/common/system/computer_temperature.sh
 ---
 
 ## Beskrivelse

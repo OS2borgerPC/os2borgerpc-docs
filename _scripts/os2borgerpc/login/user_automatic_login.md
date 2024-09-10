@@ -1,7 +1,7 @@
 ---
 title: "Login - Automatisk borgerlogin til/fra"
 category: "Login"
-source: os2borgerpc/login/user_automatic_login.sh
+source: /assets/os2borgerpc-scripts/os2borgerpc/login/user_automatic_login.sh
 parameters:
   - name: "Aktiver automatisk borgerlogin"
     type: "checkbox"

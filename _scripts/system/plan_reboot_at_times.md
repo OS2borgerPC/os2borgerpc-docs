@@ -1,7 +1,7 @@
 ---
 title: "System - Planlæg daglige genstarter"
 category: "System"
-source: common/system/plan_reboot_at_times.sh
+source: /assets/os2borgerpc-scripts/common/system/plan_reboot_at_times.sh
 ---
 
 ## Beskrivelse

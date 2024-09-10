@@ -1,7 +1,7 @@
 ---
 title: "Desktop - Tilføj filer i mappe på skrivebord (Skabeloner)"
 category: "Desktop"
-source: os2borgerpc/desktop/add_files_to_desktop_directory.sh
+source: /assets/os2borgerpc-scripts/os2borgerpc/desktop/add_files_to_desktop_directory.sh
 parameters:
   - name: "Tilføj mappen?"
     type: "checkbox"

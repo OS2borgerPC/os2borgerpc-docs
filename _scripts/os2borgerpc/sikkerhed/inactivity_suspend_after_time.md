@@ -1,7 +1,7 @@
 ---
 title: "Sikkerhed - Aktiver dvale efter X minutters inaktivitet med besked"
 category: "Sikkerhed"
-source: os2borgerpc/sikkerhed/inactivity_suspend_after_time.sh
+source: /assets/os2borgerpc-scripts/os2borgerpc/sikkerhed/inactivity_suspend_after_time.sh
 parameters:
   - name: "Aktiver?"
     type: "checkbox"

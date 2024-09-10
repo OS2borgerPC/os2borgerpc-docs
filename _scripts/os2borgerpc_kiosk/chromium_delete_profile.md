@@ -1,7 +1,7 @@
 ---
 title: "OS2borgerPC Kiosk - Chromium Ryd Cache NU"
 category: "OS2BorgerPC Kiosk"
-source: os2borgerpc/os2borgerpc_kiosk/chromium_delete_profile.sh
+source: /assets/os2borgerpc-scripts/os2borgerpc/os2borgerpc_kiosk/chromium_delete_profile.sh
 parameters:
 compatible_versions:
   - "Ubuntu 22.04"

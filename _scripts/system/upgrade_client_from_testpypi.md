@@ -1,7 +1,7 @@
 ---
 title: "System - Opgrader klient til nyeste test-version nu"
 category: "System"
-source: common/system/upgrade_client_from_testpypi.sh
+source: /assets/os2borgerpc-scripts/common/system/upgrade_client_from_testpypi.sh
 ---
 
 ## Beskrivelse

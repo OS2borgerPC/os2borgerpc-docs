@@ -1,7 +1,7 @@
 ---
 title: "System - Skift skærmopløsning (resolution)"
 category: "System"
-source: common/system/change_resolution.sh
+source: /assets/os2borgerpc-scripts/common/system/change_resolution.sh
 ---
 
 ## Beskrivelse

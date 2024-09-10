@@ -1,7 +1,7 @@
 ---
 title: "OS2borgerPC Kiosk - Chromium: Tilføj data til Local Storage"
 category: "OS2BorgerPC Kiosk"
-source: os2borgerpc/os2borgerpc_kiosk/chromium_local_storage_add_plyvel.py
+source: /assets/os2borgerpc-scripts/os2borgerpc/os2borgerpc_kiosk/chromium_local_storage_add_plyvel.py
 parameters:
   - name: "URL"
     type: "string"

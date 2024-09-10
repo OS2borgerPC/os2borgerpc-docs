@@ -1,7 +1,7 @@
 ---
 title: "OS2borgerPC - Tilføj keyboardlayout (sprog)"
 category: "OS2BorgerPC"
-source: os2borgerpc/os2borgerpc/dconf_keyboard_layout.sh
+source: /assets/os2borgerpc-scripts/os2borgerpc/os2borgerpc/dconf_keyboard_layout.sh
 parameters:
   - name: "Tilføj?"
     type: "checkbox"

@@ -1,7 +1,7 @@
 ---
 title: "System - GRUB: Gør det muligt at boote alle kerneversioner uden brugernavn/kode"
 category: "System"
-source: common/system/grub_allow_booting_non_default_kernel.sh
+source: /assets/os2borgerpc-scripts/common/system/grub_allow_booting_non_default_kernel.sh
 ---
 
 ## Beskrivelse

@@ -1,7 +1,7 @@
 ---
 title: "Udfases - OS2borgerPC - Logud-knap"
 category: "Udfases"
-source: os2borgerpc/udfases/desktop_logout_button.sh
+source: /assets/os2borgerpc-scripts/os2borgerpc/udfases/desktop_logout_button.sh
 parameters:
   - name: "Aktiver?"
     type: "checkbox"

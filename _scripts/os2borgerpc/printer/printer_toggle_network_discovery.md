@@ -1,7 +1,7 @@
 ---
 title: "Printer - Slå automatisk netværksprinter-finding fra/til"
 category: "Printer"
-source: os2borgerpc/printer/printer_toggle_network_discovery.sh
+source: /assets/os2borgerpc-scripts/os2borgerpc/printer/printer_toggle_network_discovery.sh
 parameters:
   - name: "Slå automatisk netværksprinter-finding FRA?"
     type: "checkbox"

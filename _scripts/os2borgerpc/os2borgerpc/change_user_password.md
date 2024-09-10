@@ -1,7 +1,7 @@
 ---
 title: "OS2borgerPC - Skift kodeord for Borger"
 category: "OS2BorgerPC"
-source: os2borgerpc/os2borgerpc/change_user_password.sh
+source: /assets/os2borgerpc-scripts/os2borgerpc/os2borgerpc/change_user_password.sh
 parameters:
   - name: "Kodeord"
     type: "password"

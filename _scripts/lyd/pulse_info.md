@@ -1,7 +1,7 @@
 ---
 title: "Lyd - Skriv informationer omkring lydenheder til job-loggen"
 category: "Lyd"
-source: common/lyd/pulse_info.sh
+source: /assets/os2borgerpc-scripts/common/lyd/pulse_info.sh
 parameters:
 compatible_versions: []
 compatible_images:

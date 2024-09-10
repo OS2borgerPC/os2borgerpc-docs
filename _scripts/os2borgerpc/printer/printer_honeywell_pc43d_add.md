@@ -1,7 +1,7 @@
 ---
 title: "Printer - Honeywell PC43d billetprinter: Installer (Intermec)"
 category: "Printer"
-source: os2borgerpc/printer/printer_honeywell_pc43d_add.sh
+source: /assets/os2borgerpc-scripts/os2borgerpc/printer/printer_honeywell_pc43d_add.sh
 parameters:
   - name: "Installér?"
     type: "checkbox"

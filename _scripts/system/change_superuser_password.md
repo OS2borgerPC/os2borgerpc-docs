@@ -1,7 +1,7 @@
 ---
 title: "System - Skift kodeord for superuser"
 category: "System"
-source: common/system/change_superuser_password.sh
+source: /assets/os2borgerpc-scripts/common/system/change_superuser_password.sh
 ---
 
 ## Beskrivelse

@@ -1,7 +1,7 @@
 ---
 title: "System - Opdater alt nu"
 category: "System"
-source: common/system/update_all.sh
+source: /assets/os2borgerpc-scripts/common/system/update_all.sh
 ---
 
 ## Beskrivelse

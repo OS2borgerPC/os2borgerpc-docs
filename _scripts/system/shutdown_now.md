@@ -1,7 +1,7 @@
 ---
 title: "System - Luk computeren NU"
 category: "System"
-source: common/system/shutdown_now.sh
+source: /assets/os2borgerpc-scripts/common/system/shutdown_now.sh
 ---
 
 ## Beskrivelse

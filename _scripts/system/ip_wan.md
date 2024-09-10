@@ -1,7 +1,7 @@
 ---
 title: "System - Vis computers WAN IP"
 category: "System"
-source: common/system/ip_wan.sh
+source: /assets/os2borgerpc-scripts/common/system/ip_wan.sh
 ---
 
 ## Beskrivelse

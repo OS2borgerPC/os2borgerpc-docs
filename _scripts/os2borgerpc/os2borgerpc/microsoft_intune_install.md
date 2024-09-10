@@ -1,7 +1,7 @@
 ---
 title: "OS2borgerPC - Microsoft Intune: Installer"
 category: "OS2BorgerPC"
-source: os2borgerpc/os2borgerpc/microsoft_intune_install.sh
+source: /assets/os2borgerpc-scripts/os2borgerpc/os2borgerpc/microsoft_intune_install.sh
 parameters:
   - name: "Installér?"
     type: "checkbox"

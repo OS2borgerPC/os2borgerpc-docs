@@ -1,7 +1,7 @@
 ---
 title: "OS2borgerPC - Citrix Workspace App: Set default store"
 category: "OS2BorgerPC"
-source: os2borgerpc/os2borgerpc/citrix_workspace_app_set_default_store.sh
+source: /assets/os2borgerpc-scripts/os2borgerpc/os2borgerpc/citrix_workspace_app_set_default_store.sh
 parameters:
   - name: "STORE_NAME"
     type: "string"

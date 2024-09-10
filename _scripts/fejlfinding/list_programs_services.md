@@ -1,7 +1,7 @@
 ---
 title: "Fejlfinding - List installerede programmer og services"
 category: "Fejlfinding"
-source: common/fejlfinding/list_programs_services.sh
+source: /assets/os2borgerpc-scripts/common/fejlfinding/list_programs_services.sh
 parameters:
 compatible_versions: []
 compatible_images:

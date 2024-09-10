@@ -1,7 +1,7 @@
 ---
 title: "System - Aktiver automatiske opdateringer fra Ubuntu"
 category: "System"
-source: common/system/apt_periodic_control.sh
+source: /assets/os2borgerpc-scripts/common/system/apt_periodic_control.sh
 ---
 
 ## Beskrivelse

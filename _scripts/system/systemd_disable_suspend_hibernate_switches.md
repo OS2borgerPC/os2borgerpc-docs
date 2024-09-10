@@ -1,7 +1,7 @@
 ---
 title: "System - Slå dvale- og hviletilstand fra"
 category: "System"
-source: common/system/systemd_disable_suspend_hibernate_switches.sh
+source: /assets/os2borgerpc-scripts/common/system/systemd_disable_suspend_hibernate_switches.sh
 ---
 
 ## Beskrivelse

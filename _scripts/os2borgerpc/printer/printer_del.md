@@ -1,7 +1,7 @@
 ---
 title: "Printer - Slet printer"
 category: "Printer"
-source: os2borgerpc/printer/printer_del.sh
+source: /assets/os2borgerpc-scripts/os2borgerpc/printer/printer_del.sh
 parameters:
   - name: "Navn"
     type: "string"

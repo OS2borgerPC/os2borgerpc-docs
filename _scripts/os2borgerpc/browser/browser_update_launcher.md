@@ -1,7 +1,7 @@
 ---
 title: "Browser - Udskift browser-genvejen i venstremenuen med en valgfri browser"
 category: "Browser"
-source: os2borgerpc/browser/browser_update_launcher.sh
+source: /assets/os2borgerpc-scripts/os2borgerpc/browser/browser_update_launcher.sh
 parameters:
   - name: "Udskift browseren i venstremenuen med følgende browser (se muligheder i beskrivelse)"
     type: "options"

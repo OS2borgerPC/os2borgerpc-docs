@@ -1,7 +1,7 @@
 ---
 title: "Printer - Sæt indstillinger"
 category: "Printer"
-source: os2borgerpc/printer/printer_options_set.sh
+source: /assets/os2borgerpc-scripts/os2borgerpc/printer/printer_options_set.sh
 parameters:
   - name: "Printer-navn"
     type: "string"

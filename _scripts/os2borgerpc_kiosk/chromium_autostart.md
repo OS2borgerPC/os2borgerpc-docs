@@ -1,7 +1,7 @@
 ---
 title: "OS2borgerPC Kiosk - Chromium Autostart"
 category: "OS2BorgerPC Kiosk"
-source: os2borgerpc/os2borgerpc_kiosk/chromium_autostart.sh
+source: /assets/os2borgerpc-scripts/os2borgerpc/os2borgerpc_kiosk/chromium_autostart.sh
 parameters:
   - name: "Forsinkelse"
     type: "integer"

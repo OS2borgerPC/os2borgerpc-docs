@@ -1,7 +1,7 @@
 ---
 title: "Desktop - Vis programliste"
 category: "Desktop"
-source: os2borgerpc/desktop/desktop_print_program_list.sh
+source: /assets/os2borgerpc-scripts/os2borgerpc/desktop/desktop_print_program_list.sh
 parameters:
   - name: "Sted"
     type: "string"

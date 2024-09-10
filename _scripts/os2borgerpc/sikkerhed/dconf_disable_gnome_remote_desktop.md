@@ -1,7 +1,7 @@
 ---
 title: "Sikkerhed - Bloker for GNOME Remote Desktop (Fjernskrivebord)"
 category: "Sikkerhed"
-source: os2borgerpc/sikkerhed/dconf_disable_gnome_remote_desktop.sh
+source: /assets/os2borgerpc-scripts/os2borgerpc/sikkerhed/dconf_disable_gnome_remote_desktop.sh
 parameters:
   - name: "Blokér for GNOME Remote Desktop?"
     type: "checkbox"

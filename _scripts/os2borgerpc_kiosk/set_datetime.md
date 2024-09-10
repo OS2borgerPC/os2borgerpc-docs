@@ -1,7 +1,7 @@
 ---
 title: "OS2borgerPC Kiosk - Sæt dansk tidszone og sprog"
 category: "OS2BorgerPC Kiosk"
-source: os2borgerpc/os2borgerpc_kiosk/set_datetime.sh
+source: /assets/os2borgerpc-scripts/os2borgerpc/os2borgerpc_kiosk/set_datetime.sh
 parameters:
 compatible_versions:
   - "Ubuntu 22.04"

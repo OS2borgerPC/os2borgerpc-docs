@@ -1,7 +1,7 @@
 ---
 title: "Browser - Edge: Installer"
 category: "Browser"
-source: os2borgerpc/browser/edge_install.sh
+source: /assets/os2borgerpc-scripts/os2borgerpc/browser/edge_install.sh
 parameters:
   - name: "Installér?"
     type: "checkbox"

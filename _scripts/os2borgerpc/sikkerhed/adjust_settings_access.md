@@ -1,7 +1,7 @@
 ---
 title: "Sikkerhed - Juster adgang til Indstillinger for Borger"
 category: "Sikkerhed"
-source: os2borgerpc/sikkerhed/adjust_settings_access.sh
+source: /assets/os2borgerpc-scripts/os2borgerpc/sikkerhed/adjust_settings_access.sh
 parameters:
   - name: "Giv adgang til Indstillinger"
     type: "checkbox"

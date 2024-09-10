@@ -1,7 +1,7 @@
 ---
 title: "Fejlfinding - Heimdal tjek status"
 category: "Fejlfinding"
-source: common/fejlfinding/heimdal_check_status.sh
+source: /assets/os2borgerpc-scripts/common/fejlfinding/heimdal_check_status.sh
 parameters:
 compatible_versions: []
 compatible_images:

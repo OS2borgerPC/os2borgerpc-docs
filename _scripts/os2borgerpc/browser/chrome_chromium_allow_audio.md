@@ -1,7 +1,7 @@
 ---
 title: "Browser - Chrome/Chromium - Lyd: Tillad autostart"
 category: "Browser"
-source: os2borgerpc/browser/chrome_chromium_allow_audio.sh
+source: /assets/os2borgerpc-scripts/os2borgerpc/browser/chrome_chromium_allow_audio.sh
 parameters:
   - name: "Aktivér?"
     type: "checkbox"

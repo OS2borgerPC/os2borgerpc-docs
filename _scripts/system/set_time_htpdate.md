@@ -1,7 +1,7 @@
 ---
 title: "System - Synkroniser tid nu (alternativ til NTP)"
 category: "System"
-source: common/system/set_time_htpdate.sh
+source: /assets/os2borgerpc-scripts/common/system/set_time_htpdate.sh
 ---
 
 ## Beskrivelse

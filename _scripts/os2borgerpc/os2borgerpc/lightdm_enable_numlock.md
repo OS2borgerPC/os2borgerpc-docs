@@ -1,7 +1,7 @@
 ---
 title: "OS2borgerPC - Sæt NumLock-tilstand"
 category: "OS2BorgerPC"
-source: os2borgerpc/os2borgerpc/lightdm_enable_numlock.sh
+source: /assets/os2borgerpc-scripts/os2borgerpc/os2borgerpc/lightdm_enable_numlock.sh
 parameters:
   - name: "Slå numlock til"
     type: "checkbox"

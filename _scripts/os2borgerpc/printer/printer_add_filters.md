@@ -1,7 +1,7 @@
 ---
 title: "Printer - Tilføj Printer-filter-filer"
 category: "Printer"
-source: os2borgerpc/printer/printer_add_filters.sh
+source: /assets/os2borgerpc-scripts/os2borgerpc/printer/printer_add_filters.sh
 parameters:
   - name: "CUPS filter fil 1"
     type: "file"

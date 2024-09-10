@@ -1,7 +1,7 @@
 ---
 title: "Fejlfinding - Skannere"
 category: "Fejlfinding"
-source: common/fejlfinding/debug_scanners.sh
+source: /assets/os2borgerpc-scripts/common/fejlfinding/debug_scanners.sh
 parameters:
 compatible_versions: []
 compatible_images:

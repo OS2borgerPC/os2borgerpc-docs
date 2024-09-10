@@ -1,7 +1,7 @@
 ---
 title: "Sikkerhed - Tillad Borgere at redigere netværksindstillinger"
 category: "Sikkerhed"
-source: os2borgerpc/sikkerhed/network_manager_allow_user_changes.sh
+source: /assets/os2borgerpc-scripts/os2borgerpc/sikkerhed/network_manager_allow_user_changes.sh
 parameters:
   - name: "Giv adgang?"
     type: "checkbox"

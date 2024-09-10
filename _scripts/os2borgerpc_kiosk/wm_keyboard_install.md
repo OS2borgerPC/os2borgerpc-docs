@@ -1,7 +1,7 @@
 ---
 title: "OS2borgerPC Kiosk - Chromium med onboard-tastatur"
 category: "OS2BorgerPC Kiosk"
-source: os2borgerpc/os2borgerpc_kiosk/wm_keyboard_install.sh
+source: /assets/os2borgerpc-scripts/os2borgerpc/os2borgerpc_kiosk/wm_keyboard_install.sh
 parameters:
   - name: "Tilføj skærmtastatur?"
     type: "checkbox"

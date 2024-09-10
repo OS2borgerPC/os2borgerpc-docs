@@ -1,7 +1,7 @@
 ---
 title: "Lyd - Ryd lydindstillinger"
 category: "Lyd"
-source: common/lyd/pulse_clear_audio_settings.sh
+source: /assets/os2borgerpc-scripts/common/lyd/pulse_clear_audio_settings.sh
 parameters:
 compatible_versions: []
 compatible_images:

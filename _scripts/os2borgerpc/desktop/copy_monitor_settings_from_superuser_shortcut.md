@@ -1,7 +1,7 @@
 ---
 title: "Desktop - Genvej til at kopiere skærmindstillinger fra superuser til Borger"
 category: "Desktop"
-source: os2borgerpc/desktop/copy_monitor_settings_from_superuser_shortcut.sh
+source: /assets/os2borgerpc-scripts/os2borgerpc/desktop/copy_monitor_settings_from_superuser_shortcut.sh
 parameters:
   - name: "Opret genvej"
     type: "checkbox"

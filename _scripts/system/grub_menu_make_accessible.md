@@ -1,7 +1,7 @@
 ---
 title: "System - GRUB: Gør menuen tilgængelig"
 category: "System"
-source: common/system/grub_menu_make_accessible.sh
+source: /assets/os2borgerpc-scripts/common/system/grub_menu_make_accessible.sh
 ---
 
 ## Beskrivelse

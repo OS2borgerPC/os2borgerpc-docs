@@ -1,7 +1,7 @@
 ---
 title: "Fejlfinding - Hardware"
 category: "Fejlfinding"
-source: common/fejlfinding/gather_hardware_info.sh
+source: /assets/os2borgerpc-scripts/common/fejlfinding/gather_hardware_info.sh
 parameters:
 compatible_versions: []
 compatible_images:

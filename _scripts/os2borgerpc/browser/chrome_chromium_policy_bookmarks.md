@@ -1,7 +1,7 @@
 ---
 title: "Browser - Chrome/Chromium: Sæt bogmærker i bar"
 category: "Browser"
-source: os2borgerpc/browser/chrome_chromium_policy_bookmarks.sh
+source: /assets/os2borgerpc-scripts/os2borgerpc/browser/chrome_chromium_policy_bookmarks.sh
 parameters:
   - name: "Aktivér?"
     type: "checkbox"

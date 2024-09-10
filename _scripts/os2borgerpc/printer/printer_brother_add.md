@@ -1,7 +1,7 @@
 ---
 title: "Printer - Brother-printer: Installer"
 category: "Printer"
-source: os2borgerpc/printer/printer_brother_add.sh
+source: /assets/os2borgerpc-scripts/os2borgerpc/printer/printer_brother_add.sh
 parameters:
   - name: "LPR-driver"
     type: "file"

@@ -1,7 +1,7 @@
 ---
 title: "Desktop - Skift baggrundsbillede på skrivebordet"
 category: "Desktop"
-source: os2borgerpc/desktop/dconf_desktop_background.sh
+source: /assets/os2borgerpc-scripts/os2borgerpc/desktop/dconf_desktop_background.sh
 parameters:
   - name: "Baggrundsbillede"
     type: "file"

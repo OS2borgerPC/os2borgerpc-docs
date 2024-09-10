@@ -1,7 +1,7 @@
 ---
 title: "System - Genstart computeren NU"
 category: "System"
-source: common/system/reboot_now.sh
+source: /assets/os2borgerpc-scripts/common/system/reboot_now.sh
 ---
 
 ## Beskrivelse
