@@ -20,12 +20,13 @@ module Jekyll
       # Use ruby-git to access the git log of the submodule
       if submodule_path
         submodule_source = File.join(site_source, submodule_path)
-        submodule_repo = Git.open(submodule_source)
-        log = submodule_repo.log.path(script_path).first
-        if log
-          formatted_date = log.date.strftime("%-d. %B %Y")
-          return "#{formatted_date} by #{log.author.name} (#{log.author.email})"
-        end
+        return submodule_source
+        #submodule_repo = Git.open(submodule_source)
+        #log = submodule_repo.log.path(script_path).first
+        #if log
+          #formatted_date = log.date.strftime("%-d. %B %Y")
+          #return "#{formatted_date} by #{log.author.name} (#{log.author.email})"
+        #end
       end
       return "Ikke tilgængelig"
     
