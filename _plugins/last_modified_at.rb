@@ -21,8 +21,9 @@ module Jekyll
       if submodule_path
         submodule_source = File.join(site_source, submodule_path)
         submodule_repo = Git.open(submodule_source)
-        log = submodule_repo.log.first
-        return log.date.strftime("%-d. %B %Y")
+        # log = submodule_repo.log.first
+        #return log.date.strftime("%-d. %B %Y")
+        return script_path
         #log = submodule_repo.log.path(script_path).first
         #if log
           #formatted_date = log.date.strftime("%-d. %B %Y")
