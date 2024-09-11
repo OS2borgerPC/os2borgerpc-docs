@@ -23,11 +23,14 @@ module Jekyll
         submodule_repo = Git.open(submodule_source)
         # log = submodule_repo.log.first
         #return log.date.strftime("%-d. %B %Y")
-        log = submodule_repo.log.path(script_path).first
-        if log
-          formatted_date = log.date.strftime("%-d. %B %Y")
-          return "#{formatted_date} by #{log.author.name} (#{log.author.email})"
-        end
+        # log = submodule_repo.log.path(script_path).first
+        #if log
+          #formatted_date = log.date.strftime("%-d. %B %Y")
+          #return "#{formatted_date} by #{log.author.name} (#{log.author.email})"
+        #end
+        files = submodule_repo.ls_files.keys
+        files.select { |file| file.end_with?('.sh') }
+        return files
       end
       return "Ikke tilgængelig"
     
