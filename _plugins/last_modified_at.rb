@@ -22,11 +22,12 @@ module Jekyll
         submodule_source = File.join(site_source, submodule_path)
         submodule_repo = Git.open(submodule_source)
         log = submodule_repo.log.path(script_path).first
-        formatted_date = log.date.strftime("%-d. %B %Y")
-        return "#{formatted_date} by #{log.author.name}"
-      else
-        return "Ikke tilgængelig"
+        if log
+          formatted_date = log.date.strftime("%-d. %B %Y")
+          return "#{formatted_date} by #{log.author.name} (#{log.author.email})"
+        end
       end
+      return "Ikke tilgængelig"
     
     rescue => e
       puts "Debug: Error - #{e.message}"
