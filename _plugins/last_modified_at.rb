@@ -25,10 +25,15 @@ module Jekyll
         
         if log
           formatted_date = log.date.strftime("%-d. %B %Y")
-          return "#{formatted_date} by #{log.author.name} (#{log.author.email})"
+          return "#{formatted_date} by #{log.author.name} (#{log.author.email}) #{submodule_repo.repo} #{submodule_repo.dir} #{submodule_repo.current_branch} #{script_path}"
+        end
+        github_path = "/home/runner/work/os2borgerpc-docs/os2borgerpc-docs/assets/os2borgerpc-scripts/scripts/" + script_path
+        githublog = submodule_repo.log.path(github_path).first
+        if githublog
+          return "#{githublog.log.date.strftime("%-d. %B %Y")}"
         end
       end
-      return "Ikke tilgængelig"
+      return "Ikke tilgængelig #{submodule_repo.repo} #{submodule_repo.dir} #{submodule_repo.current_branch} #{script_path} #{script_path}"
     
     rescue => e
       puts "Debug: Error - #{e.message}"
