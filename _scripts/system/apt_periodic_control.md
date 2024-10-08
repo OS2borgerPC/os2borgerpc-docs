@@ -2,6 +2,15 @@
 title: "System - Aktiver automatiske opdateringer fra Ubuntu"
 category: "System"
 source: /assets/os2borgerpc-scripts/common/system/apt_periodic_control.sh
+parameters:
+  - name: "Aktiver generelle opdateringer (sikkerhed/alt/falsk)"
+    type: "string"
+    default: null
+    mandatory: true
+compatible_versions: 
+  - "Ubuntu 22.04"
+compatible_images:
+  - "OS2BorgerPC"
 ---
 
 ## Beskrivelse

@@ -2,6 +2,16 @@
 title: "System - Skift navn på en computer"
 category: "System"
 source: /assets/os2borgerpc-scripts/common/system/change_computer_name.sh
+parameters:
+  - name: "Nyt computernavn"
+    type: "string"
+    default: null
+    mandatory: true
+compatible_versions: 
+  - "Ubuntu 22.04"
+compatible_images:
+  - "OS2BorgerPC"
+  - "OS2BorgerPC Kiosk"
 ---
 
 ## Beskrivelse

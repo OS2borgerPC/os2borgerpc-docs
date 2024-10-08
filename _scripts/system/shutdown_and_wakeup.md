@@ -2,6 +2,28 @@
 title: "System - Luk ned og vågn op dagligt"
 category: "System"
 source: /assets/os2borgerpc-scripts/common/system/shutdown_and_wakeup.sh
+parameters:
+  - name: "Timer"
+    type: "string"
+    default: null
+    mandatory: true
+  - name: "Minutter"
+    type: "integer"
+    default: null
+    mandatory: true
+  - name: "Timer til opvågning"
+    type: "integer"
+    default: null
+    mandatory: true
+  - name: "Tilstand (off/mem/disk/standby/no/on/disable/show)"
+    type: "string"
+    default: null
+    mandatory: false
+compatible_versions: 
+  - "Ubuntu 22.04"
+compatible_images:
+  - "OS2BorgerPC"
+  - "OS2BorgerPC Kiosk"
 ---
 
 ## Beskrivelse

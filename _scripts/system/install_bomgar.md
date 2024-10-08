@@ -2,6 +2,18 @@
 title: "System - BeyondTrust: Installer klient (Bomgar)"
 category: "System"
 source: /assets/os2borgerpc-scripts/common/system/install_bomgar.sh
+parameters:
+  - name: "Bomgar's .desktop-fil"
+    type: "file"
+    default: null
+    mandatory: true
+  - name: "Filnavnet på Bomgar's .desktop fil (inkl. filendelsen)"
+    type: "string"
+    default: null
+    mandatory: true
+compatible_versions: 
+compatible_images:
+  - "OS2BorgerPC"
 ---
 
 ## Beskrivelse

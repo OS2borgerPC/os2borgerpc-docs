@@ -2,6 +2,23 @@
 title: "System - Skift skærmopløsning (resolution)"
 category: "System"
 source: /assets/os2borgerpc-scripts/common/system/change_resolution.sh
+parameters:
+  - name: "Aktiver?"
+    type: "checkbox"
+    default: null
+    mandatory: false
+  - name: "Bredde"
+    type: "integer"
+    default: null
+    mandatory: false
+  - name: "Højde"
+    type: "integer"
+    default: null
+    mandatory: true
+compatible_versions: 
+compatible_images:
+  - "OS2BorgerPC"
+  - "OS2BorgerPC Kiosk"
 ---
 
 ## Beskrivelse

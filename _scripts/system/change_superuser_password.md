@@ -2,6 +2,20 @@
 title: "System - Skift kodeord for superuser"
 category: "System"
 source: /assets/os2borgerpc-scripts/common/system/change_superuser_password.sh
+parameters:
+  - name: "Kodeord"
+    type: "password"
+    default: null
+    mandatory: true
+  - name: "Gentag kodeord"
+    type: "password"
+    default: null
+    mandatory: true
+compatible_versions: 
+  - "Ubuntu 22.04"
+compatible_images:
+  - "OS2BorgerPC"
+  - "OS2BorgerPC Kiosk"
 ---
 
 ## Beskrivelse

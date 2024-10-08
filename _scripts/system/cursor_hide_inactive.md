@@ -2,6 +2,15 @@
 title: "System - Skjul musemarkør ved muse-inaktivitet"
 category: "System"
 source: /assets/os2borgerpc-scripts/common/system/cursor_hide_inactive.sh
+parameters:
+  - name: "Aktiver?"
+    type: "checkbox"
+    default: null
+    mandatory: false
+compatible_versions: 
+  - "Ubuntu 22.04"
+compatible_images:
+  - "OS2BorgerPC Kiosk"
 ---
 
 ## Beskrivelse

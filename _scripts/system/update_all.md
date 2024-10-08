@@ -2,6 +2,11 @@
 title: "System - Opdater alt nu"
 category: "System"
 source: /assets/os2borgerpc-scripts/common/system/update_all.sh
+compatible_versions: 
+  - "Ubuntu 22.04"
+compatible_images:
+  - "OS2BorgerPC"
+  - "OS2BorgerPC Kiosk"
 ---
 
 ## Beskrivelse

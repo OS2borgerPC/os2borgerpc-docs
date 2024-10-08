@@ -2,6 +2,11 @@
 title: "System - Vis computers oppetid"
 category: "System"
 source: /assets/os2borgerpc-scripts/common/system/uptime.sh
+compatible_versions: 
+  - "Ubuntu 22.04"
+compatible_images:
+  - "OS2BorgerPC"
+  - "OS2BorgerPC Kiosk"
 ---
 
 ## Beskrivelse

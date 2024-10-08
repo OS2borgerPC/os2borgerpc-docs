@@ -2,6 +2,14 @@
 title: "System - GRUB: Gør menuen tilgængelig"
 category: "System"
 source: /assets/os2borgerpc-scripts/common/system/grub_menu_make_accessible.sh
+parameters:
+  - name: "Aktivér?"
+    type: "checkbox"
+    default: null
+    mandatory: false
+compatible_versions: 
+compatible_images:
+  - "OS2BorgerPC"
 ---
 
 ## Beskrivelse

@@ -2,6 +2,19 @@
 title: "System - Planlæg daglige genstarter"
 category: "System"
 source: /assets/os2borgerpc-scripts/common/system/plan_reboot_at_times.sh
+parameters:
+  - name: "Aktiver?"
+    type: "checkbox"
+    default: null
+    mandatory: false
+  - name: "Tidspunkter"
+    type: "string"
+    default: null
+    mandatory: true
+compatible_versions: 
+compatible_images:
+  - "OS2BorgerPC"
+  - "OS2BorgerPC Kiosk"
 ---
 
 ## Beskrivelse

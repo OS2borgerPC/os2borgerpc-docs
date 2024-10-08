@@ -2,6 +2,19 @@
 title: "System - Installer/Fjern applikation/program"
 category: "System"
 source: /assets/os2borgerpc-scripts/common/system/install_uninstall_apps.sh
+parameters:
+  - name: "Installer?"
+    type: "checkbox"
+    default: null
+    mandatory: false
+  - name: "Pakkenavn(e)"
+    type: "string"
+    default: null
+    mandatory: true
+compatible_versions: 
+compatible_images:
+  - "OS2BorgerPC"
+  - "OS2BorgerPC Kiosk"
 ---
 
 ## Beskrivelse

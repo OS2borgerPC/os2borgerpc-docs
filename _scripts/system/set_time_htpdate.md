@@ -2,6 +2,11 @@
 title: "System - Synkroniser tid nu (alternativ til NTP)"
 category: "System"
 source: /assets/os2borgerpc-scripts/common/system/set_time_htpdate.sh
+compatible_versions: 
+  - "Ubuntu 22.04"
+compatible_images:
+  - "OS2BorgerPC"
+  - "OS2BorgerPC Kiosk"
 ---
 
 ## Beskrivelse

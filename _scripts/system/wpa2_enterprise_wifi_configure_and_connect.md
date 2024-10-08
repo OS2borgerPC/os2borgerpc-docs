@@ -2,6 +2,40 @@
 title: "System - Konfigurer WPA2 Enterprise-forbindelse"
 category: "System"
 source: /assets/os2borgerpc-scripts/common/system/wpa2_enterprise_wifi_configure_and_connect.sh
+parameters:
+  - name: "SSID (Navn på trådløst netværk)"
+    type: "string"
+    default: null
+    mandatory: true
+  - name: "IFNAME"
+    type: "string"
+    default: null
+    mandatory: true
+  - name: "KEYMGMT"
+    type: "string"
+    default: null
+    mandatory: true
+  - name: "AUTHALGO"
+    type: "string"
+    default: null
+    mandatory: true
+  - name: "EAP"
+    type: "string"
+    default: null
+    mandatory: true
+  - name: "PHASE2AUTH"
+    type: "string"
+    default: null
+    mandatory: true
+  - name: "Brugernavn til det trådløse netværk"
+    type: "string"
+    default: null
+    mandatory: true
+  - name: "Adgangskode"
+    type: "password"
+    default: null
+    mandatory: true
+
 ---
 
 ## Beskrivelse

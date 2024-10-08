@@ -2,6 +2,20 @@
 title: "System - Luk ned dagligt"
 category: "System"
 source: /assets/os2borgerpc-scripts/common/system/shutdown_at_time.sh
+parameters:
+  - name: "Timer"
+    type: "string"
+    default: null
+    mandatory: true
+  - name: "Minutter"
+    type: "integer"
+    default: null
+    mandatory: false
+compatible_versions: 
+  - "Ubuntu 22.04"
+compatible_images:
+  - "OS2BorgerPC"
+  - "OS2BorgerPC Kiosk"
 ---
 
 ## Beskrivelse

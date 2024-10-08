@@ -2,6 +2,15 @@
 title: "System - GRUB: Skift kodeord"
 category: "System"
 source: /assets/os2borgerpc-scripts/common/system/grub_set_password.py
+parameters:
+  - name: "Adgangskode"
+    type: "password"
+    default: null
+    mandatory: true
+compatible_versions: 
+  - "Ubuntu 22.04"
+compatible_images:
+  - "OS2BorgerPC"
 ---
 
 ## Beskrivelse

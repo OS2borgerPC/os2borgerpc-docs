@@ -2,6 +2,16 @@
 title: "System - Jobmanager: Skift start-tidspunkt og interval"
 category: "System"
 source: /assets/os2borgerpc-scripts/common/system/randomize_jobmanager.sh
+parameters:
+  - name: "Interval"
+    type: "integer"
+    default: null
+    mandatory: true
+compatible_versions: 
+  - "Ubuntu 22.04"
+compatible_images:
+  - "OS2BorgerPC"
+  - "OS2BorgerPC Kiosk"
 ---
 
 ## Beskrivelse
