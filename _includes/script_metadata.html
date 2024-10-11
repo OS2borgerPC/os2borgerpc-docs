@@ -1,27 +1,45 @@
-{% if page.title %}
-  <h1>{{ page.title }}</h1>
-{% endif %}
-
-{% if page.category %}
-  <p><strong>Category:</strong> {{ page.category }}</p>
-{% endif %}
-
 {% if page.source %}
   <p><strong>Source:</strong>
     <a href="{{ page.source | relative_url }}" target="_blank">Download script</a>
-    <button onclick="copyToClipboard('{{ page.source }}')">Copy to Clipboard</button>
+    <button onclick="copyToClipboard('{{ page.source | relative_url }}')">Copy to Clipboard</button>
   </p>
 
   <p><strong>Last Updated:</strong> {% last_modified_at %}</p>
 {% endif %}
 
 {% if page.parameters %}
-  <p><strong>Parameters:</strong> {{ page.parameters }}</p>
+  <p><strong>Parameters:</strong></p>
+  <table class="script-parameters">
+    <thead>
+      <tr>
+        <th>Navn</th>
+        <th>Type</th>
+        <th>Standardværdi</th>
+        <th>Påkrævet</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for param in page.parameters %}
+      {% capture translation_value %}
+        {% include translation.html key=param.type %}
+      {% endcapture %}
+      
+      <tr>
+        <td class="name"><input type="text" value="{{ param.name }}"></td>
+        <td class="type"><input type="text" value="{{ translation_value | strip }}"></td>
+        <td class="default"><input type="text" value="{{ param.default }}"></td>
+        <td class="mandatory">
+          <input type="checkbox" {% if param.mandatory %}checked{% endif %}>
+        </td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
 {% endif %}
 
 <details>
-  <summary>Click to see more details</summary>
-  <p>This is the content inside the fold-out/fold-in element. It is hidden by default and can be toggled by clicking on the summary above.</p>
+  <summary>Click to see the source code</summary>
+  <pre><code>{% read_script_content %}</code></pre>
 </details>
 
 <script>

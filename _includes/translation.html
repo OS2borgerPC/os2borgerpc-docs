@@ -1,0 +1,7 @@
+{% assign key_to_search = include.key %}
+
+{% if site.translations[key_to_search] %}
+  {{ site.translations[key_to_search] }}
+{% else %}
+  Key not found
+{% endif %}

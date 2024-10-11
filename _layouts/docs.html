@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+{% capture page_top %}
+  {% if page.title %}
+    <h1>{{ page.title }}</h1>
+  {% endif %} 
+  {% if page.summary %}
+    <p class="fs-6 fw-300">{{ page.summary }}</p>
+  {% endif %} 
+  {% if page.source %}
+    {% include script_metadata.html %}
+  {% endif %} 
+{% endcapture %}
+{% assign content_ = content | prepend: page_top %}
+
+
+{{ content_ }}

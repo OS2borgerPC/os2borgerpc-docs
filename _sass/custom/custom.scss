@@ -1,0 +1,80 @@
+table.script-parameters {
+  border-collapse: collapse; /* Ensure borders do not double up */
+  border: 0;
+
+  th, td {
+    border: 0; /* Remove existing borders */
+  }
+
+  tr {
+    border-bottom: 1px solid #CCC; /* Add bottom border to each row */
+  }
+  th {
+    background-color: #CCCCCC;
+    color: #000000;
+    text-align: left;
+  }
+
+  td {
+    background-color: #DDDDDD;
+  }
+
+  td.name input[type="text"] {
+    width: 280px; /* Adjust the width as needed */
+  }
+  td.type input[type="text"] {
+    width: 140px; /* Adjust the width as needed */
+  }
+
+  td.default input[type="text"] {
+    width: 100px; /* Adjust the width as needed */
+  }
+}
+
+
+summary {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  font-weight: bold;
+}
+
+summary::after {
+  content: "\25BC";
+  transition: 0.2s;
+}
+
+details[open] > summary {border-bottom: 2px solid #fff9f1;}
+
+details[open] > summary::after {
+  transform: rotate(-180deg);
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+summary {
+  color: #30353b;
+  border-radius: 5px;
+}
+
+details[open] summary {border-radius: 5px 5px 0 0;}
+
+details {
+  background: #eeebdc;
+  border-radius: 5px;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+/* CSS for TOC items with light gray background */
+.toc .toc-item {
+  background-color: #f1f1f1; /* Light gray background color */
+  padding: 20px; /* Add some padding for spacing */
+  margin-bottom: 10px; /* Add some margin at the bottom for spacing between items */
+  border-radius: 5px; /* Optional: Add rounded corners */
+}
+
+
