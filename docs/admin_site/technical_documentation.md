@@ -1,9 +1,10 @@
 ---
 title: "Technical Documentation"
 parent: "Admin Site"
-
 ---
+
 ## Architectural Diagram
+
 
 ### Terms
 
@@ -11,14 +12,12 @@ parent: "Admin Site"
 * **Job:** A *PC* or *Group* can be delegated 1..* jobs. A *job* is a set of instructions in the form of install- or configuration scripts written in bash or python.
 
 
-
 ### Models / Database visualized
+![models_graphed](https://github.com/user-attachments/assets/211dbe3c-4993-4fef-b953-9450a492bcba)
 
 
 ### Hosting
 
 Configuring the use of customer admins
 
-
-See the related
-`Guide <https://github.com/OS2borgerPC/admin-site/raw/development/admin_site/static/docs/configuring_customer_admins.pdf>`_.
+See the related guide [Configuring customer admins](https://github.com/OS2borgerPC/admin-site/raw/development/admin_site/static/docs/configuring_customer_admins.pdf)
