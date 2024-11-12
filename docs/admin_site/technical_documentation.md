@@ -5,6 +5,8 @@ parent: "Admin Site"
 
 ## Architectural Diagram
 
+![architecture](https://github.com/user-attachments/assets/a2f7719b-86e4-40cb-8b30-7f1d5b705ae8)
+
 
 ### Terms
 
