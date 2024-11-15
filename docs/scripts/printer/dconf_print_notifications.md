@@ -4,7 +4,7 @@ parent: "Printer"
 source: /assets/os2borgerpc-scripts/os2borgerpc/printer/dconf_print_notifications.sh
 parameters:
   - name: "Aktivér?"
-    type: "checkbox"
+    type: "boolean"
     default: null
     mandatory: false
 compatible_versions:

@@ -4,7 +4,7 @@ parent: "System"
 source: /assets/os2borgerpc-scripts/common/system/cursor_hide_inactive.sh
 parameters:
   - name: "Aktiver?"
-    type: "checkbox"
+    type: "boolean"
     default: null
     mandatory: false
 compatible_versions: 

@@ -4,7 +4,7 @@ parent: "Sikkerhed"
 source: /assets/os2borgerpc-scripts/os2borgerpc/sikkerhed/always_logout_after_time.sh
 parameters:
   - name: "Minutter (parametret)"
-    type: "integer"
+    type: "int"
     default: null
     mandatory: true
 compatible_versions:

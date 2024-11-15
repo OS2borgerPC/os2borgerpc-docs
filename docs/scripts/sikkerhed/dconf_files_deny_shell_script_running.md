@@ -4,7 +4,7 @@ parent: "Sikkerhed"
 source: /assets/os2borgerpc-scripts/os2borgerpc/sikkerhed/dconf_files_deny_shell_script_running.sh
 parameters:
   - name: "Forhindr kørsel af eksekverbare tekst-filer"
-    type: "checkbox"
+    type: "boolean"
     default: null
     mandatory: false
 compatible_images:

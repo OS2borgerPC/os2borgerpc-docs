@@ -4,7 +4,7 @@ parent: "OS2BorgerPC"
 source: /assets/os2borgerpc-scripts/os2borgerpc/os2borgerpc/microsoft_teams_install.sh
 parameters:
   - name: "Installér?"
-    type: "checkbox"
+    type: "boolean"
     default: null
     mandatory: false
   - name: "Fil"

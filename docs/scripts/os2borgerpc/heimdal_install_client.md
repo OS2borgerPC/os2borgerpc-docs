@@ -4,7 +4,7 @@ parent: "OS2BorgerPC"
 source: /assets/os2borgerpc-scripts/os2borgerpc/os2borgerpc/heimdal_install_client.sh
 parameters:
   - name: "Installér heimdal"
-    type: "checkbox"
+    type: "boolean"
     default: null
     mandatory: false
   - name: "Licensnøgle fra Heimdal"

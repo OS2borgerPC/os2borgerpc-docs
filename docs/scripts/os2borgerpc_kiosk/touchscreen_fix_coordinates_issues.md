@@ -4,11 +4,11 @@ parent: "Kiosk"
 source: /assets/os2borgerpc-scripts/os2borgerpc/os2borgerpc_kiosk/touchscreen_fix_coordinates_issues.sh
 parameters:
   - name: "Aktivér?"
-    type: "checkbox"
+    type: "boolean"
     default: null
     mandatory: false
   - name: "Invertér X og Y-akser?"
-    type: "checkbox"
+    type: "boolean"
     default: null
     mandatory: false
   - name: "Orientering (normal/right/left)"

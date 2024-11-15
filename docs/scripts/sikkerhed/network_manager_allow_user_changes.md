@@ -4,7 +4,7 @@ parent: "Sikkerhed"
 source: /assets/os2borgerpc-scripts/os2borgerpc/sikkerhed/network_manager_allow_user_changes.sh
 parameters:
   - name: "Giv adgang?"
-    type: "checkbox"
+    type: "boolean"
     default: null
     mandatory: false
 compatible_versions:

@@ -4,11 +4,11 @@ parent: "Login"
 source: /assets/os2borgerpc-scripts/os2borgerpc/login/lightdm_hide_superuser.sh
 parameters:
   - name: "Skjul superuser-brugeren"
-    type: "checkbox"
+    type: "boolean"
     default: null
     mandatory: false
   - name: "Vis loginfelt til valgfri bruger"
-    type: "checkbox"
+    type: "boolean"
     default: null
     mandatory: false
 compatible_versions:

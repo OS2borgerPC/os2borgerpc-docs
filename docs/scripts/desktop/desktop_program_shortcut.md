@@ -4,7 +4,7 @@ parent: "Desktop"
 source: /assets/os2borgerpc-scripts/os2borgerpc/desktop/desktop_program_shortcut.sh
 parameters:
   - name: "Tilføj programmet?"
-    type: "checkbox"
+    type: "boolean"
     default: null
     mandatory: false
   - name: "Program"

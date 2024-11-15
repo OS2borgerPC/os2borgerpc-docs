@@ -4,7 +4,7 @@ parent: "Sikkerhed"
 source: /assets/os2borgerpc-scripts/os2borgerpc/sikkerhed/dconf_run_prompt_toggle.sh
 parameters:
   - name: "Slå kør prompt fra"
-    type: "checkbox"
+    type: "boolean"
     default: null
     mandatory: false
 included_in_image: true

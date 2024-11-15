@@ -4,7 +4,7 @@ parent: "Udfases"
 source: /assets/os2borgerpc-scripts/os2borgerpc/udfases/desktop_logout_button.sh
 parameters:
   - name: "Aktiver?"
-    type: "checkbox"
+    type: "boolean"
     default: null
     mandatory: false
   - name: "Navn på genvej (uden mellemrum)"

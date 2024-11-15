@@ -4,7 +4,7 @@ parent: "Login"
 source: /assets/os2borgerpc-scripts/os2borgerpc/login/lightdm_hide_desktop_env_select.sh
 parameters:
   - name: "Aktiver?"
-    type: "checkbox"
+    type: "boolean"
     default: null
     mandatory: false
 compatible_versions:

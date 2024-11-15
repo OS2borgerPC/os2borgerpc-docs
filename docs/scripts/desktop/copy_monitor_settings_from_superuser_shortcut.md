@@ -4,7 +4,7 @@ parent: "Desktop"
 source: /assets/os2borgerpc-scripts/os2borgerpc/desktop/copy_monitor_settings_from_superuser_shortcut.sh
 parameters:
   - name: "Opret genvej"
-    type: "checkbox"
+    type: "boolean"
     default: null
     mandatory: false
 compatible_versions:

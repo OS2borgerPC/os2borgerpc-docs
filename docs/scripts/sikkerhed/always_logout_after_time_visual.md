@@ -4,11 +4,11 @@ parent: "Sikkerhed"
 source: /assets/os2borgerpc-scripts/os2borgerpc/sikkerhed/always_logout_after_time_visual.sh
 parameters:
   - name: "Aktiver?"
-    type: "checkbox"
+    type: "boolean"
     default: null
     mandatory: false
   - name: "Antal MINUTTER til logud"
-    type: "integer"
+    type: "int"
     default: null
     mandatory: true
   - name: "Tekst der vises før tidspunktet i nedtællingen"
@@ -16,7 +16,7 @@ parameters:
     default: null
     mandatory: false
   - name: "Antal SEKUNDER tilbage af nedtællingen hvor bruger advares"
-    type: "integer"
+    type: "int"
     default: null
     mandatory: false
   - name: "Tekst i advarselsinfoboks om kommende logud"

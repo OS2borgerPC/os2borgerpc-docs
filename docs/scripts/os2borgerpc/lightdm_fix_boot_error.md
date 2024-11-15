@@ -4,7 +4,7 @@ parent: "OS2BorgerPC"
 source: /assets/os2borgerpc-scripts/os2borgerpc/os2borgerpc/lightdm_fix_boot_error.sh
 parameters:
   - name: "Aktiver fix?"
-    type: "checkbox"
+    type: "boolean"
     default: null
     mandatory: false
 compatible_versions:

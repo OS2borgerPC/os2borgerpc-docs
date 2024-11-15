@@ -4,11 +4,11 @@ parent: "Browser"
 source: /assets/os2borgerpc-scripts/os2borgerpc/browser/chrome_chromium_incognito_enforce.sh
 parameters:
   - name: "AKTIVER"
-    type: "checkbox"
+    type: "boolean"
     default: null
     mandatory: false
   - name: "INCOGNITO_MODE"
-    type: "integer"
+    type: "int"
     default: null
     mandatory: true
 compatible_versions:

@@ -8,11 +8,11 @@ parameters:
     default: null
     mandatory: true
   - name: "Minutter"
-    type: "integer"
+    type: "int"
     default: null
     mandatory: true
   - name: "Timer til opvågning"
-    type: "integer"
+    type: "int"
     default: null
     mandatory: true
   - name: "Tilstand (off/mem/disk/standby/no/on/disable/show)"

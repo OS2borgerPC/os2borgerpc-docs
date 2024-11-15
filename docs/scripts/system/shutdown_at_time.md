@@ -8,7 +8,7 @@ parameters:
     default: null
     mandatory: true
   - name: "Minutter"
-    type: "integer"
+    type: "int"
     default: null
     mandatory: false
 compatible_versions: 

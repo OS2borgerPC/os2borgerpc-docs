@@ -4,7 +4,7 @@ parent: "Udfases"
 source: /assets/os2borgerpc-scripts/os2borgerpc/udfases/set_user_as_default_lightdm_user.sh
 parameters:
   - name: "Aktiver?"
-    type: "checkbox"
+    type: "boolean"
     default: null
     mandatory: false
 compatible_versions:

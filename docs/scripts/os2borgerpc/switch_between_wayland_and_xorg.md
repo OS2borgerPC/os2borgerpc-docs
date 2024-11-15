@@ -4,7 +4,7 @@ parent: "OS2BorgerPC"
 source: /assets/os2borgerpc-scripts/os2borgerpc/os2borgerpc/switch_between_wayland_and_xorg.sh
 parameters:
   - name: "Gør Wayland til standard?"
-    type: "checkbox"
+    type: "boolean"
     default: null
     mandatory: false
 compatible_versions:

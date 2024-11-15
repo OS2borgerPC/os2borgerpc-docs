@@ -4,7 +4,7 @@ parent: "Printer"
 source: /assets/os2borgerpc-scripts/os2borgerpc/printer/printer_list.sh
 parameters:
   - name: "Vis forkortet oversigt"
-    type: "checkbox"
+    type: "boolean"
     default: null
     mandatory: false
 compatible_versions:

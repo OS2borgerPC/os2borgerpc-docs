@@ -4,7 +4,7 @@ parent: "OS2BorgerPC"
 source: /assets/os2borgerpc-scripts/os2borgerpc/os2borgerpc/install_okular_and_set_as_standard_pdf_reader.sh
 parameters:
   - name: "Installér Okular og skift til standard-PDF-læser"
-    type: "checkbox"
+    type: "boolean"
     default: null
     mandatory: false
 compatible_versions:

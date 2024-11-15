@@ -4,7 +4,7 @@ parent: "Kiosk"
 source: /assets/os2borgerpc-scripts/os2borgerpc/os2borgerpc_kiosk/wm_keyboard_hide_button.sh
 parameters:
   - name: "Tilføj knappen?"
-    type: "checkbox"
+    type: "boolean"
     default: null
     mandatory: false
   - name: "Hvilken browser/program?"
@@ -16,7 +16,7 @@ parameters:
     default: null
     mandatory: true
   - name: "Y-akse-justering"
-    type: "integer"
+    type: "int"
     default: 0
     mandatory: true
 compatible_versions: 

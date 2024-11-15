@@ -4,15 +4,15 @@ parent: "Sikkerhed"
 source: /assets/os2borgerpc-scripts/os2borgerpc/sikkerhed/inactivity_logout_after_time.sh
 parameters:
   - name: "Aktiver?"
-    type: "checkbox"
+    type: "boolean"
     default: null
     mandatory: false
   - name: "Antal MINUTTER til dialog bliver vist"
-    type: "integer"
+    type: "int"
     default: null
     mandatory: true
   - name: "Antal MINUTTER til brugeren bliver logget ud"
-    type: "integer"
+    type: "int"
     default: null
     mandatory: true
   - name: "Tekst som bliver vist i dialogboksen"

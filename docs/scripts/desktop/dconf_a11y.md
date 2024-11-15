@@ -4,7 +4,7 @@ parent: "Desktop"
 source: /assets/os2borgerpc-scripts/os2borgerpc/desktop/dconf_a11y.sh
 parameters:
   - name: "Aktivér?"
-    type: "checkbox"
+    type: "boolean"
     default: null
     mandatory: false
 compatible_versions:

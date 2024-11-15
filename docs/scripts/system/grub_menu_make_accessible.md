@@ -4,7 +4,7 @@ parent: "System"
 source: /assets/os2borgerpc-scripts/common/system/grub_menu_make_accessible.sh
 parameters:
   - name: "Aktivér?"
-    type: "checkbox"
+    type: "boolean"
     default: null
     mandatory: false
 compatible_versions: 

@@ -4,7 +4,7 @@ parent: "Browser"
 source: /assets/os2borgerpc-scripts/os2borgerpc/browser/browser_update_launcher.sh
 parameters:
   - name: "Udskift browseren i venstremenuen med følgende browser (se muligheder i beskrivelse)"
-    type: "options"
+    type: "text_field"
     default: "firefox,google-chrome,microsoft-edge"
     mandatory: false
 compatible_versions:

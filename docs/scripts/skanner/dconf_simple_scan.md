@@ -4,15 +4,15 @@ parent: "Skanner"
 source: /assets/os2borgerpc-scripts/os2borgerpc/skanner/dconf_simple_scan.sh
 parameters:
   - name: "Papirstørrelse"
-    type: "options"
+    type: "text_field"
     default: "A3,A4,A5,A6,Auto"
     mandatory: false
   - name: "Billedeopløsning (DPI)"
-    type: "options"
+    type: "text_field"
     default: "300,75,150,200,600,1200,2400"
     mandatory: false
   - name: "Tekstopløsning (DPI)"
-    type: "options"
+    type: "text_field"
     default: "150,75,200,300,600,1200,2400"
     mandatory: false
 compatible_versions:

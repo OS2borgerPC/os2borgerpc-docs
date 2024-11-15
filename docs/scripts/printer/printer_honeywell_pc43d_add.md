@@ -4,7 +4,7 @@ parent: "Printer"
 source: /assets/os2borgerpc-scripts/os2borgerpc/printer/printer_honeywell_pc43d_add.sh
 parameters:
   - name: "Installér?"
-    type: "checkbox"
+    type: "boolean"
     default: null
     mandatory: false
   - name: "CUPS-driver (en .tar.gz-fil - downloades hos Honeywell - se beskrivelse)"

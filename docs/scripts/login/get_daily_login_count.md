@@ -4,7 +4,7 @@ parent: "Login"
 source: /assets/os2borgerpc-scripts/os2borgerpc/login/get_daily_login_count.sh
 parameters:
   - name: "Aktiver?"
-    type: "checkbox"
+    type: "boolean"
     default: null
     mandatory: false
 compatible_versions:

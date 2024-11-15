@@ -4,7 +4,7 @@ parent: "Browser"
 source: /assets/os2borgerpc-scripts/os2borgerpc/browser/chrome_chromium_policy_bookmarks.sh
 parameters:
   - name: "Aktivér?"
-    type: "checkbox"
+    type: "boolean"
     default: null
     mandatory: false
   - name: "Navn på overmappen til bogmærkerne"
@@ -12,7 +12,7 @@ parameters:
     default: null
     mandatory: false
   - name: "Tillad Borger at tilføje/redigere bogmærker"
-    type: "checkbox"
+    type: "boolean"
     default: null
     mandatory: false
   - name: "Bogmærker (i JSON-format)"

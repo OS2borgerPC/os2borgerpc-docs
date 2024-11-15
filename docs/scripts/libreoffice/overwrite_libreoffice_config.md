@@ -4,11 +4,11 @@ parent: "LibreOffice"
 source: /assets/os2borgerpc-scripts/os2borgerpc/libreoffice/overwrite_libreoffice_config.sh
 parameters:
   - name: "Slå 'Tip of the Day' fra"
-    type: "checkbox"
+    type: "boolean"
     default: null
     mandatory: false
   - name: "Brug Microsofts filformater"
-    type: "checkbox"
+    type: "boolean"
     default: null
     mandatory: false
 compatible_versions:

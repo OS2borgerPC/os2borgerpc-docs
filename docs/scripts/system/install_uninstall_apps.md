@@ -4,7 +4,7 @@ parent: "System"
 source: /assets/os2borgerpc-scripts/common/system/install_uninstall_apps.sh
 parameters:
   - name: "Installer?"
-    type: "checkbox"
+    type: "boolean"
     default: null
     mandatory: false
   - name: "Pakkenavn(e)"

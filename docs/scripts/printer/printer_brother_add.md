@@ -12,7 +12,7 @@ parameters:
     default: null
     mandatory: true
   - name: "Forbundet via Netværk (fremfor USB)"
-    type: "checkbox"
+    type: "boolean"
     default: null
     mandatory: false
 compatible_versions:

@@ -4,7 +4,7 @@ parent: "Printer"
 source: /assets/os2borgerpc-scripts/os2borgerpc/printer/printer_hp_add.sh
 parameters:
   - name: "0 = USB, 1 = Netværksprinter"
-    type: "integer"
+    type: "int"
     default: null
     mandatory: true
   - name: "Ønsket navn for printeren"

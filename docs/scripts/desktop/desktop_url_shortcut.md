@@ -4,7 +4,7 @@ parent: "Desktop"
 source: /assets/os2borgerpc-scripts/os2borgerpc/desktop/desktop_url_shortcut.sh
 parameters:
   - name: "Aktivér?"
-    type: "checkbox"
+    type: "boolean"
     default: null
     mandatory: false
   - name: "URL"

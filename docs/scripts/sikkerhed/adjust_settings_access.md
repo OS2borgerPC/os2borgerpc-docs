@@ -4,7 +4,7 @@ parent: "Sikkerhed"
 source: /assets/os2borgerpc-scripts/os2borgerpc/sikkerhed/adjust_settings_access.sh
 parameters:
   - name: "Giv adgang til Indstillinger"
-    type: "checkbox"
+    type: "boolean"
     default: null
     mandatory: false
 compatible_versions:

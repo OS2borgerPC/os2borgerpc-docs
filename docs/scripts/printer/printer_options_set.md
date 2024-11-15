@@ -20,7 +20,7 @@ parameters:
     default: null
     mandatory: false
   - name: "Print-orientering"
-    type: "options"
+    type: "text_field"
     default: ",Portrait,Landscape,Reverse landscape,Reverse portrait"
     mandatory: false
 compatible_versions:

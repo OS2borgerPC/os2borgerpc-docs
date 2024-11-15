@@ -4,7 +4,7 @@ parent: "Kiosk"
 source: /assets/os2borgerpc-scripts/os2borgerpc/os2borgerpc_kiosk/chromium_autostart.sh
 parameters:
   - name: "Forsinkelse"
-    type: "integer"
+    type: "int"
     default: 0
     mandatory: true
   - name: "URL"
@@ -12,11 +12,11 @@ parameters:
     default: null
     mandatory: true
   - name: "Bredde"
-    type: "integer"
+    type: "int"
     default: null
     mandatory: true
   - name: "Højde"
-    type: "integer"
+    type: "int"
     default: null
     mandatory: true
   - name: "Orientation"

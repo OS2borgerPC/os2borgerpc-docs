@@ -4,7 +4,7 @@ parent: "OS2BorgerPC"
 source: /assets/os2borgerpc-scripts/os2borgerpc/os2borgerpc/dconf_keyboard_layout.sh
 parameters:
   - name: "Tilføj?"
-    type: "checkbox"
+    type: "boolean"
     default: null
     mandatory: false
   - name: "Navn på tastaturlayout (eks. 'ua' for Ukrainsk)"

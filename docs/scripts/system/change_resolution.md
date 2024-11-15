@@ -4,15 +4,15 @@ parent: "System"
 source: /assets/os2borgerpc-scripts/common/system/change_resolution.sh
 parameters:
   - name: "Aktiver?"
-    type: "checkbox"
+    type: "boolean"
     default: null
     mandatory: false
   - name: "Bredde"
-    type: "integer"
+    type: "int"
     default: null
     mandatory: false
   - name: "Højde"
-    type: "integer"
+    type: "int"
     default: null
     mandatory: true
 compatible_versions: 

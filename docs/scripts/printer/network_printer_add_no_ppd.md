@@ -20,7 +20,7 @@ parameters:
     default: "ipp"
     mandatory: false
   - name: "Sæt som standard?"
-    type: "checkbox"
+    type: "boolean"
     default: null
     mandatory: false
 compatible_versions:

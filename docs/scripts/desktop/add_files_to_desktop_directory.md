@@ -4,7 +4,7 @@ parent: "Desktop"
 source: /assets/os2borgerpc-scripts/os2borgerpc/desktop/add_files_to_desktop_directory.sh
 parameters:
   - name: "Tilføj mappen?"
-    type: "checkbox"
+    type: "boolean"
     default: null
     mandatory: false
   - name: "Navn på mappen"
@@ -12,7 +12,7 @@ parameters:
     default: null
     mandatory: true
   - name: "Kun læseadgang til originalfilerne (nulstilles uanset efter logud)"
-    type: "checkbox"
+    type: "boolean"
     default: null
     mandatory: false
   - name: "Fil 1 (valgfri)"

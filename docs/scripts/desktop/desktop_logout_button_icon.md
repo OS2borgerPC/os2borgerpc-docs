@@ -4,7 +4,7 @@ parent: "Desktop"
 source: /assets/os2borgerpc-scripts/os2borgerpc/desktop/desktop_logout_button_icon.sh
 parameters:
   - name: "Aktiver?"
-    type: "checkbox"
+    type: "boolean"
     default: null
     mandatory: false
   - name: "Navn på genvejen"
@@ -12,7 +12,7 @@ parameters:
     default: null
     mandatory: true
   - name: "Bekræftelse på logud?"
-    type: "checkbox"
+    type: "boolean"
     default: null
     mandatory: false
   - name: "Ikon til genvejen (png/svg/jpg)"

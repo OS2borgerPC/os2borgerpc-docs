@@ -4,7 +4,7 @@ parent: "Desktop"
 source: /assets/os2borgerpc-scripts/os2borgerpc/desktop/desktop_launcher_logout_button_icon.sh
 parameters:
   - name: "Tilføj logudknappen?"
-    type: "checkbox"
+    type: "boolean"
     default: null
     mandatory: false
   - name: "Genvejsnavn"
@@ -12,7 +12,7 @@ parameters:
     default: null
     mandatory: true
   - name: "Indsæt i starten af menuen?"
-    type: "checkbox"
+    type: "boolean"
     default: null
     mandatory: false
   - name: "Ikon"

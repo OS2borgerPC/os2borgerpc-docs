@@ -4,7 +4,7 @@ parent: "Printer"
 source: /assets/os2borgerpc-scripts/os2borgerpc/printer/printer_toggle_network_discovery.sh
 parameters:
   - name: "Slå automatisk netværksprinter-finding FRA?"
-    type: "checkbox"
+    type: "boolean"
     default: null
     mandatory: false
 compatible_versions:

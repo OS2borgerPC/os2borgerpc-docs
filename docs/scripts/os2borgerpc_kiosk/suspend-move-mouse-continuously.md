@@ -4,11 +4,11 @@ parent: "Kiosk"
 source: /assets/os2borgerpc-scripts/os2borgerpc/os2borgerpc_kiosk/suspend-move-mouse-continuously.sh
 parameters:
   - name: "Aktivér?"
-    type: "checkbox"
+    type: "boolean"
     default: null
     mandatory: false
   - name: "Interval (eks.: 10)"
-    type: "integer"
+    type: "int"
     default: null
     mandatory: true
 compatible_versions: 

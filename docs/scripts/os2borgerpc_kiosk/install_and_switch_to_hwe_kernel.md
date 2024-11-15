@@ -4,7 +4,7 @@ parent: "Kiosk"
 source: /assets/os2borgerpc-scripts/os2borgerpc/os2borgerpc_kiosk/chromium_os2display_activate.sh
 parameters:
   - name: "Installér og skift til HWE-kerne"
-    type: "checkbox"
+    type: "boolean"
     default: null
     mandatory: false
 compatible_versions:

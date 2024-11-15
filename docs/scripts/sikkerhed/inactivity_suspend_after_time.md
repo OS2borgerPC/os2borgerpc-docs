@@ -4,15 +4,15 @@ parent: "Sikkerhed"
 source: /assets/os2borgerpc-scripts/os2borgerpc/sikkerhed/inactivity_suspend_after_time.sh
 parameters:
   - name: "Aktiver?"
-    type: "checkbox"
+    type: "boolean"
     default: null
     mandatory: false
   - name: "Antal MINUTTER til dialog vises"
-    type: "integer"
+    type: "int"
     default: null
     mandatory: true
   - name: "Antal MINUTTER til dvale aktiveres"
-    type: "integer"
+    type: "int"
     default: null
     mandatory: true
   - name: "Tekst som bliver vist i dialogboksen"

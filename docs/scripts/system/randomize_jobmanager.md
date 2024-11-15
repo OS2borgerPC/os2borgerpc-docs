@@ -4,7 +4,7 @@ parent: "System"
 source: /assets/os2borgerpc-scripts/common/system/randomize_jobmanager.sh
 parameters:
   - name: "Interval"
-    type: "integer"
+    type: "int"
     default: null
     mandatory: true
 compatible_versions: 

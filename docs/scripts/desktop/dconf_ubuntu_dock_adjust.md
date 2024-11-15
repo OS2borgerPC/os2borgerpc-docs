@@ -4,11 +4,11 @@ parent: "Desktop"
 source: /assets/os2borgerpc-scripts/os2borgerpc/desktop/dconf_ubuntu_dock_adjust.sh
 parameters:
   - name: "Ønsket position for menuen (LEFT er standard)"
-    type: "options"
+    type: "text_field"
     default: "LEFT,RIGHT,TOP,BOTTOM"
     mandatory: false
   - name: "Flyt applikationsåbner-knappen til starten af menuen? (udeladt hak er standard)"
-    type: "checkbox"
+    type: "boolean"
     default: null
     mandatory: false
 compatible_versions:

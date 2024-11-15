@@ -4,7 +4,7 @@ parent: "Browser"
 source: /assets/os2borgerpc-scripts/os2borgerpc/browser/chrome_password_manager_access_toggle.sh
 parameters:
   - name: "Slå password manager TIL, så maskinen husker indtastede logins?"
-    type: "checkbox"
+    type: "boolean"
     default: null
     mandatory: false
 compatible_versions:

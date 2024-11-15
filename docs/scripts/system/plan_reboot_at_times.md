@@ -4,7 +4,7 @@ parent: "System"
 source: /assets/os2borgerpc-scripts/common/system/plan_reboot_at_times.sh
 parameters:
   - name: "Aktiver?"
-    type: "checkbox"
+    type: "boolean"
     default: null
     mandatory: false
   - name: "Tidspunkter"

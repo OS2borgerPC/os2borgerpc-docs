@@ -4,7 +4,7 @@ parent: "Udfases"
 source: /assets/os2borgerpc-scripts/os2borgerpc/udfases/chrome_autostart.sh
 parameters:
   - name: "Tilføj"
-    type: "checkbox"
+    type: "boolean"
     default: null
     mandatory: false
 compatible_versions:

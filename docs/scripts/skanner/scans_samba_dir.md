@@ -4,7 +4,7 @@ parent: "Skanner"
 source: /assets/os2borgerpc-scripts/os2borgerpc/skanner/scans_samba_dir.sh
 parameters:
   - name: "Installer Samba og opret delt mappe?"
-    type: "checkbox"
+    type: "boolean"
     default: null
     mandatory: false
   - name: "Navn på mappen på skrivebordet"
@@ -16,11 +16,11 @@ parameters:
     default: null
     mandatory: true
   - name: "Deaktiver NTLMv1 (så kun NTLMv2 og nyere tillades)"
-    type: "checkbox"
+    type: "boolean"
     default: null
     mandatory: false
   - name: "Tillad forbindelse over NetBIOS"
-    type: "checkbox"
+    type: "boolean"
     default: null
     mandatory: false
 compatible_versions:

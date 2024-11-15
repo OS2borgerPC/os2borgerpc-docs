@@ -8,7 +8,7 @@ parameters:
     default: null
     mandatory: true
   - name: "ID"
-    type: "integer"
+    type: "int"
     default: null
     mandatory: true
   - name: "Beskrivelse / Placering (INGEN ÆØÅ)"

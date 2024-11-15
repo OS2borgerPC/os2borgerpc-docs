@@ -16,7 +16,7 @@ parameters:
     default: null
     mandatory: true
   - name: "Luk browseren først?"
-    type: "checkbox"
+    type: "boolean"
     default: null
     mandatory: false
 compatible_versions:

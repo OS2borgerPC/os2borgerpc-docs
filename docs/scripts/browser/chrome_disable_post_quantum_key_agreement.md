@@ -4,7 +4,7 @@ parent: "Browser"
 source: /assets/os2borgerpc-scripts/os2borgerpc/browser/chrome_disable_post_quantum_key_agreement.sh
 parameters:
   - name: "Aktiver?"
-    type: "checkbox"
+    type: "boolean"
     default: null
     mandatory: false
 compatible_versions:

@@ -4,7 +4,7 @@ parent: "Sikkerhed"
 source: /assets/os2borgerpc-scripts/os2borgerpc/sikkerhed/dconf_disable_gnome_remote_desktop.sh
 parameters:
   - name: "Blokér for GNOME Remote Desktop?"
-    type: "checkbox"
+    type: "boolean"
     default: null
     mandatory: false
 compatible_versions:

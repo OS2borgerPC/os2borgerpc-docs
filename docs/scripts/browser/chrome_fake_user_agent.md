@@ -4,7 +4,7 @@ parent: "Browser"
 source: /assets/os2borgerpc-scripts/os2borgerpc/browser/chrome_fake_user_agent.sh
 parameters:
   - name: "Aktiver?"
-    type: "checkbox"
+    type: "boolean"
     default: null
     mandatory: false
 compatible_versions:

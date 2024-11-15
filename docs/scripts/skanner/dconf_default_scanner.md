@@ -4,7 +4,7 @@ parent: "Skanner"
 source: /assets/os2borgerpc-scripts/os2borgerpc/skanner/dconf_default_scanner.sh
 parameters:
   - name: "Aktivér?"
-    type: "checkbox"
+    type: "boolean"
     default: null
     mandatory: false
   - name: "Navn/Adresse på skanner"

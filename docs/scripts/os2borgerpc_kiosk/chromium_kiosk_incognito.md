@@ -4,11 +4,11 @@ parent: "Kiosk"
 source: /assets/os2borgerpc-scripts/os2borgerpc/os2borgerpc_kiosk/chromium_kiosk_incognito.sh
 parameters:
   - name: "Slå Kiosk til?"
-    type: "checkbox"
+    type: "boolean"
     default: null
     mandatory: false
   - name: "Slå inkognito til?"
-    type: "checkbox"
+    type: "boolean"
     default: null
     mandatory: false
 compatible_versions:

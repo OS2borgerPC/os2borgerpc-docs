@@ -4,7 +4,7 @@ parent: "Udfases"
 source: /assets/os2borgerpc-scripts/os2borgerpc/udfases/lightdm_greeter_setup_scripts.sh
 parameters:
   - name: "Slet alle tidligere gemte login scripts fra computeren"
-    type: "checkbox"
+    type: "boolean"
     default: null
     mandatory: false
 compatible_versions:

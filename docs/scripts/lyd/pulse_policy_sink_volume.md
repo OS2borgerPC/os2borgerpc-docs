@@ -4,7 +4,7 @@ parent: "Lyd"
 source: /assets/os2borgerpc-scripts/common/lyd/pulse_policy_sink_volume.sh
 parameters:
   - name: "Aktivér?"
-    type: "checkbox"
+    type: "boolean"
     default: null
     mandatory: false
   - name: "Lydenhed (sink)"
@@ -12,7 +12,7 @@ parameters:
     default: null
     mandatory: true
   - name: "Lydniveau (i procent, uden procenttegn)"
-    type: "integer"
+    type: "int"
     default: null
     mandatory: true
 compatible_versions: []

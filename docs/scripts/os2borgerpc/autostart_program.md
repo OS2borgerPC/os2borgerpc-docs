@@ -8,7 +8,7 @@ parameters:
     default: null
     mandatory: true
   - name: "Slå autostart til"
-    type: "checkbox"
+    type: "boolean"
     default: null
     mandatory: false
 compatible_versions:

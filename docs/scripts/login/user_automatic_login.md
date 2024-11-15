@@ -4,11 +4,11 @@ parent: "Login"
 source: /assets/os2borgerpc-scripts/os2borgerpc/login/user_automatic_login.sh
 parameters:
   - name: "Aktiver automatisk borgerlogin"
-    type: "checkbox"
+    type: "boolean"
     default: null
     mandatory: false
   - name: "Hvis ikke-automatisk login: Borger skal indtaste kodeord"
-    type: "checkbox"
+    type: "boolean"
     default: null
     mandatory: false
 compatible_versions:

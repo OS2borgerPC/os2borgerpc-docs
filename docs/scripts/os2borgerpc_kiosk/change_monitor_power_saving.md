@@ -5,7 +5,7 @@ summary: "Hej med dig"
 source: /assets/os2borgerpc-scripts/os2borgerpc/os2borgerpc_kiosk/change_monitor_power_saving.sh
 parameters:
   - name: "Tillad skærmdvale?"
-    type: "checkbox"
+    type: "boolean"
     default: null
     mandatory: false
 compatible_versions:

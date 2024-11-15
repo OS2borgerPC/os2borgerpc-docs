@@ -4,7 +4,7 @@ parent: "Browser"
 source: /assets/os2borgerpc-scripts/os2borgerpc/browser/chrome_chromium_start_maximized_fullscreen_kiosk.sh
 parameters:
   - name: "Ønsket tilstand (se beskrivelse)"
-    type: "integer"
+    type: "int"
     default: null
     mandatory: true
 compatible_versions:

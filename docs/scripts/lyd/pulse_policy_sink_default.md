@@ -4,7 +4,7 @@ parent: "Lyd"
 source: /assets/os2borgerpc-scripts/common/lyd/pulse_policy_sink_default.sh
 parameters:
   - name: "Aktivér?"
-    type: "checkbox"
+    type: "boolean"
     default: null
     mandatory: false
   - name: "Ny standard-lydudgang (sink)"

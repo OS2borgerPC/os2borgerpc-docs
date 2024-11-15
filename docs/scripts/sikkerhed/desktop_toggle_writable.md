@@ -4,7 +4,7 @@ parent: "Sikkerhed"
 source: /assets/os2borgerpc-scripts/os2borgerpc/sikkerhed/desktop_toggle_writable.sh
 parameters:
   - name: "Aktivér? (hak: fjern skriverettighed / udelad hak: giv skriverettighed)"
-    type: "checkbox"
+    type: "boolean"
     default: null
     mandatory: false
 compatible_versions:

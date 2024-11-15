@@ -4,7 +4,7 @@ parent: "Login"
 source: /assets/os2borgerpc-scripts/os2borgerpc/login/change_login_timeout.sh
 parameters:
   - name: "Antal sekunder"
-    type: "integer"
+    type: "int"
     default: null
     mandatory: true
 compatible_versions:

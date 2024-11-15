@@ -4,7 +4,7 @@ parent: "Login"
 source: /assets/os2borgerpc-scripts/os2borgerpc/login/dconf_change_login_bg.sh
 parameters:
   - name: "Aktivér?"
-    type: "checkbox"
+    type: "boolean"
     default: null
     mandatory: false
   - name: "Billede"
