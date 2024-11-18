@@ -38,13 +38,14 @@ defaults:
 
 
 translations:
-  checkbox: "Afkrydsningsfelt"
+  boolean: "Afkrydsningsfelt"
   string: "Streng"
-  integer: "Heltal"
+  int: "Heltal"
   date: "Dato"
   password: "Adgangskode"
   file: "Fil"
   time: "Tid"
+  text_field: "Valgmuligheder"
 
 
       
