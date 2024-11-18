@@ -2,10 +2,9 @@
 title: "System - Opgrader klient til nyeste test-version nu"
 parent: "System"
 source: /assets/os2borgerpc-scripts/common/system/upgrade_client_from_testpypi.sh
-compatible_versions: 
-compatible_images:
-  - "OS2BorgerPC"
-  - "OS2BorgerPC Kiosk"
+compatibility: 
+  - "BorgerPC"
+  - "Kiosk"
 ---
 
 ## Beskrivelse

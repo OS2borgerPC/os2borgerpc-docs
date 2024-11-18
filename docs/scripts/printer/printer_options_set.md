@@ -23,10 +23,9 @@ parameters:
     type: "text_field"
     default: ",Portrait,Landscape,Reverse landscape,Reverse portrait"
     mandatory: false
-compatible_versions:
-  - "Ubuntu 22.04"
-compatible_images:
-  - "OS2BorgerPC"
+compatibility:  
+  - "22.04"
+  - "BorgerPC"
 ---
 
 ## Beskrivelse

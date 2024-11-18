@@ -3,10 +3,9 @@ title: "Udfases - Desktop - Fjern besked om opdatering / opgradering"
 parent: "Udfases"
 source: /assets/os2borgerpc-scripts/os2borgerpc/udfases/remove_new_release_message.sh
 parameters:
-compatible_versions:
-  - "Ubuntu 22.04"
-compatible_images:
-  - "OS2BorgerPC"
+compatibility:  
+  - "22.04"
+  - "BorgerPC"
 included_in_image: true
 ---
 

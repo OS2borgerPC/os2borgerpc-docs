@@ -3,10 +3,9 @@ title: "OS2borgerPC Kiosk - Sæt dansk tidszone og sprog"
 parent: "Kiosk"
 source: /assets/os2borgerpc-scripts/os2borgerpc/os2borgerpc_kiosk/set_datetime.sh
 parameters:
-compatible_versions:
-  - "Ubuntu 22.04"
-compatible_images:
-  - "OS2BorgerPC Kiosk"
+compatibility:  
+  - "22.04"
+  - "Kiosk"
 ---
 
 ## Beskrivelse

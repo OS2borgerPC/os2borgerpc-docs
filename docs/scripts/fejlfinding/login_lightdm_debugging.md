@@ -3,9 +3,8 @@ title: "Fejlfinding - Opstart / Login"
 parent: "Fejlfinding"
 source: /assets/os2borgerpc-scripts/common/fejlfinding/login_lightdm_debugging.sh
 parameters:
-compatible_versions: []
-compatible_images:   
-  - "OS2BorgerPC"
+compatibility:
+  - "BorgerPC"
 ---
 
 ## Beskrivelse

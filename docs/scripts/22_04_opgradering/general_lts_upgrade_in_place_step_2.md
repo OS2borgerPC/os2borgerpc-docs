@@ -6,11 +6,10 @@ summary: |
          Dette script er andet skridt i opgraderingen til Ubuntu 22.04 på både OS2borgerPC og OS2borgerPC Kiosk.
 source: /assets/os2borgerpc-scripts/common/22_04_opgradering/general_lts_upgrade_in_place_step_2.sh
 parameters: []
-compatible_versions: 
-  - "Ubuntu 20.04"
-compatible_images:
-  - "OS2BorgerPC Kiosk"
-  - "OS2BorgerPC"
+compatibility: 
+  - "20.04"
+  - "Kiosk"
+  - "BorgerPC"
 ---
 
 ## Beskrivelse

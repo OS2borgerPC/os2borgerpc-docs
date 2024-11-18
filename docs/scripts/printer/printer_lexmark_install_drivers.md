@@ -3,9 +3,8 @@ title: "Printer - Lexmark: Installer drivere"
 parent: "Printer"
 source: /assets/os2borgerpc-scripts/os2borgerpc/printer/printer_lexmark_install_drivers.sh
 parameters:
-compatible_versions:
-compatible_images:
-  - "OS2BorgerPC"
+compatibility:
+  - "BorgerPC"
 ---
 
 ## Beskrivelse

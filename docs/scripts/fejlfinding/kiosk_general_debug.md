@@ -3,9 +3,8 @@ title: "Fejlfinding - OS2borgerPC Kiosk generel"
 parent: "Fejlfinding"
 source: /assets/os2borgerpc-scripts/common/fejlfinding/kiosk_general_debug.sh
 parameters:
-compatible_versions: []
-compatible_images:   
-  - "OS2BorgerPC Kiosk"
+compatibility:
+  - "Kiosk"
 ---
 
 ## Beskrivelse

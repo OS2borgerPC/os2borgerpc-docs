@@ -8,9 +8,8 @@ parameters:
     type: "boolean"
     default: null
     mandatory: false
-compatible_versions:
+compatibility:  
   - "22.04"
-compatible_images:
   - "Kiosk"
 ---
 

@@ -15,9 +15,8 @@ parameters:
     type: "text_field"
     default: "150,75,200,300,600,1200,2400"
     mandatory: false
-compatible_versions:
-compatible_images:
-  - "OS2BorgerPC"
+compatibility:
+  - "BorgerPC"
 ---
 
 ## Beskrivelse

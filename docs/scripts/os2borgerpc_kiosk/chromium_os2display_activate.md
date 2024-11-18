@@ -11,9 +11,8 @@ parameters:
     type: "string"
     default: null
     mandatory: true
-compatible_versions:
-compatible_images:
-  - "OS2BorgerPC Kiosk"
+compatibility:
+  - "Kiosk"
 partners:
   - "Københavns Kommune"
 ---

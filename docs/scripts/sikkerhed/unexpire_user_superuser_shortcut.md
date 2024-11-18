@@ -3,9 +3,8 @@ title: "Sikkerhed: Genvej til at låse Borger-konto op fra superusers skrivebord
 parent: "Sikkerhed"
 source: /assets/os2borgerpc-scripts/os2borgerpc/sikkerhed/unexpire_user_superuser_shortcut.sh
 parameters:
-compatible_versions:
-compatible_images:
-  - "OS2BorgerPC"
+compatibility:
+  - "BorgerPC"
 ---
 
 ## Beskrivelse

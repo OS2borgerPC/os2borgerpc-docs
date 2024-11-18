@@ -19,9 +19,8 @@ parameters:
     type: "string"
     default: null
     mandatory: false
-compatible_versions:
-compatible_images:
-  - "OS2BorgerPC"
+compatibility:
+  - "BorgerPC"
 ---
 
 ## Beskrivelse

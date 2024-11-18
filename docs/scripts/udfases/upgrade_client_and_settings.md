@@ -3,10 +3,9 @@ title: "Udfases - Opgrader klient og klientindstillinger til nyeste version nu"
 parent: "Udfases"
 source: /assets/os2borgerpc-scripts/common/udfases/upgrade_client_and_settings.sh
 parameters:
-compatible_versions:
-  - "Ubuntu 22.04"
-compatible_images:
-  - "OS2BorgerPC"
+compatibility:  
+  - "22.04"
+  - "BorgerPC"
 included_in_image: true
 ---
 

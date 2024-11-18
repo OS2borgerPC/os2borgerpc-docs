@@ -11,10 +11,9 @@ parameters:
     type: "int"
     default: null
     mandatory: false
-compatible_versions: []
-compatible_images:
-  - "OS2BorgerPC Kiosk"
-  - "OS2BorgerPC"
+compatibility:
+  - "Kiosk"
+  - "BorgerPC"
 ---
 
 ## Beskrivelse

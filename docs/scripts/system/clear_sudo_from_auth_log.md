@@ -2,10 +2,9 @@
 title: "System - Fjern sudo og user expiration fra auth.log"
 parent: "System"
 source: /assets/os2borgerpc-scripts/common/system/clear_sudo_from_auth_log.sh
-compatible_versions: 
-  - "Ubuntu 22.04"
-compatible_images:
-  - "OS2BorgerPC"
+compatibility: 
+  - "22.04"
+  - "BorgerPC"
 ---
 
 ## Beskrivelse

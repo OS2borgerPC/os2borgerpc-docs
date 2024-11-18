@@ -3,9 +3,8 @@ title: "Sikkerhed - Nulstil crontab ved logud"
 parent: "Sikkerhed"
 source: /assets/os2borgerpc-scripts/os2borgerpc/sikkerhed/prevent_crontab_persistence.sh
 parameters:
-compatible_versions:
-compatible_images:
-  - "OS2BorgerPC"
+compatibility:
+  - "BorgerPC"
 ---
 
 ## Beskrivelse

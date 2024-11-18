@@ -7,11 +7,10 @@ parameters:
     type: "string"
     default: null
     mandatory: true
-compatible_versions: 
-  - "Ubuntu 22.04"
-compatible_images:
-  - "OS2BorgerPC"
-  - "OS2BorgerPC Kiosk"
+compatibility: 
+  - "22.04"
+  - "BorgerPC"
+  - "Kiosk"
 ---
 
 ## Beskrivelse

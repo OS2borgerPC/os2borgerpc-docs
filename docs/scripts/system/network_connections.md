@@ -2,11 +2,10 @@
 title: "System - Vis netværksenheder og -adresser"
 parent: "System"
 source: /assets/os2borgerpc-scripts/common/system/network_connections.sh
-compatible_versions: 
-  - "Ubuntu 22.04"
-compatible_images:
-  - "OS2BorgerPC"
-  - "OS2BorgerPC Kiosk"
+compatibility: 
+  - "22.04"
+  - "BorgerPC"
+  - "Kiosk"
 ---
 
 ## Beskrivelse

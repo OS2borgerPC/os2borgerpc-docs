@@ -7,10 +7,9 @@ parameters:
     type: "string"
     default: null
     mandatory: true
-compatible_versions:
-  - "Ubuntu 22.04"
-compatible_images:
-  - "OS2BorgerPC"
+compatibility:  
+  - "22.04"
+  - "BorgerPC"
 partners:
   - "Københavns Kommune"
 ---

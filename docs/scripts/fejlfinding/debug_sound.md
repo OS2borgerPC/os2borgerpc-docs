@@ -3,10 +3,9 @@ title: "Fejlfinding - Lyd"
 parent: "Fejlfinding"
 source: /assets/os2borgerpc-scripts/common/fejlfinding/debug_sound.sh
 parameters:
-compatible_versions: []
-compatible_images:
-  - "OS2BorgerPC Kiosk"
-  - "OS2BorgerPC"
+compatibility:
+  - "Kiosk"
+  - "BorgerPC"
 ---
 
 ## Beskrivelse

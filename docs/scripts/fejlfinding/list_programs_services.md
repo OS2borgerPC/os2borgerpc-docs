@@ -3,10 +3,9 @@ title: "Fejlfinding - List installerede programmer og services"
 parent: "Fejlfinding"
 source: /assets/os2borgerpc-scripts/common/fejlfinding/list_programs_services.sh
 parameters:
-compatible_versions: []
-compatible_images:
-  - "OS2BorgerPC Kiosk"
-  - "OS2BorgerPC"
+compatibility:
+  - "Kiosk"
+  - "BorgerPC"
 ---
 
 ## Beskrivelse

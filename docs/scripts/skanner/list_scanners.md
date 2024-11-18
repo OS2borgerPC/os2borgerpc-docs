@@ -3,9 +3,8 @@ title: "Skanner - Vis tilgængelige skannere"
 parent: "Skanner"
 source: /assets/os2borgerpc-scripts/os2borgerpc/skanner/list_scanners.sh
 parameters:
-compatible_versions:
-compatible_images:
-  - "OS2BorgerPC"
+compatibility:
+  - "BorgerPC"
 ---
 
 ## Beskrivelse

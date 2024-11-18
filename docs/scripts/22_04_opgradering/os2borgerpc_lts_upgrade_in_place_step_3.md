@@ -6,10 +6,9 @@ summary: |
          Dette script er tredje skridt i opgraderingen til Ubuntu 22.04 på almindelig OS2borgerPC.
 source: /assets/os2borgerpc-scripts/common/22_04_opgradering/os2borgerpc_lts_upgrade_in_place_step_3.sh
 parameters: []
-compatible_versions: 
-  - "Ubuntu 20.04"
-compatible_images:
-  - "OS2BorgerPC"
+compatibility: 
+  - "20.04"
+  - "BorgerPC"
 ---
 
 ## Beskrivelse

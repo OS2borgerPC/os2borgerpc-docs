@@ -3,10 +3,9 @@ title: "Lyd - Ryd lydindstillinger"
 parent: "Lyd"
 source: /assets/os2borgerpc-scripts/common/lyd/pulse_clear_audio_settings.sh
 parameters:
-compatible_versions: []
-compatible_images:
-  - "OS2BorgerPC Kiosk"
-  - "OS2BorgerPC"
+compatibility:
+  - "Kiosk"
+  - "BorgerPC"
 ---
 
 ## Beskrivelse

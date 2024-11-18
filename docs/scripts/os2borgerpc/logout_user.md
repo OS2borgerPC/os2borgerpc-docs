@@ -3,10 +3,9 @@ title: "OS2borgerPC - Log Borger ud NU"
 parent: "OS2BorgerPC"
 source: /assets/os2borgerpc-scripts/os2borgerpc/os2borgerpc/logout_user.sh
 parameters:
-compatible_versions:
-  - "Ubuntu 22.04"
-compatible_images:
-  - "OS2BorgerPC"
+compatibility:  - "22.04"
+
+  - "BorgerPC"
 ---
 
 ## Beskrivelse

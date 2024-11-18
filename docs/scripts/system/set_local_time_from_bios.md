@@ -2,11 +2,10 @@
 title: "System - Sæt system clock fra BIOS"
 parent: "System"
 source: /assets/os2borgerpc-scripts/common/system/set_local_time_from_bios.sh
-compatible_versions: 
-  - "Ubuntu 22.04"
-compatible_images:
-  - "OS2BorgerPC"
-  - "OS2BorgerPC Kiosk"
+compatibility: 
+  - "22.04"
+  - "BorgerPC"
+  - "Kiosk"
 ---
 
 ## Beskrivelse

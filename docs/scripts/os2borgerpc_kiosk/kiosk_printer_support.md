@@ -3,9 +3,8 @@ title: "OS2borgerPC Kiosk - Printerunderstøttelse"
 parent: "Kiosk"
 source: /assets/os2borgerpc-scripts/os2borgerpc/os2borgerpc_kiosk/kiosk_printer_support.sh
 parameters:
-compatible_versions:
-compatible_images:
-  - "OS2BorgerPC Kiosk"
+compatibility:
+  - "Kiosk"
 ---
 
 ## Beskrivelse

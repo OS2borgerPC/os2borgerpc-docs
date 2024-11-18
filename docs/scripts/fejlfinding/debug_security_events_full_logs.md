@@ -7,10 +7,9 @@ parameters:
     type: "string"
     default: null
     mandatory: true
-compatible_versions: []
-compatible_images:
-  - "OS2BorgerPC Kiosk"
-  - "OS2BorgerPC"
+compatibility:
+  - "Kiosk"
+  - "BorgerPC"
 ---
 
 ## Beskrivelse

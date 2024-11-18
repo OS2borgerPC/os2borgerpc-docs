@@ -23,10 +23,9 @@ parameters:
     type: "string"
     default: "normal"
     mandatory: true  
-compatible_versions:
-  - "Ubuntu 22.04"
-compatible_images:
-  - "OS2BorgerPC Kiosk"
+compatibility:  
+  - "22.04"
+  - "Kiosk"
 ---
 
 ## Beskrivelse
