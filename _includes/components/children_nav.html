@@ -79,10 +79,29 @@
 <hr>
 {% include toc_heading_custom.html %}
 <div class="toc">
+  
+
   {% for nav_child in nav_children %}
+  
   <div class="toc-item">
     <a class="fs-5 fw-500" href="{{ nav_child.url | relative_url }}">{{ nav_child.title }}</a>
-    {% if nav_child.summary %}{{ nav_child.summary }}{% endif %}
+
+    {% if nav_child.compatible_versions %}
+      {% for version in nav_child.compatible_versions %}
+        <p class="label label-green">{{ nav_child.compatible_versions }}</p>
+      {% endfor %}
+    {% else %}
+      <p class="label label-red">20.04?</p><p class="label label-red">22.04?</p>
+    {% endif %}
+
+    {% if nav_child.compatible_images %}
+      {% for image in nav_child.compatible_images %}
+        <p class="label label-green">{{ image }}</p>
+      {% endfor %}
+    {% else %}
+      <p class="label label-red">Borgerpc/kiosk?</p>
+    {% endif %}
+
     <div>{% if nav_child.summary %}{{ nav_child.summary }}{% endif %}</div>
   </div>
   {% endfor %}

@@ -1,7 +1,7 @@
 ---
-title: "OS2borgerPC Kiosk - Juster skærmdvale"
+title: "Juster skærmdvale"
 parent: "Kiosk"
-summary: "Hej med dig"
+summary: "Scriptet deaktiverer eller genaktiverer skærmdvale ved inaktivitet for en OS2borgerPC Kiosk."
 source: /assets/os2borgerpc-scripts/os2borgerpc/os2borgerpc_kiosk/change_monitor_power_saving.sh
 parameters:
   - name: "Tillad skærmdvale?"
@@ -9,9 +9,9 @@ parameters:
     default: null
     mandatory: false
 compatible_versions:
-  - "Ubuntu 22.04"
+  - "22.04"
 compatible_images:
-  - "OS2BorgerPC Kiosk"
+  - "Kiosk"
 ---
 
 ## Beskrivelse
