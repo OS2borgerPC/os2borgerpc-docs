@@ -1,0 +1,20 @@
+{% assign nav_child = include.key %}
+
+<div class="toc-item">
+  <a class="fs-5 fw-500" href="{{ nav_child.url | relative_url }}">{{ nav_child.title }}</a>
+  {% if nav_child.source %}
+    {% if nav_child.compatibility %}
+      {% for compat in nav_child.compatibility %}
+        {% if compat == "22.04" %}
+          <p class="label label-green">{{ compat }}</p>
+        {% else %}
+          <span class="btn btn-outline fs-2">{{ compat }}</span>
+        {% endif %}
+      {% endfor %}
+      {% unless nav_child.compatibility contains "22.04" %}
+        <p class="label label-red">22.04?</p>
+      {% endunless %}
+    {% endif %}
+  {% endif %}
+  <div>{% if nav_child.summary %}{{ nav_child.summary }}{% endif %}</div>
+</div>
