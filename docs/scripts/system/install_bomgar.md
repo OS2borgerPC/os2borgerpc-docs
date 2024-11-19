@@ -1,6 +1,7 @@
 ---
 title: "System - BeyondTrust: Installer klient (Bomgar)"
 parent: "System"
+nav_exclude: true
 source: /assets/os2borgerpc-scripts/common/system/install_bomgar.sh
 parameters:
   - name: "Bomgar's .desktop-fil"

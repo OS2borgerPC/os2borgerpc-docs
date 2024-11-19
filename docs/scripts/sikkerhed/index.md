@@ -1,5 +1,5 @@
 ---
-title: OS2BorgerPC Sikkerhed
+title: Sikkerhed
 parent: Scripts
 ---
 Sikkerhed

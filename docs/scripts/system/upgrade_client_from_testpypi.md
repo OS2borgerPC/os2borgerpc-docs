@@ -1,6 +1,7 @@
 ---
 title: "System - Opgrader klient til nyeste test-version nu"
 parent: "System"
+nav_exclude: true
 source: /assets/os2borgerpc-scripts/common/system/upgrade_client_from_testpypi.sh
 compatibility: 
   - "BorgerPC"

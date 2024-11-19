@@ -1,6 +1,7 @@
 ---
-title: "Printer - Honeywell PC43d billetprinter: Installer (Intermec)"
+title: "Honeywell PC43d billetprinter: Installer (Intermec)"
 parent: "Printer"
+nav_exclude: true
 source: /assets/os2borgerpc-scripts/os2borgerpc/printer/printer_honeywell_pc43d_add.sh
 parameters:
   - name: "Installér?"

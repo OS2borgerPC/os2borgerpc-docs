@@ -1,6 +1,7 @@
 ---
 title: "Trin 1 - Opgradering til Ubuntu 22.04"
-parent: "22.04 opgradering"
+parent: "Opgradering til 22.04"
+nav_exclude: true
 nav_order: 2
 summary: |
          Dette script er første skridt i opgraderingen til Ubuntu 22.04 på både OS2borgerPC og OS2borgerPC Kiosk.

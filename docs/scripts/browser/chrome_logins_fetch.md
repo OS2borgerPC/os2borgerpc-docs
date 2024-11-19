@@ -1,6 +1,7 @@
 ---
 title: "Chrome:  Gemte logins - 2. Hent logininformationer fra maskine"
 parent: "Browser"
+nav_exclude: true
 source: /assets/os2borgerpc-scripts/os2borgerpc/browser/chrome_logins_fetch.sh
 parameters: []
 compatibility:

@@ -1,6 +1,7 @@
 ---
-title: "Udfases - Login - Slå scriptkørsel ved login til"
+title: "Login - Slå scriptkørsel ved login til"
 parent: "Udfases"
+nav_exclude: true
 source: /assets/os2borgerpc-scripts/os2borgerpc/udfases/lightdm_greeter_setup_scripts.sh
 parameters:
   - name: "Slet alle tidligere gemte login scripts fra computeren"

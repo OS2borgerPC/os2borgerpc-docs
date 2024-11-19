@@ -1,6 +1,7 @@
 ---
-title: "OS2borgerPC Kiosk - Sæt dansk tidszone og sprog"
+title: "Sæt dansk tidszone og sprog"
 parent: "Kiosk"
+nav_exclude: true
 source: /assets/os2borgerpc-scripts/os2borgerpc/os2borgerpc_kiosk/set_datetime.sh
 parameters:
 compatibility:  

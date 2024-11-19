@@ -1,6 +1,7 @@
 ---
-title: "Desktop - Vis tilgængelighedsfunktioner"
+title: "Vis tilgængelighedsfunktioner"
 parent: "Desktop"
+nav_exclude: true
 source: /assets/os2borgerpc-scripts/os2borgerpc/desktop/dconf_a11y.sh
 parameters:
   - name: "Aktivér?"

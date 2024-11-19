@@ -1,6 +1,7 @@
 ---
 title: "Trin 4 - Kiosk Opgradering til Ubuntu 22.04"
-parent: "22.04 opgradering"
+parent: "Opgradering til 22.04"
+nav_exclude: true
 nav_order: 12
 summary: |
          Dette script er fjerde og sidste skridt i opgraderingen til Ubuntu 22.04 på OS2borgerPC Kiosk.

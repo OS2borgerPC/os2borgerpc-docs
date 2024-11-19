@@ -1,6 +1,7 @@
 ---
-title: "Printer - Vis liste"
+title: "Vis liste"
 parent: "Printer"
+nav_exclude: true
 source: /assets/os2borgerpc-scripts/os2borgerpc/printer/printer_list.sh
 parameters:
   - name: "Vis forkortet oversigt"

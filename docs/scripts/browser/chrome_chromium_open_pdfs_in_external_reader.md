@@ -1,6 +1,7 @@
 ---
-title: "Chrome/Chromium: Åbn PDF i standard PDF-program"
+title: "Åbn PDF i standard PDF-program"
 parent: "Browser"
+nav_exclude: true
 source: /assets/os2borgerpc-scripts/os2borgerpc/browser/chrome_chromium_open_pdfs_in_external_reader.sh
 parameters:
   - name: "Aktiver?"

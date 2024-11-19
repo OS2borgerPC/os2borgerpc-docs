@@ -1,5 +1,5 @@
 ---
-title: OS2BorgerPC Printer
+title: Printer
 parent: Scripts
 ---
 Printer

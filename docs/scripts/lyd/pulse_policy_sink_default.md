@@ -1,6 +1,7 @@
 ---
-title: "Lyd - Sæt standard-lydudgang (sink)"
+title: "Sæt standard-lydudgang (sink)"
 parent: "Lyd"
+nav_exclude: true
 source: /assets/os2borgerpc-scripts/common/lyd/pulse_policy_sink_default.sh
 parameters:
   - name: "Aktivér?"

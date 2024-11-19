@@ -1,6 +1,8 @@
 ---
-title: "Chrome/Chromium: Gæstetilstand til/fra (guest mode)"
+title: "Gæstetilstand til/fra (guest mode)"
 parent: "Browser"
+nav_exclude: true
+summary: "Aktiver eller deaktiver Chrome/Chromiums indbyggede guest-mode." 
 source: /assets/os2borgerpc-scripts/os2borgerpc/browser/chrome_chromium_guest_mode_enforced.sh
 parameters:
   - name: "Aktiver"

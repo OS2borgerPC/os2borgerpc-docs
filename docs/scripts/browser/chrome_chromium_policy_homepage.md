@@ -1,6 +1,7 @@
 ---
-title: "Chrome/Chromium: Sæt startside(r)"
+title: "Sæt startside(r)"
 parent: "Browser"
+nav_exclude: true
 source: /assets/os2borgerpc-scripts/os2borgerpc/browser/chrome_chromium_policy_homepage.sh
 parameters:
   - name: "Startside-URL"

@@ -1,6 +1,7 @@
 ---
 title: "Fejlfinding: Sikkerhedshændelser - Send logfiler"
 parent: "Fejlfinding"
+nav_exclude: true
 source: /assets/os2borgerpc-scripts/common/fejlfinding/debug_security_events_full_logs.sh
 parameters:
   - name: "Logfil (all / auth / sys / kern)"

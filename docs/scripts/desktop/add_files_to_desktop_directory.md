@@ -1,6 +1,7 @@
 ---
-title: "Desktop - Tilføj filer i mappe på skrivebord (Skabeloner)"
+title: "Tilføj filer i mappe på skrivebord (Skabeloner)"
 parent: "Desktop"
+nav_exclude: true
 source: /assets/os2borgerpc-scripts/os2borgerpc/desktop/add_files_to_desktop_directory.sh
 parameters:
   - name: "Tilføj mappen?"

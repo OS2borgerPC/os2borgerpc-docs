@@ -1,6 +1,7 @@
 ---
-title: "Printer - HP: Tilføj (ældre) HP-printer"
+title: "HP: Tilføj (ældre) HP-printer"
 parent: "Printer"
+nav_exclude: true
 source: /assets/os2borgerpc-scripts/os2borgerpc/printer/printer_hp_add.sh
 parameters:
   - name: "0 = USB, 1 = Netværksprinter"

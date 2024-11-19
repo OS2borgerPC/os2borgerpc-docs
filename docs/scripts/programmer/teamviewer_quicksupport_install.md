@@ -1,6 +1,7 @@
 ---
-title: "OS2borgerPC - TeamViewer QuickSupport: Add/Remove"
-parent: "OS2BorgerPC"
+title: "TeamViewer QuickSupport: Add/Remove"
+parent: "Programmer"
+nav_exclude: true
 source: /assets/os2borgerpc-scripts/os2borgerpc/os2borgerpc/teamviewer_quicksupport_install.sh
 parameters:
   - name: "Aktivér"

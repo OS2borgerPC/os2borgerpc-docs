@@ -1,6 +1,7 @@
 ---
-title: "Printer - Slå automatisk netværksprinter-finding fra/til"
+title: "Slå automatisk netværksprinter-finding fra/til"
 parent: "Printer"
+nav_exclude: true
 source: /assets/os2borgerpc-scripts/os2borgerpc/printer/printer_toggle_network_discovery.sh
 parameters:
   - name: "Slå automatisk netværksprinter-finding FRA?"

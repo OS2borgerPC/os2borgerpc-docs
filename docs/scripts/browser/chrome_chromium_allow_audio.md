@@ -1,7 +1,9 @@
 ---
-title: "Chrome/Chromium - Lyd: Tillad autostart"
+title: "Lyd: Tillad autostart"
 parent: "Browser"
+nav_exclude: true
 source: /assets/os2borgerpc-scripts/os2borgerpc/browser/chrome_chromium_allow_audio.sh
+summary: "Tillader autostart af lyd for 1-3 URL'er."
 parameters:
   - name: "Aktivér?"
     type: "boolean"
@@ -24,7 +26,6 @@ compatibility:
 ---
 
 ## Beskrivelse
-Tillader autostart af lyd for 1-3 URL'er.
 Normalt vil aktivering af lyd ellers kræve brugerinteraktion på de fleste sider, såsom at der trykkes på en knap før afspilningning starter.
 
 Et eksempel på brug er hvis BorgerPC'en bruges til at modtage beskeder fra Frontdesk.

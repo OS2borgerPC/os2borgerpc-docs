@@ -1,6 +1,7 @@
 ---
-title: "OS2borgerPC - Skift ml. Wayland og Xorg"
-parent: "OS2BorgerPC"
+title: "Skift ml. Wayland og Xorg"
+parent: "System"
+nav_exclude: true
 source: /assets/os2borgerpc-scripts/os2borgerpc/os2borgerpc/switch_between_wayland_and_xorg.sh
 parameters:
   - name: "Gør Wayland til standard?"

@@ -1,5 +1,5 @@
 ---
-title: OS2BorgerPC Udfases
+title: Udfases
 parent: Scripts
 ---
 Udfases

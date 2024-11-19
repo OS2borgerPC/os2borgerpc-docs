@@ -1,6 +1,7 @@
 ---
 title: "System - Skift skærmopløsning (resolution)"
 parent: "System"
+nav_exclude: true
 source: /assets/os2borgerpc-scripts/common/system/change_resolution.sh
 parameters:
   - name: "Aktiver?"

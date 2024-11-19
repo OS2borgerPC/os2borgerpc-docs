@@ -1,6 +1,7 @@
 ---
-title: "OS2borgerPC - Sæt musehastighed"
-parent: "OS2BorgerPC"
+title: "Sæt musehastighed"
+parent: "System"
+nav_exclude: true
 source: /assets/os2borgerpc-scripts/os2borgerpc/os2borgerpc/dconf_mouse_set_speed.sh
 parameters:
   - name: "Musehastighed"

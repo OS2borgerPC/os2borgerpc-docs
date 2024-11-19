@@ -1,6 +1,7 @@
 ---
-title: "OS2borgerPC Kiosk - Chromium Ryd Cache NU"
+title: "Chromium Ryd Cache NU"
 parent: "Kiosk"
+nav_exclude: true
 source: /assets/os2borgerpc-scripts/os2borgerpc/os2borgerpc_kiosk/chromium_delete_profile.sh
 parameters:
 compatibility:  

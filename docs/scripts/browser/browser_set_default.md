@@ -1,7 +1,9 @@
 ---
 title: "Sæt standard-browser"
 parent: "Browser"
+nav_exclude: true
 source: /assets/os2borgerpc-scripts/os2borgerpc/browser/browser_set_default.sh
+summary: "Skifter standard-browseren ml. eksempelvis Firefox og Chrome."
 parameters:
   - name: "Ønsket standardbrowser (firefox, google-chrome, microsoft-edge)"
     type: "string"
@@ -13,7 +15,6 @@ compatibility:
 ---
 
 ## Beskrivelse
-Skifter standard-browseren ml. eksempelvis Firefox og Chrome. 
 Installerer du andre browsere, virker scriptet også med disse.
 
 Ved en frisk installation af BorgerPC er firefox allerede standardbrowser.

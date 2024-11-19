@@ -1,6 +1,6 @@
 ---
-title: "OS2borgerPC - Heimdal: Installer klient"
-parent: "OS2BorgerPC"
+title: "Heimdal: Installer klient"
+parent: "OS2BorgerPC blandet"
 source: /assets/os2borgerpc-scripts/os2borgerpc/os2borgerpc/heimdal_install_client.sh
 parameters:
   - name: "Installér heimdal"

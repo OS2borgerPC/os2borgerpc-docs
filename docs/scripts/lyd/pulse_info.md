@@ -1,6 +1,7 @@
 ---
-title: "Lyd - Skriv informationer omkring lydenheder til job-loggen"
+title: "Skriv informationer omkring lydenheder til job-loggen"
 parent: "Lyd"
+nav_exclude: true
 source: /assets/os2borgerpc-scripts/common/lyd/pulse_info.sh
 parameters:
 compatibility:

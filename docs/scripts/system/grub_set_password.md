@@ -1,6 +1,7 @@
 ---
 title: "System - GRUB: Skift kodeord"
 parent: "System"
+nav_exclude: true
 source: /assets/os2borgerpc-scripts/common/system/grub_set_password.py
 parameters:
   - name: "Adgangskode"

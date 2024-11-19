@@ -1,6 +1,7 @@
 ---
-title: "Udfases - Opgrader klient og klientindstillinger til nyeste version nu"
+title: "Opgrader klient og klientindstillinger til nyeste version nu"
 parent: "Udfases"
+nav_exclude: true
 source: /assets/os2borgerpc-scripts/common/udfases/upgrade_client_and_settings.sh
 parameters:
 compatibility:  

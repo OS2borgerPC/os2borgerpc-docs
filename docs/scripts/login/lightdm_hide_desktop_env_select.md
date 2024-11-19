@@ -1,6 +1,7 @@
 ---
-title: "Login - Skjul knap til valg af skrivebordsmiljø"
+title: "Skjul knap til valg af skrivebordsmiljø"
 parent: "Login"
+nav_exclude: true
 source: /assets/os2borgerpc-scripts/os2borgerpc/login/lightdm_hide_desktop_env_select.sh
 parameters:
   - name: "Aktiver?"

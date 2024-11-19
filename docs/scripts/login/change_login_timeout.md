@@ -1,6 +1,7 @@
 ---
-title: "Login - Ændr login-timeout"
+title: "Ændr login-timeout"
 parent: "Login"
+nav_exclude: true
 source: /assets/os2borgerpc-scripts/os2borgerpc/login/change_login_timeout.sh
 parameters:
   - name: "Antal sekunder"

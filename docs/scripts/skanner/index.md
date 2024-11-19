@@ -1,5 +1,5 @@
 ---
-title: OS2BorgerPC Skanning
+title: Skanner
 parent: Scripts
 ---
 Skanner

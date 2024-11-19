@@ -1,6 +1,7 @@
 ---
 title: "System - Opdater alt nu"
 parent: "System"
+nav_exclude: true
 source: /assets/os2borgerpc-scripts/common/system/update_all.sh
 compatibility: 
   - "22.04"

@@ -1,6 +1,7 @@
 ---
 title: "Chrome: Gemte logins - 3. Tilføj gemte logininformationer"
 parent: "Browser"
+nav_exclude: true
 source: /assets/os2borgerpc-scripts/os2borgerpc/browser/chrome_logins_add.sh
 parameters:
   - name: "Login Data-fil"

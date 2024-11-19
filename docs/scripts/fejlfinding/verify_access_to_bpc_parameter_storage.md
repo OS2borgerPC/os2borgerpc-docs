@@ -1,6 +1,7 @@
 ---
-title: "Fejlfinding - Tjek om maskinen har adgang til vores filparameter-s"
+title: "Tjek om maskinen har adgang til vores filparameter-s"
 parent: "Fejlfinding"
+nav_exclude: true
 source: /assets/os2borgerpc-scripts/common/fejlfinding/verify_access_to_bpc_parameter_storage.sh
 parameters:
 compatibility:

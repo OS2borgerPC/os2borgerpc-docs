@@ -1,6 +1,7 @@
 ---
-title: "Lyd - Sæt volumen på lydudgang"
+title: "Sæt volumen på lydudgang"
 parent: "Lyd"
+nav_exclude: true
 source: /assets/os2borgerpc-scripts/common/lyd/pulse_policy_sink_volume.sh
 parameters:
   - name: "Aktivér?"

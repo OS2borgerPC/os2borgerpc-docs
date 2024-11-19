@@ -1,6 +1,7 @@
 ---
-title: "Udfases - Chrome - Autostart tilføj/fjern"
+title: "Chrome - Autostart tilføj/fjern"
 parent: "Udfases"
+nav_exclude: true
 source: /assets/os2borgerpc-scripts/os2borgerpc/udfases/chrome_autostart.sh
 parameters:
   - name: "Tilføj"

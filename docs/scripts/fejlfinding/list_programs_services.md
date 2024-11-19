@@ -1,6 +1,7 @@
 ---
-title: "Fejlfinding - List installerede programmer og services"
+title: "List installerede programmer og services"
 parent: "Fejlfinding"
+nav_exclude: true
 source: /assets/os2borgerpc-scripts/common/fejlfinding/list_programs_services.sh
 parameters:
 compatibility:

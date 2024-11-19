@@ -1,6 +1,7 @@
 ---
-title: "Udfases - Fix /etc/hosts"
+title: "Fix /etc/hosts"
 parent: "Udfases"
+nav_exclude: true
 source: /assets/os2borgerpc-scripts/os2borgerpc/udfases/fix_etc_hosts.sh
 parameters:
 compatibility:  

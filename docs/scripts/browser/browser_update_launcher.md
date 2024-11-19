@@ -1,7 +1,9 @@
 ---
 title: "Udskift browser-genvejen i venstremenuen med en valgfri browser"
 parent: "Browser"
+nav_exclude: true
 source: /assets/os2borgerpc-scripts/os2borgerpc/browser/browser_update_launcher.sh
+summary: "Udskifter browser-knappen i venstremenuen (der som standard er Firefox) med en valgfri browser."
 parameters:
   - name: "Udskift browseren i venstremenuen med følgende browser (se muligheder i beskrivelse)"
     type: "text_field"
@@ -13,8 +15,6 @@ compatibility:
 ---
 
 ## Beskrivelse
-Dette script udskifter browseren (der som standard er Firefox) i venstremenuen med en valgfri browser, angivet som første parameter.
-
 Valgmulighederne er:
 - firefox
 - google-chrome

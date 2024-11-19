@@ -1,6 +1,7 @@
 ---
-title: "OS2borgerPC Kiosk - Undgå Pauseskærm / Dvale via musemarkørbevægelse"
+title: "Undgå Pauseskærm / Dvale via musemarkørbevægelse"
 parent: "Kiosk"
+nav_exclude: true
 source: /assets/os2borgerpc-scripts/os2borgerpc/os2borgerpc_kiosk/suspend-move-mouse-continuously.sh
 parameters:
   - name: "Aktivér?"

@@ -1,6 +1,7 @@
 ---
-title: "Skanner - Installer Plustek LinuxAction"
+title: "Installer Plustek LinuxAction"
 parent: "Skanner"
+nav_exclude: true
 source: /assets/os2borgerpc-scripts/os2borgerpc/skanner/plustek_linuxaction_install.sh
 parameters:
   - name: "Fil"

@@ -1,6 +1,7 @@
 ---
-title: "Sikkerhed - Slå skriverettigheder for skrivebord fra/til"
+title: "Slå skriverettigheder for skrivebord fra/til"
 parent: "Sikkerhed"
+nav_exclude: true
 source: /assets/os2borgerpc-scripts/os2borgerpc/sikkerhed/desktop_toggle_writable.sh
 parameters:
   - name: "Aktivér? (hak: fjern skriverettighed / udelad hak: giv skriverettighed)"

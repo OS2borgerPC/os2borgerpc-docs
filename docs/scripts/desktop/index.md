@@ -1,5 +1,5 @@
 ---
-title: OS2BorgerPC Desktop
+title: Desktop
 parent: Scripts
 ---
 Desktop

@@ -1,6 +1,7 @@
 ---
-title: "Chrome/Chromium: Start i maksimeret, fuld skærm eller kiosk tilstand"
+title: "Start i maksimeret, fuld skærm eller kiosk tilstand"
 parent: "Browser"
+nav_exclude: true
 source: /assets/os2borgerpc-scripts/os2borgerpc/browser/chrome_chromium_start_maximized_fullscreen_kiosk.sh
 parameters:
   - name: "Ønsket tilstand (se beskrivelse)"

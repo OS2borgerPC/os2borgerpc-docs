@@ -1,6 +1,7 @@
 ---
-title: "OS2borgerPC Kiosk - Printerunderstøttelse"
+title: "Printerunderstøttelse"
 parent: "Kiosk"
+nav_exclude: true
 source: /assets/os2borgerpc-scripts/os2borgerpc/os2borgerpc_kiosk/kiosk_printer_support.sh
 parameters:
 compatibility:

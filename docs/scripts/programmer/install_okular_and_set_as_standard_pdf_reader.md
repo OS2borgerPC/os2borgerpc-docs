@@ -1,6 +1,7 @@
 ---
-title: "OS2borgerPC - Installer Okular som standard PDF-program"
-parent: "OS2BorgerPC"
+title: "Installer Okular som standard PDF-program"
+parent: "Programmer"
+nav_exclude: true
 source: /assets/os2borgerpc-scripts/os2borgerpc/os2borgerpc/install_okular_and_set_as_standard_pdf_reader.sh
 parameters:
   - name: "Installér Okular og skift til standard-PDF-læser"

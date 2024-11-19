@@ -1,6 +1,7 @@
 ---
-title: "Fejlfinding - Heimdal tjek status"
+title: "Heimdal tjek status"
 parent: "Fejlfinding"
+nav_exclude: true
 source: /assets/os2borgerpc-scripts/common/fejlfinding/heimdal_check_status.sh
 parameters:
 compatibility:

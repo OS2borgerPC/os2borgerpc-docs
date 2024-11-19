@@ -1,6 +1,7 @@
 ---
-title: "Sikkerhed - Tillad Borgere at redigere netværksindstillinger"
+title: "Tillad Borgere at redigere netværksindstillinger"
 parent: "Sikkerhed"
+nav_exclude: true
 source: /assets/os2borgerpc-scripts/os2borgerpc/sikkerhed/network_manager_allow_user_changes.sh
 parameters:
   - name: "Giv adgang?"

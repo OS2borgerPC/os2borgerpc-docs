@@ -1,6 +1,7 @@
 ---
-title: "Skanner - Sæt standard-skanner"
+title: "Sæt standard-skanner"
 parent: "Skanner"
+nav_exclude: true
 source: /assets/os2borgerpc-scripts/os2borgerpc/skanner/dconf_default_scanner.sh
 parameters:
   - name: "Aktivér?"

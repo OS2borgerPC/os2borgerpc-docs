@@ -1,5 +1,5 @@
 ---
-title: OS2BorgerPC Login
+title: Login
 parent: Scripts
 ---
 Login

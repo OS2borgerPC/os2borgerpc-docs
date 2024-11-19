@@ -1,6 +1,8 @@
 ---
 title: "LibreOffice - Sæt indstillinger"
-parent: "LibreOffice"
+parent: "Programmer"
+nav_exclude: true
+nav_exclude: true
 source: /assets/os2borgerpc-scripts/os2borgerpc/libreoffice/overwrite_libreoffice_config.sh
 parameters:
   - name: "Slå 'Tip of the Day' fra"

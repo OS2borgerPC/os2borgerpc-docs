@@ -1,6 +1,7 @@
 ---
-title: "OS2borgerPC - Genstart computer efter X minutter"
-parent: "OS2BorgerPC"
+title: "Genstart computer efter X minutter"
+parent: "System"
+nav_exclude: true
 source: /assets/os2borgerpc-scripts/os2borgerpc/os2borgerpc/reboot_after_time.sh
 parameters:
   - name: "minutter"

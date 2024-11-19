@@ -1,6 +1,7 @@
 ---
-title: "Fejlfinding - Tidsplaner"
+title: "Tidsplaner"
 parent: "Fejlfinding"
+nav_exclude: true
 source: /assets/os2borgerpc-scripts/common/fejlfinding/debug_schedule.sh
 parameters:
 compatibility:

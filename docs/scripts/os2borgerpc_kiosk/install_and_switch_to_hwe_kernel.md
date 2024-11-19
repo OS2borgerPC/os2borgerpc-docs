@@ -1,6 +1,7 @@
 ---
-title: "OS2borgerPC Kiosk - Installér og skift til HWE-kerne"
+title: "Installér og skift til HWE-kerne"
 parent: "Kiosk"
+nav_exclude: true
 source: /assets/os2borgerpc-scripts/os2borgerpc/os2borgerpc_kiosk/chromium_os2display_activate.sh
 parameters:
   - name: "Installér og skift til HWE-kerne"

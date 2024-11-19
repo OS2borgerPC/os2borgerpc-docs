@@ -1,6 +1,7 @@
 ---
 title: "System - CPU temperaturmåling"
 parent: "System"
+nav_exclude: true
 source: /assets/os2borgerpc-scripts/common/system/computer_temperature.sh
 compatibility: 
   - "22.04"

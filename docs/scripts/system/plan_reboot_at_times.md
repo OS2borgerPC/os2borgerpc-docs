@@ -1,6 +1,7 @@
 ---
 title: "System - Planlæg daglige genstarter"
 parent: "System"
+nav_exclude: true
 source: /assets/os2borgerpc-scripts/common/system/plan_reboot_at_times.sh
 parameters:
   - name: "Aktiver?"

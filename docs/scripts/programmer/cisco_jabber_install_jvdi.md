@@ -1,6 +1,7 @@
 ---
-title: "OS2borgerPC - Cisco Jabber (JVDI) - Installer"
-parent: "OS2BorgerPC"
+title: "Cisco Jabber (JVDI) - Installer"
+parent: "Programmer"
+nav_exclude: true
 source: /assets/os2borgerpc-scripts/os2borgerpc/os2borgerpc/cisco_jabber_install_jvdi.sh
 parameters:
   - name: "fil"

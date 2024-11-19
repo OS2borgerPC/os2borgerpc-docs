@@ -1,6 +1,7 @@
 ---
-title: "Fejlfinding - Lyd"
+title: "Lyd"
 parent: "Fejlfinding"
+nav_exclude: true
 source: /assets/os2borgerpc-scripts/common/fejlfinding/debug_sound.sh
 parameters:
 compatibility:

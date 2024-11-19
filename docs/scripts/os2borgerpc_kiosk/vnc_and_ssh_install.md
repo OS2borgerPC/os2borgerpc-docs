@@ -1,6 +1,7 @@
 ---
-title: "OS2borgerPC Kiosk - Installer SSH og VNC"
+title: "Installer SSH og VNC"
 parent: "Kiosk"
+nav_exclude: true
 source: /assets/os2borgerpc-scripts/os2borgerpc/os2borgerpc_kiosk/vnc_and_ssh_install.sh
 parameters:
   - name: "VNC kodeord"
