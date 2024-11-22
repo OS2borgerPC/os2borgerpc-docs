@@ -1,5 +1,5 @@
 module Jekyll
-  class ReadScriptContentTag < Liquid::Tag
+  class ScriptUrlTag < Liquid::Tag
     def initialize(tag_name, _text, tokens)
       super
     end
@@ -24,14 +24,12 @@ module Jekyll
       # Concatenate submodule and source
       concatenated_path = submodule + source
 
-      file_path = File.join(site_source, concatenated_path)
-      if File.exist?(file_path)
-        File.read(file_path)
-      else
-        "File not found: #{@file_path}"
-      end
+      # Use the relative_url filter
+      relative_url = Liquid::Template.parse("{{ '#{concatenated_path}' | relative_url }}").render(context)
+
+      relative_url
     end
   end
 end
 
-Liquid::Template.register_tag('read_script_content', Jekyll::ReadScriptContentTag)
+Liquid::Template.register_tag('script_url', Jekyll::ScriptUrlTag)

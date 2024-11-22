@@ -1,5 +1,5 @@
 ---
 title: Skanner
-parent: Scripts
+parent: Script bibliotek
 ---
 Skanner

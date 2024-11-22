@@ -10,18 +10,29 @@ module Jekyll
       # Access frontmatter variables
       site_source = context.registers[:site].source
       page = context.registers[:page]
+      page_url = page['url']
       source = page['source']
       submodules = page['submodules']
+      submodule = ""
+
+      if submodules
+        submodules.each do |sub|
+          if page_url.include?(sub)
+            submodule = sub
+          end
+        end
+      end
+
+      # Concatenate submodule and source
+      concatenated_path = submodule + source
       
       # Script-repos are accesible as submodules
       # Locate the root of the submodule and the relative path to the script
-      submodule_path, script_path = find_submodule_path(submodules, source)
-
       # Use ruby-git to access the git log of the submodule
-      if submodule_path
-        submodule_source = File.join(site_source, submodule_path)
+      if submodule
+        submodule_source = File.join(site_source, submodule)
         submodule_repo = Git.open(submodule_source)
-        log = submodule_repo.log.path(script_path).first
+        log = submodule_repo.log.path(source).first
         
         if log
           formatted_date = log.date.strftime("%-d. %B %Y")
@@ -34,19 +45,6 @@ module Jekyll
       puts "Debug: Error - #{e.message}"
       "Unknown"
     end
-
-    private
-
-    def find_submodule_path(submodules, source)
-      submodules.each do |submodule|
-        if source.include?(submodule)
-          script_path = source.split(submodule, 2).last
-          return submodule, script_path
-        end
-      end
-      [nil, nil]
-    end
-
   end
 end
 

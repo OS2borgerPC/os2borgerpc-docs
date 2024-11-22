@@ -1,7 +1,7 @@
 {% if page.source %}
   <p><strong>Source:</strong>
-    <a href="{{ page.source | relative_url }}" target="_blank">Download script</a>
-    <button onclick="copyToClipboard('{{ page.source | relative_url }}')">Copy to Clipboard</button>
+    <a href="{% script_url %}" target="_blank">Download script</a>
+    <button onclick="copyToClipboard('{% script_url %}')">Copy to Clipboard</button>
   </p>
 
   <p><strong>Last Updated:</strong> {% last_modified_at %}</p>

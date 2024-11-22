@@ -1,5 +1,5 @@
 ---
 title: System
-parent: Scripts
+parent: Script bibliotek
 ---
 System

@@ -1,5 +1,5 @@
 ---
 title: Kiosk
-parent: Scripts
+parent: Script bibliotek
 ---
 OS2BorgerPC Kiosk

@@ -1,4 +1,4 @@
 ---
-title: Scripts
+title: Script bibliotek
 ---
-Scripts
+Script bibliotek

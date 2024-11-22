@@ -1,5 +1,5 @@
 ---
 title: Desktop
-parent: Scripts
+parent: Script bibliotek
 ---
 Desktop

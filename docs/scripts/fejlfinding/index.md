@@ -1,5 +1,5 @@
 ---
 title: Fejlfinding
-parent: Scripts
+parent: Script bibliotek
 ---
 Fejlfinding

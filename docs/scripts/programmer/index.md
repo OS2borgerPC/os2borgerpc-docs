@@ -1,5 +1,5 @@
 ---
 title: Programmer
-parent: Scripts
+parent: Script bibliotek
 ---
 Programmer

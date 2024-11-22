@@ -1,5 +1,5 @@
 ---
 title: Udfases
-parent: Scripts
+parent: Script bibliotek
 ---
 Udfases

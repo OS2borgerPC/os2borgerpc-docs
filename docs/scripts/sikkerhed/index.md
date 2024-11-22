@@ -1,5 +1,5 @@
 ---
 title: Sikkerhed
-parent: Scripts
+parent: Script bibliotek
 ---
 Sikkerhed

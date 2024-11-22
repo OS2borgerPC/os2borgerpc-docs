@@ -1,5 +1,5 @@
 ---
 title: Printer
-parent: Scripts
+parent: Script bibliotek
 ---
 Printer

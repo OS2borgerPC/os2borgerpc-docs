@@ -1,5 +1,5 @@
 ---
 title: Lyd
-parent: Scripts
+parent: Script bibliotek
 ---
 Lyd

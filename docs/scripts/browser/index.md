@@ -1,5 +1,5 @@
 ---
 title: Browser
-parent: Scripts
+parent: Script bibliotek
 ---
 Browser

@@ -35,6 +35,7 @@ defaults:
       layout: "docs"
       submodules:
         - "/assets/os2borgerpc-scripts/"
+        - "/docs/scripts/core_scripts/"
 
 
 translations:

@@ -1,5 +1,5 @@
 ---
 title: Login
-parent: Scripts
+parent: Script bibliotek
 ---
 Login
