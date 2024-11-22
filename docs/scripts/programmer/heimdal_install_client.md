@@ -13,8 +13,8 @@ parameters:
     mandatory: true
 compatibility:
   - "BorgerPC"
-partners:
-  - "Vordingborg Kommune"
+
+
 ---
 
 ## Beskrivelse

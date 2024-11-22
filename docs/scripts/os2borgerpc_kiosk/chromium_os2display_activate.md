@@ -14,8 +14,8 @@ parameters:
     mandatory: true
 compatibility:
   - "Kiosk"
-partners:
-  - "Københavns Kommune"
+
+
 ---
 # Aktiver OS2display-skærm (Chromium)
 

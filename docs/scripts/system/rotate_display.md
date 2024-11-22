@@ -11,8 +11,8 @@ parameters:
 compatibility:  
   - "22.04"
   - "BorgerPC"
-partners:
-  - "Københavns Kommune"
+
+
 ---
 
 ## Beskrivelse

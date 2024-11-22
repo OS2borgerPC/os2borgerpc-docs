@@ -1,6 +1,6 @@
 ---
 title: "Trin 4 - BorgerPC opgradering til Ubuntu 22.04"
-parent: "Opgradering til 22.04"
+parent: "Opgradering"
 nav_exclude: true
 nav_order: 8
 summary: |

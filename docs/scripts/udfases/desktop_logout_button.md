@@ -15,8 +15,8 @@ parameters:
 compatibility:  
   - "22.04"
   - "BorgerPC"
-partners:
-  - "Vordingborg Kommune"
+
+
 ---
 
 ## Beskrivelse

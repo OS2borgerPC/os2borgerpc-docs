@@ -18,7 +18,7 @@ parameters:
     mandatory: false
 compatibility: 
   - "Kiosk"
-partners: "Hvidovre Kommune"
+
 ---
 
 ## Beskrivelse
