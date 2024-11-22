@@ -2,3 +2,6 @@
 [submodule "assets/os2borgerpc-scripts"]
 	path = assets/os2borgerpc-scripts
 	url = https://github.com/OS2borgerPC/os2borgerpc-scripts.git
+[submodule "docs/scripts/core_scripts"]
+	path = docs/scripts/core_scripts
+	url = https://github.com/OS2borgerPC/os2borgerpc-core-scripts
