@@ -39,7 +39,6 @@ Script metadata variables
 | `source`        | The relative path to the script-file (.sh/.py) from the metadata-file.              | Required |
 | `parameters`    | The list of parameters that the script expects to receive.  <br> Each parameter is described by an array of 4 key/value pairs. <br> - `name`: The name of the parameter<br>   - `type`: Supported values are `boolean`, `string`, `int`, `text_field`, `file`, `password`<br>  - `default`: Default value of the parameter. `null` if none.<br>   - `mandatory`: Required parameter? `true` or `false`  <br>  If the script expects leave the parameters-variable empty.      | Required |
 | `compatibility` | Info about image and version compatibility. Supported values are: `20.04`, `22.04`, `24.04`, `BorgerPC` and `Kiosk`. More than one value can be supplied.| Optional  |
-| `nav_exclude`   | Should always be set to `true`. Needed by Just the docs for desired rendering. | Required |
 |`in_image`| Sometimes scripts get absorbed by the images, meaning that the script functionality is built into the image (borgerpc/kiosk) thereby making the script obsolete. When this happens please provide the image name and version tag here.| Optional |
 
 
