@@ -1,3 +1,6 @@
 [submodule "docs/scripts/community-scripts"]
 	path = docs/scripts/community-scripts
 	url = https://github.com/OS2borgerPC/os2borgerpc-community-scripts.git
+[submodule "docs/scripts/core-scripts"]
+	path = docs/scripts/core-scripts
+	url = https://github.com/OS2borgerPC/os2borgerpc-core-scripts.git
