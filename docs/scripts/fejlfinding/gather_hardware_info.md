@@ -1,7 +1,6 @@
 ---
 title: "Hardware"
 parent: "Fejlfinding"
-nav_exclude: true
 source: /assets/os2borgerpc-scripts/common/fejlfinding/gather_hardware_info.sh
 parameters:
 compatibility:

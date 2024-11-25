@@ -2,6 +2,7 @@
 title: "Eksisterende dokumentation"
 nav_order: 1
 layout: default
+nav_exclude: false
 ---
 Oversigt over den dokumentation der pt. findes i OS2BorgerPC.
 

@@ -1,7 +1,6 @@
 ---
 title: "Tilføj netværksprinter (PPD-fil skal angives)"
 parent: "Printer"
-nav_exclude: true
 source: /assets/os2borgerpc-scripts/os2borgerpc/printer/network_printer_add_ppd.sh
 parameters:
   - name: "Navn (OBS: INGEN ÆØÅ, mellemrum eller apostrofer)"

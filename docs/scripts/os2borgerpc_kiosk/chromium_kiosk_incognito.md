@@ -1,7 +1,6 @@
 ---
 title: "Chromium: Slå kiosk eller inkognito tilstand til/fra"
 parent: "Kiosk"
-nav_exclude: true
 source: /assets/os2borgerpc-scripts/os2borgerpc/os2borgerpc_kiosk/chromium_kiosk_incognito.sh
 parameters:
   - name: "Slå Kiosk til?"

@@ -1,7 +1,6 @@
 ---
 title: "Tillad superuser at redigere indstillinger"
 parent: "Printer"
-nav_exclude: true
 source: /assets/os2borgerpc-scripts/os2borgerpc/printer/allow_superuser_to_manage_cups.sh
 parameters:
 compatibility:

@@ -1,7 +1,6 @@
 ---
 title: "Bloker for GNOME Remote Desktop (Fjernskrivebord)"
 parent: "Sikkerhed"
-nav_exclude: true
 source: /assets/os2borgerpc-scripts/os2borgerpc/sikkerhed/dconf_disable_gnome_remote_desktop.sh
 parameters:
   - name: "Blokér for GNOME Remote Desktop?"

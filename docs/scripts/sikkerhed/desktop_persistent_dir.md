@@ -1,7 +1,6 @@
 ---
 title: "Vedvarende mappe på skrivebordet"
 parent: "Sikkerhed"
-nav_exclude: true
 source: /assets/os2borgerpc-scripts/os2borgerpc/sikkerhed/desktop_persistent_dir.sh
 parameters:
   - name: "Tilføj?"

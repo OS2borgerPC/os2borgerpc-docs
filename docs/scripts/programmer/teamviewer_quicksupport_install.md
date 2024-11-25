@@ -1,7 +1,6 @@
 ---
 title: "TeamViewer QuickSupport: Add/Remove"
 parent: "Programmer"
-nav_exclude: true
 source: /assets/os2borgerpc-scripts/os2borgerpc/os2borgerpc/teamviewer_quicksupport_install.sh
 parameters:
   - name: "Aktivér"
@@ -11,8 +10,6 @@ parameters:
 compatibility:  
   - "22.04"
   - "BorgerPC"
-
-
 ---
 
 ## Beskrivelse

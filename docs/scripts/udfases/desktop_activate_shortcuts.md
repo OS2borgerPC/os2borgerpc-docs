@@ -1,7 +1,6 @@
 ---
 title: "Desktop - Aktiver genveje"
 parent: "Udfases"
-nav_exclude: true
 source: /assets/os2borgerpc-scripts/os2borgerpc/udfases/desktop_activate_shortcuts.sh
 parameters:
 compatibility:  

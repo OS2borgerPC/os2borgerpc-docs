@@ -1,7 +1,6 @@
 ---
 title: "System - Fjern Network Managers Forbindelsestjek (Netics)"
 parent: "System"
-nav_exclude: true
 source: /assets/os2borgerpc-scripts/common/system/disable_network_connectivity_check.sh
 compatibility: 
   - "22.04"

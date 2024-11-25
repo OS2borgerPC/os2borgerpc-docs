@@ -1,7 +1,6 @@
 ---
 title: "Juster adgang til Indstillinger for Borger"
 parent: "Sikkerhed"
-nav_exclude: true
 source: /assets/os2borgerpc-scripts/os2borgerpc/sikkerhed/adjust_settings_access.sh
 parameters:
   - name: "Giv adgang til Indstillinger"

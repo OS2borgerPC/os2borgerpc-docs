@@ -1,7 +1,6 @@
 ---
 title: "Tilføj keyboardlayout (sprog)"
 parent: "Desktop"
-nav_exclude: true
 source: /assets/os2borgerpc-scripts/os2borgerpc/os2borgerpc/dconf_keyboard_layout.sh
 parameters:
   - name: "Tilføj?"

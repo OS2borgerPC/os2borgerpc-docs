@@ -1,7 +1,6 @@
 ---
 title: "Juster adgang til terminalen"
 parent: "Sikkerhed"
-nav_exclude: true
 source: /assets/os2borgerpc-scripts/os2borgerpc/sikkerhed/protect_terminal.sh
 parameters:
   - name: "Giv adgang til terminalen"
@@ -11,8 +10,6 @@ parameters:
 compatibility:  
   - "22.04"
   - "BorgerPC"
-
-
 ---
 
 ## Beskrivelse

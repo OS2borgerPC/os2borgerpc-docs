@@ -1,7 +1,6 @@
 ---
 title: "Sæt standard-browser"
 parent: "Browser"
-nav_exclude: true
 source: /assets/os2borgerpc-scripts/os2borgerpc/browser/browser_set_default.sh
 summary: "Skifter standard-browseren ml. eksempelvis Firefox og Chrome."
 parameters:

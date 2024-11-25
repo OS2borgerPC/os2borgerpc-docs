@@ -1,7 +1,6 @@
 ---
 title: "System - Luk ned dagligt"
 parent: "System"
-nav_exclude: true
 source: /assets/os2borgerpc-scripts/common/system/shutdown_at_time.sh
 parameters:
   - name: "Timer"

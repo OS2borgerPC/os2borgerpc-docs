@@ -1,7 +1,6 @@
 ---
 title: "Genstart maskinen, hvis Chromium ikke starter korrekt"
 parent: "Kiosk"
-nav_exclude: true
 source: /assets/os2borgerpc-scripts/os2borgerpc/os2borgerpc_kiosk/chromium_error_reboot.sh
 parameters:
   - name: "Aktiver?"

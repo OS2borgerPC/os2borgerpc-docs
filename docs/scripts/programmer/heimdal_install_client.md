@@ -13,8 +13,6 @@ parameters:
     mandatory: true
 compatibility:
   - "BorgerPC"
-
-
 ---
 
 ## Beskrivelse

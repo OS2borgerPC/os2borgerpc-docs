@@ -1,7 +1,6 @@
 ---
 title: "Sæt NumLock-tilstand"
 parent: "System"
-nav_exclude: true
 source: /assets/os2borgerpc-scripts/os2borgerpc/os2borgerpc/lightdm_enable_numlock.sh
 parameters:
   - name: "Slå numlock til"

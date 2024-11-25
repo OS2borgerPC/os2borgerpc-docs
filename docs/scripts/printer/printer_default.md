@@ -1,7 +1,6 @@
 ---
 title: "Sæt standard"
 parent: "Printer"
-nav_exclude: true
 source: /assets/os2borgerpc-scripts/os2borgerpc/printer/printer_default.sh
 parameters:
   - name: "Navn"

@@ -1,7 +1,6 @@
 ---
 title: "Lyd: Tillad autostart"
 parent: "Browser"
-nav_exclude: true
 source: /assets/os2borgerpc-scripts/os2borgerpc/browser/chrome_chromium_allow_audio.sh
 summary: "Tillader autostart af lyd for 1-3 URL'er."
 parameters:

@@ -1,7 +1,6 @@
 ---
 title: "Login - Sæt Borger som standard ved login"
 parent: "Udfases"
-nav_exclude: true
 source: /assets/os2borgerpc-scripts/os2borgerpc/udfases/set_user_as_default_lightdm_user.sh
 parameters:
   - name: "Aktiver?"

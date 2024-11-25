@@ -1,7 +1,6 @@
 ---
 title: "Tilføj Princh Cloud Printer"
 parent: "Printer"
-nav_exclude: true
 source: /assets/os2borgerpc-scripts/os2borgerpc/printer/printer_options_set.sh
 parameters:
   - name: "Navn (OBS: INGEN ÆØÅ, mellemrum eller apostrofer)"

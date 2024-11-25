@@ -1,7 +1,6 @@
 ---
 title: "System - Skjul musemarkør ved muse-inaktivitet"
 parent: "System"
-nav_exclude: true
 source: /assets/os2borgerpc-scripts/common/system/cursor_hide_inactive.sh
 parameters:
   - name: "Aktiver?"

@@ -1,7 +1,6 @@
 ---
 title: "Desktop - Fjern brugerskifte fra menuen"
 parent: "Udfases"
-nav_exclude: true
 source: /assets/os2borgerpc-scripts/os2borgerpc/udfases/dconf_disable_user_switching.sh
 parameters:
 compatibility:  

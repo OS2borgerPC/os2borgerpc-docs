@@ -1,7 +1,6 @@
 ---
 title: "System - Vis computers WAN IP"
 parent: "System"
-nav_exclude: true
 source: /assets/os2borgerpc-scripts/common/system/ip_wan.sh
 compatibility: 
   - "22.04"

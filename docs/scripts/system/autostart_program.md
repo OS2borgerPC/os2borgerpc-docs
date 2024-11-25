@@ -1,7 +1,6 @@
 ---
 title: "Autostart program"
 parent: "System"
-nav_exclude: true
 source: /assets/os2borgerpc-scripts/os2borgerpc/os2borgerpc/autostart_program.sh
 parameters:
   - name: "Programmets navn"

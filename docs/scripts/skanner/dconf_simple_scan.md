@@ -1,7 +1,6 @@
 ---
 title: "Sæt indstillinger for Dokumentskanner (simple scan)"
 parent: "Skanner"
-nav_exclude: true
 source: /assets/os2borgerpc-scripts/os2borgerpc/skanner/dconf_simple_scan.sh
 parameters:
   - name: "Papirstørrelse"

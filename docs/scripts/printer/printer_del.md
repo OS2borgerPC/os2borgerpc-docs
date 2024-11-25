@@ -1,7 +1,6 @@
 ---
 title: "Slet printer"
 parent: "Printer"
-nav_exclude: true
 source: /assets/os2borgerpc-scripts/os2borgerpc/printer/printer_del.sh
 parameters:
   - name: "Navn"

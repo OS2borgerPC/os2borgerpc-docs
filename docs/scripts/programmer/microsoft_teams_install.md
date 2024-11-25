@@ -1,7 +1,6 @@
 ---
 title: "Microsoft Teams: Installer"
 parent: "Programmer"
-nav_exclude: true
 source: /assets/os2borgerpc-scripts/os2borgerpc/os2borgerpc/microsoft_teams_install.sh
 parameters:
   - name: "Installér?"

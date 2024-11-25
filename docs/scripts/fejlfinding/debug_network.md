@@ -1,7 +1,6 @@
 ---
 title: "Netværk"
 parent: "Fejlfinding"
-nav_exclude: true
 source: /assets/os2borgerpc-scripts/common/fejlfinding/debug_network.sh
 parameters:
   - name: "Host (IP-adresse eller hostnavn)"

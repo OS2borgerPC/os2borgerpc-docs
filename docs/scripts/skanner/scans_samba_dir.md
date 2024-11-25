@@ -1,7 +1,6 @@
 ---
 title: "Opret delt Samba-mappe til skan"
 parent: "Skanner"
-nav_exclude: true
 source: /assets/os2borgerpc-scripts/os2borgerpc/skanner/scans_samba_dir.sh
 parameters:
   - name: "Installer Samba og opret delt mappe?"

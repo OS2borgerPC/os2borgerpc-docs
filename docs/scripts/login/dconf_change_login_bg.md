@@ -1,7 +1,6 @@
 ---
 title: "Skift baggrundsbillede på loginskærm"
 parent: "Login"
-nav_exclude: true
 source: /assets/os2borgerpc-scripts/os2borgerpc/login/dconf_change_login_bg.sh
 parameters:
   - name: "Aktivér?"

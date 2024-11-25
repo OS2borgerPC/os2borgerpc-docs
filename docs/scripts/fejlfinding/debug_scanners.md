@@ -1,7 +1,6 @@
 ---
 title: "Skannere"
 parent: "Fejlfinding"
-nav_exclude: true
 source: /assets/os2borgerpc-scripts/common/fejlfinding/debug_scanners.sh
 parameters:
 compatibility:

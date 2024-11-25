@@ -1,7 +1,6 @@
 ---
 title: "Vis programliste"
 parent: "Desktop"
-nav_exclude: true
 source: /assets/os2borgerpc-scripts/os2borgerpc/desktop/desktop_print_program_list.sh
 parameters:
   - name: "Sted"

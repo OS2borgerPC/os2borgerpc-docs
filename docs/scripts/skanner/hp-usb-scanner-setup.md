@@ -1,7 +1,6 @@
 ---
 title: "Opsæt HP USB Skanner"
 parent: "Skanner"
-nav_exclude: true
 source: /assets/os2borgerpc-scripts/os2borgerpc/skanner/hp-usb-scanner-setup.sh
 parameters:
 compatibility:  

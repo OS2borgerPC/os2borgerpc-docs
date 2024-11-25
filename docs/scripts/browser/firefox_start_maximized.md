@@ -1,7 +1,6 @@
 ---
 title: "Firefox: Start maksimeret"
 parent: "Browser"
-nav_exclude: true
 source: /assets/os2borgerpc-scripts/os2borgerpc/browser/firefox_start_maximized.sh
 parameters:
   - name: "Start maksimeret?"

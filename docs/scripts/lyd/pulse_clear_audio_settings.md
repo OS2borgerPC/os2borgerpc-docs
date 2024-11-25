@@ -1,7 +1,7 @@
 ---
 title: "Ryd lydindstillinger"
 parent: "Lyd"
-nav_exclude: true
+
 source: /assets/os2borgerpc-scripts/common/lyd/pulse_clear_audio_settings.sh
 parameters:
 compatibility:

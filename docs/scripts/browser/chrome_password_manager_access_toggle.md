@@ -1,7 +1,6 @@
 ---
 title: "Chrome: Gemte logins - 1. Slå password manager til/fra"
 parent: "Browser"
-nav_exclude: true
 source: /assets/os2borgerpc-scripts/os2borgerpc/browser/chrome_password_manager_access_toggle.sh
 parameters:
   - name: "Slå password manager TIL, så maskinen husker indtastede logins?"

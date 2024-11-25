@@ -1,7 +1,6 @@
 ---
 title: "Log Borger ud NU"
 parent: "System"
-nav_exclude: true
 source: /assets/os2borgerpc-scripts/os2borgerpc/os2borgerpc/logout_user.sh
 parameters:
 compatibility:  

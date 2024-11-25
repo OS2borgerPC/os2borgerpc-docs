@@ -1,7 +1,6 @@
 ---
 title: "Firefox - Sæt startside(r)"
 parent: "Udfases"
-nav_exclude: true
 source: /assets/os2borgerpc-scripts/os2borgerpc/udfases/firefox_set_startpage(s).sh
 parameters:
   - name: "URL"

@@ -1,7 +1,6 @@
 ---
 title: "Dupliker skærm fremfor udvid"
 parent: "System"
-nav_exclude: true
 source: /assets/os2borgerpc-scripts/os2borgerpc/os2borgerpc/duplicate_monitors_xdotool_test.sh
 parameters:
   - name: "Skift til duplikeret skærm"

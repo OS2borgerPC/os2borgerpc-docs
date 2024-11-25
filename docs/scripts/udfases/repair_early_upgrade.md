@@ -1,7 +1,6 @@
 ---
 title: "22.04 opgradering - Reparer tidlig opgradering"
 parent: "Udfases"
-nav_exclude: true
 source: /assets/os2borgerpc-scripts/os2borgerpc/udfases/repair_early_upgrade.sh
 parameters:
 compatibility:  

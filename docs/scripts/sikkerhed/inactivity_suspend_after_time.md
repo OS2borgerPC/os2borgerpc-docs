@@ -1,7 +1,6 @@
 ---
 title: "Aktiver dvale efter X minutters inaktivitet med besked"
 parent: "Sikkerhed"
-nav_exclude: true
 source: /assets/os2borgerpc-scripts/os2borgerpc/sikkerhed/inactivity_suspend_after_time.sh
 parameters:
   - name: "Aktiver?"

@@ -1,7 +1,6 @@
 ---
 title: "Aktiver lyd"
 parent: "Kiosk"
-nav_exclude: true
 source: /assets/os2borgerpc-scripts/os2borgerpc/os2borgerpc_kiosk/sound_enable.sh
 parameters:
   - name: "Aktivér lyd?"

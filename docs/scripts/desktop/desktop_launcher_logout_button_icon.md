@@ -1,7 +1,6 @@
 ---
 title: "Genvej til logud fra menu"
 parent: "Desktop"
-nav_exclude: true
 source: /assets/os2borgerpc-scripts/os2borgerpc/desktop/desktop_launcher_logout_button_icon.sh
 parameters:
   - name: "Tilføj logudknappen?"

@@ -1,7 +1,6 @@
 ---
 title: "Log altid ud efter X minutter med nedtæller"
 parent: "Sikkerhed"
-nav_exclude: true
 source: /assets/os2borgerpc-scripts/os2borgerpc/sikkerhed/always_logout_after_time_visual.sh
 parameters:
   - name: "Aktiver?"

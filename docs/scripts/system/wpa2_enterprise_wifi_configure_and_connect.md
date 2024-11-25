@@ -1,7 +1,6 @@
 ---
 title: "System - Konfigurer WPA2 Enterprise-forbindelse"
 parent: "System"
-nav_exclude: true
 source: /assets/os2borgerpc-scripts/common/system/wpa2_enterprise_wifi_configure_and_connect.sh
 parameters:
   - name: "SSID (Navn på trådløst netværk)"

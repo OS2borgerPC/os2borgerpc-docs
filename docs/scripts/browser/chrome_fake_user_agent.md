@@ -1,7 +1,6 @@
 ---
 title: "Chrome: Ret problem med MitID"
 parent: "Browser"
-nav_exclude: true
 source: /assets/os2borgerpc-scripts/os2borgerpc/browser/chrome_fake_user_agent.sh
 parameters:
   - name: "Aktiver?"

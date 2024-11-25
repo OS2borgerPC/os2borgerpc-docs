@@ -1,7 +1,6 @@
 ---
 title: "Sæt bogmærker i bar"
 parent: "Browser"
-nav_exclude: true
 source: /assets/os2borgerpc-scripts/os2borgerpc/browser/chrome_chromium_policy_bookmarks.sh
 parameters:
   - name: "Aktivér?"

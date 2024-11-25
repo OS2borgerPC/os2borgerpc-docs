@@ -1,7 +1,6 @@
 ---
 title: "Konica Minolta-printer: Tilføj netværksprinter"
 parent: "Printer"
-nav_exclude: true
 source: /assets/os2borgerpc-scripts/"os2borgerpc/printer/printer_konica_minolta_add.sh"
 parameters:
   - name: "Navn (OBS: INGEN ÆØÅ, mellemrum eller apostrofer)"

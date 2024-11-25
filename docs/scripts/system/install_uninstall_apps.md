@@ -1,7 +1,6 @@
 ---
 title: "System - Installer/Fjern applikation/program"
 parent: "System"
-nav_exclude: true
 source: /assets/os2borgerpc-scripts/common/system/install_uninstall_apps.sh
 parameters:
   - name: "Installer?"
