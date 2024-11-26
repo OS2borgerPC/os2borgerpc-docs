@@ -35,8 +35,8 @@ defaults:
       layout: "docs"
       nav_exclude: true
       submodules:
-        - "/assets/os2borgerpc-scripts/"
-        - "/docs/scripts/core_scripts/"
+        - "/docs/scripts/community-scripts/"
+        - "/docs/scripts/core-scripts/"
 
 
 translations:
