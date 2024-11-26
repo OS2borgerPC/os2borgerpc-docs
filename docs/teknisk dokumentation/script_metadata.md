@@ -1,6 +1,7 @@
 ---
 title: Script metadata syntax
 parent: Teknisk dokumentation
+nav_exclude: false
 ---
 
 Each OS2borgerpc script must have a corresponding metadata-file. 

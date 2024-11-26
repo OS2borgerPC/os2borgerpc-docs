@@ -1,6 +1,7 @@
 ---
 title: "Technical Documentation"
 parent: "Admin Site"
+nav_exclude: false
 ---
 
 ## Architectural Diagram

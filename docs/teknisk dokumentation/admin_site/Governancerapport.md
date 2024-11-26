@@ -1,5 +1,6 @@
 ---
 parent: "Admin Site"
+nav_exclude: false
 title: OS2borgerPC governance rapport
 ---
 
