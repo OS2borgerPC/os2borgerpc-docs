@@ -82,7 +82,17 @@
 
   {% for nav_child in nav_children %}
     {% if nav_child.compatibility contains "22.04" %}
-      {% include nav_child.html key=nav_child %}
+      {% if nav_child.url contains "core-scripts" %}
+        {% include nav_child.html key=nav_child %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+
+  {% for nav_child in nav_children %}
+    {% if nav_child.compatibility contains "22.04" %}
+      {% unless nav_child.url contains "core-scripts" %}
+        {% include nav_child.html key=nav_child %}
+      {% endunless %}
     {% endif %}
   {% endfor %}
 
@@ -95,3 +105,6 @@
 </div>
 
 {%- endif -%}
+
+
+

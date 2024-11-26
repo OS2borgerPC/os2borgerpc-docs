@@ -1,19 +1,47 @@
 {% assign nav_child = include.key %}
 
-<div class="toc-item">
+{% assign core = "" %}
+{% if nav_child.url contains "core-scripts" %}
+  {% assign core = "core" %}
+{% endif %}
+
+<div class="toc-item {{ core }}">
   <a class="fs-5 fw-500" href="{{ nav_child.url | relative_url }}">{{ nav_child.title }}</a>
   {% if nav_child.source %}
+
+    {% comment %} Print label core/community {% endcomment %}
+    {% if core == "core" %}
+      <p class="label label-blue">core</p>
+    {% else %}
+      <p class="label label-blue">community</p>
+    {% endif %}
+
     {% if nav_child.compatibility %}
-      {% for compat in nav_child.compatibility %}
-        {% if compat == "22.04" %}
-          <p class="label label-green">{{ compat }}</p>
-        {% else %}
-          <span class="btn btn-outline fs-2">{{ compat }}</span>
-        {% endif %}
-      {% endfor %}
+
+      {% comment %} Print Ubuntu version compatibility labels {% endcomment %}
+      {% if nav_child.compatibility contains "22.04" %}
+        <p class="label label-green">22.04</p>
+      {% endif %}
       {% unless nav_child.compatibility contains "22.04" %}
         <p class="label label-red">22.04?</p>
       {% endunless %}
+
+      {% comment %} Print image type compatibility buttons {% endcomment %}
+      {% if nav_child.compatibility contains "BorgerPC" %}
+        {% if core == "core" %}
+          <span class="btn fs-2">BorgerPC</span>
+        {% else %}
+          <span class="btn btn-outline fs-2">BorgerPC</span>
+        {% endif %}
+      {% endif %}
+      {% if nav_child.compatibility contains "Kiosk" %}
+        {% if core == "core" %}
+          <span class="btn fs-2">Kiosk</span>
+        {% else %}
+          <span class="btn btn-outline fs-2">Kiosk</span>
+        {% endif %}
+      {% endif %}
+      
     {% endif %}
   {% endif %}
   <div>{% if nav_child.summary %}{{ nav_child.summary }}{% endif %}</div>
