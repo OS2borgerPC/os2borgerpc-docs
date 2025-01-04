@@ -27,8 +27,6 @@ Det skal være sikkert for en borger at logge ind på en OS2borgerPC. Af den gru
 
 - På Github er opsat automatisk sikkerhedsovervågning af softwarekomponenter der indgår i produkterne
 
-- Der er en nedskrevet procedure for håndtering af indberettede sikkerhedsproblematikker.
-
 - Der vedligeholdes specifikationer for en anbefalet pakke af sikkerhedscripts for hver udgave af OS2BorgerPC
 
 
