@@ -1,5 +1,6 @@
 ---
 title: Brugergrænsefladen
+parent: Administrationssiden
 ---
 
 ## Sites-oversigt
