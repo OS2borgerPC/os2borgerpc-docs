@@ -1,6 +1,7 @@
 ---
 title: Brugergrænsefladen
 parent: Administrationssiden
+nav_exclude: false
 ---
 
 ## Sites-oversigt
