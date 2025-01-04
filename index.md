@@ -92,6 +92,6 @@ Ikke alle Ubuntu LTS versioner bliver til nye OS2BorgerPC versioner, hvis det er
 
 
 
-Distribution
+## Distribution
 
 OS2borgerPC distribueres som et installerbart image. Vejledningen dækker installation via USB-stick.
