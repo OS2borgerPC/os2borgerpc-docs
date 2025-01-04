@@ -3,10 +3,7 @@ title: Brugergrænsefladen
 ---
 
 ## Sites-oversigt
-Sites-oversigten viser alle de sites, som du har adgang til. En kunde-admin har adgang til alle sites for den kunde, mens andre brugere kun har adgang til de sites, som de er blevet tilføjet til. 
-Kunde-admins kan også slette eller oprette sites via sites-oversigten.
-
-Læs mere om sites XXXX
+Med sites kan forvaltninger/afdelinger få deres eget område på administrationssiden. Hver enhed kan få sit eget site med egne brugere, computere, grupper, sikkerhedsscripts, tidsplaner og lokale scripts. Det kan være en fordel i større kommuner med mange BorgerPCer, der organisatiorisk hører til forskellige steder. Sites kan også bruges til at inddele computere efter funktion f. eks. BorgerPC / storskærm. 
 
 ## Status
 Når du logger ind på admin-sitet, bliver du præsenteret for status-billedet for det site, som din OS2borgerPC-bruger er tilknyttet. Hvis du har adgang til flere sites, skal du først vælge det site, du vil ind på.
