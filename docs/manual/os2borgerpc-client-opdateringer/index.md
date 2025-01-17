@@ -9,7 +9,7 @@ OS2BorgerPC og OS2BorgerPC Kiosk installationer kommunikerer med administrations
 Som standard er OS2BorgerPC og OS2BorgerPC Kiosk installationer sat op til automatisk at tjekke for opdateringer af klienten og installere nyere versioner, hvis de findes.
 
 Den aktuelt installerede version af OS2BorgerPC-client på en enhed kan findes under nøglen **_os2borgerpc.client_version**.
-![Installeret version af os2borgerpc-client](/assets/images/brugervejledninger/os2borgerpc-client_installed.png)
+![Installeret version af os2borgerpc-client](/assets/images/manual/os2borgerpc-client_installed.png)
 
 ## Manuel styring af version
 Det er muligt at styre, hvilken version af OS2BorgerPC-client der bruges på en enhed, ved at konfigurere nøglen **os2borgerpc_client_version**.
@@ -22,6 +22,6 @@ Denne indstilling kan angives på følgende niveauer:
 
 Konfigurationerne prioriteres i nævnte rækkefølge.
 
-![Ønsket version af os2borgerpc-client](/assets/images/brugervejledninger/os2borgerpc-client_desired.png)
+![Ønsket version af os2borgerpc-client](/assets/images/manual/os2borgerpc-client_desired.png)
 
 Hvis denne konfiguration ikke er angivet, vil systemet automatisk tjekke for opdateringer som beskrevet ovenfor.
