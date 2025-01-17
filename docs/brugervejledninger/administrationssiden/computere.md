@@ -3,11 +3,14 @@ title: Computere
 parent: "Administrationssiden"
 nav_exclude: false
 ---
-**Computere** i venstremenuen åbner en liste med alle computere for sitet, sorteret med nye/inaktive computere, der venter på at blive aktiverede øverst, og ellers efter hvornår, de senest er set.
+Menupunktet **Computere** i venstremenuen åbner en liste med alle computere for sitet. Der er sorteret med nye/inaktive computere, der venter på at blive aktiverede øverst, og ellers efter hvornår de senest er set.
 
 Du kan klikke på den enkelte computer for at se nærmere info om den.
 
 ## Administration af computere
+![Detaljer for en computer](https://github.com/user-attachments/assets/60ac857f-3fb9-44e2-810c-af5e519a1833)
+*Detaljer for en computer*
+
 
 Klikker du på en computer i computerlisten åbner **Detaljer**. 
 
@@ -15,7 +18,7 @@ Klikker du på en computer i computerlisten åbner **Detaljer**.
 
 Nedenunder vises stamdata om computeren:
 
-**UID**: En id-streng  der genereres automatisk når computeren tilmeldes sitet. Kan ikke ændres.\
+**UID**: En id-streng  der genereres automatisk når computeren tilmeldes sitet. Kan ikke ændres. \
 **Navn**: Det computernavn, der blev indtastet, da computeren blev tilmeldt sitet. Det kan efterfølgende ændres.\
 **Beskrivelse**: Kan udfyldes hvis man ønsker det.\
 **Placering**: Kan udfyldes hvis man ønsker det.\
