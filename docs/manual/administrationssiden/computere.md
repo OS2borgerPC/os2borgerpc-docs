@@ -66,25 +66,7 @@ Det kan i nogle tilfælde være relevant at vide ift. fejlfinding.
 
 Mange konfigurationer styres af adminsitet fremfor på den enkelte computer. Dvs. hvis du ændrer værdien på den enkelte computer, vil den oftest blive ændret tilbage til hvad adminsitet siger ved næste tjek-ind (værdier uden _ foran bestemmes af adminsitet).
 
-#### Teknisk information om konfigurationer til systemadministratorer
-Klik på knappen **Tilføj konfiguration** for at tilføje en ny konfigurationsnøgle/værdi.
-For at rette eller slette en værdi, skal du klikke på **Redigér** eller **Slet** ud for den enkelte nøgle.
 
-Konfigurationer findes på tre niveauer:
-
-1. Site-konfigurationer\
-Disse konfigurationsparametre gælder for alle computere, der er tilknyttet det valgte site.
-Site-konfigurationerne kan overstyres via tilpassede konfigurationsnøgler/værdier på grupper og på de enkelte computere.
-
-2. Gruppe-konfigurationer\
-Ændringer for konfigurationer på en gruppe vil påvirke alle computere der er medlem af gruppen, medmindre den pågældende konfigurationsnøgle er blevet special-tilpasset på den enkelte computer.
-
-3. Computer-konfigurationer\
-Konfigurationer angivet på en computer vil altid tage præcedens over site-konfigurationer eller konfigurationer på grupper som computeren er medlem af.
-
-#### Betydningen af de indbyggede konfigurationer
-Alle værdier uden _ foran bestemmes af adminsitet, mens værdier med _ bestemmes af computeren / klienten.
-Det vil i praksis sige, at hvis man eks. ændrer os2borgerpc_version på computeren, så vil den blive overskrevet efter næste tjek-ind med adminsitet.
 
 
 
