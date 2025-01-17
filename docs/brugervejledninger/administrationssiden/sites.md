@@ -1,5 +1,7 @@
 ---
 title: Sites
+parent: "Administrationssiden"
+nav_exclude: false
 ---
 
 ## Sites-oversigten
