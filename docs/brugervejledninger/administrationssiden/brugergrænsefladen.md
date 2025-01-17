@@ -26,8 +26,32 @@ Nyhedssiden er pt. ikke i brug. Medlemmer af OS2BorgerPC-projektet modtager nyhe
 #### Overvågning - Hændelser, Overvågningsregler, Sikkerhedscripts
 Overvågning kan bruges til at opdage computere der offline og detektere sikkerhedshændelser. Læs mere om [Overvågning](https://os2borgerpc.github.io/os2borgerpc-docs/docs/brugervejledninger/administrationssiden/overv%C3%A5gning.html)
 
-#### Computere
+#### Organisering - Computere
 Liste over alle computere for sitet. Du kan klikke på den enkelte computer for at se nærmere info om den. Læs mere om [Computere](https://os2borgerpc.github.io/os2borgerpc-docs/docs/brugervejledninger/administrationssiden/computere.html)
+
+#### Organisering - Grupper
+OS2borgerPC-grupper kan bruges til at lave en policy-konfiguration for en gruppe af computere. Det kan f. eks. være alle computere på en lokation, der skal have en bestemt printer tilknyttet.
+[Læs mere on grupper](https://os2borgerpc.github.io/os2borgerpc-docs/docs/brugervejledninger/administrationssiden/grupper.html)
+
+#### Organisering - Site-indstillinger
+
+#### Organisering - 2FA på computere
+
+#### Organisering - Tænd/Sluk tidsplaner
+Med Tænd/sluk tidsplan kan man indstille tænd- og sluk-tidspunkter for alle computere i en gruppe. [Læs mere om Tænd/Sluk tidsplaner](https://os2borgerpc.github.io/os2borgerpc-docs/docs/brugervejledninger/administrationssiden/t%C3%A6nd_sluk_tidsplan.html)
+
+#### Scripting - Jobs
+Status på scripteksekvering (jobs) på computerne. Læs mere om [Jobs](https://os2borgerpc.github.io/os2borgerpc-docs/docs/brugervejledninger/administrationssiden/jobs.html)
+
+#### Scripting - Scripts
+Fælles scriptbibliotek inddelt i kategorier og med søgefunktion. Udvælg et script og kør det på enkelte computere eller hele grupper. Det er også her man kan uploade lokale scripts og køre dem. [Læs mere om scripts](https://os2borgerpc.github.io/os2borgerpc-docs/docs/brugervejledninger/administrationssiden/scripts.html)
+
+#### Brugere
+
+#### Images
+
+#### Dokumentation
+
 
 
 
