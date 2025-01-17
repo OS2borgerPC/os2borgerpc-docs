@@ -4,27 +4,30 @@ parent: Administrationssiden
 nav_exclude: false
 ---
 
-XXX Billede af sites oversigten
-
 ## Sites-oversigt
 Med sites kan forvaltninger/afdelinger få deres eget område på administrationssiden. Hver enhed kan få sit eget site med egne brugere, computere, grupper, sikkerhedsscripts, tidsplaner og lokale scripts. Det kan være en fordel i større kommuner med mange BorgerPCer, der organisatiorisk hører til forskellige steder. Sites kan også bruges til at inddele computere efter funktion f. eks. BorgerPC / storskærm. 
 
-Inde på et site ser brugergrænsefladen sådan ud:
+![Sites-oversigten på en OS2BorgerPC Administrationsside, hvor kommunen har valgt at opdele i flere sites](https://github.com/user-attachments/assets/32e60049-84c3-4726-bc35-5b5daf067ddb)
+*Sites-oversigten på en OS2BorgerPC Administrationsside, hvor kommunen har valgt at opdele i flere sites*
 
-XXX Billede fra site
+## Brugergrænsefladen inde på et site:
+![Når man går ind på et site, åbner Status oversigten](https://github.com/user-attachments/assets/5350ba0a-3c1c-4ede-961c-c74dfa6f3fe2)
 
-## Status
-Når du går ind på et site kommer du til **Stautus**. Her kan du hurtigt se om alle computere er online og hvornår de sidst tjekkede ind på admin-sitet. Du kan også se om der har været sikkerhedshændelser. 
+*Når man går ind på et site, åbner Status oversigten*
 
-## Nyheder
-Bruges pt. ikke.
+### Kort gennemgang af ventremenuen:
 
-## Hændelser
+#### Status
+På Status kan du hurtigt se om alle computere er online og hvornår de sidst tjekkede ind på admin-sitet. Du kan også se om der har været sikkerhedshændelser. 
 
+#### Nyheder
+Nyhedssiden er pt. ikke i brug. Medlemmer af OS2BorgerPC-projektet modtager nyhedsbreve og der orienteres om nyheder på brugerklubmøder.
 
-## Computere
-På denne liste vil du se info om alle computere for sitet, sorteret med nye/inaktive computere der venter på at blive aktiverede øverst, og ellers efter hvornår, de senest er set.
-Du kan klikke på den enkelte computer for at se nærmere info om den.
+#### Overvågning - Hændelser, Overvågningsregler, Sikkerhedscripts
+Overvågning kan bruges til at opdage computere der offline og detektere sikkerhedshændelser. Læs mere om [Overvågning](https://os2borgerpc.github.io/os2borgerpc-docs/docs/brugervejledninger/administrationssiden/overv%C3%A5gning.html)
+
+#### Computere
+Liste over alle computere for sitet. Du kan klikke på den enkelte computer for at se nærmere info om den. Læs mere om [Computere](https://os2borgerpc.github.io/os2borgerpc-docs/docs/brugervejledninger/administrationssiden/computere.html)
 
 
 
