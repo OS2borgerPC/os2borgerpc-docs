@@ -53,6 +53,8 @@ Denne indstilling kan angives på følgende niveauer:
 
 Konfigurationerne prioriteres i nævnte rækkefølge.
 
-![Ønsket version af os2borgerpc-client](/assets/images/manual/os2borgerpc-client_desired.png)
+![Ønsket version af os2borgerpc-client](https://github.com/user-attachments/assets/20dba683-19e7-4565-a46f-5f63d3431f2f)
+
+*Ønsket version af os2borgerpc-client*
 
 Hvis denne konfiguration ikke er angivet, vil systemet automatisk tjekke for opdateringer som beskrevet ovenfor.
