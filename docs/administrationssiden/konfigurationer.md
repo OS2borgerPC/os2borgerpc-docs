@@ -37,7 +37,10 @@ Som standard er OS2BorgerPC og OS2BorgerPC Kiosk installationer sat op til autom
 
 Den aktuelt installerede version af OS2BorgerPC-client på en enhed kan findes under nøglen **_os2borgerpc.client_version**.
 
-![Installeret version af os2borgerpc-client](/assets/images/manual/os2borgerpc-client_installed.png)
+![Installeret version af os2borgerpc-client](https://github.com/user-attachments/assets/34215b53-fbab-4de0-9644-bf2a4c49b772)
+
+*Installeret version af os2borgerpc-client*
+
 
 ## Manuel styring af version
 Det er muligt at styre, hvilken version af OS2BorgerPC-client der bruges på en enhed, ved at konfigurere nøglen **os2borgerpc_client_version**.
