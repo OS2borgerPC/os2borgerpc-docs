@@ -1,6 +1,6 @@
 ---
 title: Tænd/sluk tidsplan
-parent: "Administrationssiden"
+parent: "Manual til OS2BorgerPC Admin"
 nav_exclude: false
 ---
 

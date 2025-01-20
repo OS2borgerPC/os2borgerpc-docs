@@ -1,6 +1,6 @@
 ---
 title: Computere
-parent: "Administrationssiden"
+parent: "Manual til OS2BorgerPC Admin"
 nav_exclude: false
 ---
 Menupunktet **Computere** i venstremenuen åbner en liste med alle computere for sitet. Der er sorteret med nye/inaktive computere, der venter på at blive aktiverede øverst, og ellers efter hvornår de senest er set.

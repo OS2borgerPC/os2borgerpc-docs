@@ -1,36 +1,35 @@
 ---
 title: Konfigurationer
-parent: "Administrationssiden"
+parent: "Manual til OS2BorgerPC Admin"
 nav_exclude: false
 ---
 
-{: .warning }
-Slet eller rediger ikke konfigurationer, medmindre du er sikker på, hvad du gør!
 
-{: .highlight }
-Konfigurationer er funktionalitet henvendt primært til teknisk fejlfinding, systemadministratorer og scriptudviklere, og derfor formentlig ikke relevant for de fleste.
+### Slet eller rediger ikke konfigurationer, medmindre du er sikker på, hvad du gør!
+\
+**Konfigurationer er henvendt til systemadministratorer og scriptudviklere, og derfor ikke relevant for de fleste.**
 
 
 Konfigurationer findes på tre niveauer:
 
-1. Site-konfigurationer\
+1. **Site-konfigurationer**\
 Disse konfigurationsparametre gælder for alle computere, der er tilknyttet det valgte site.
 Site-konfigurationerne kan overstyres via tilpassede konfigurationsnøgler/værdier på grupper og på de enkelte computere.
 
-2. Gruppe-konfigurationer\
-Ændringer for konfigurationer på en gruppe vil påvirke alle computere der er medlem af gruppen, medmindre den pågældende konfigurationsnøgle er blevet special-tilpasset på den enkelte computer.
+2. **Gruppe-konfigurationer**\
+Ændringer for konfigurationer på en gruppe vil påvirke alle computere, der er medlem af gruppen, medmindre den pågældende konfigurationsnøgle er blevet special-tilpasset på den enkelte computer.
 
-3. Computer-konfigurationer\
+3. **Computer-konfigurationer**\
 Konfigurationer angivet på en computer vil altid tage præcedens over site-konfigurationer eller konfigurationer på grupper som computeren er medlem af.
 
 Klik på knappen **Tilføj konfiguration** for at tilføje en ny konfigurationsnøgle/værdi.
 For at rette eller slette en værdi, skal du klikke på **Redigér** eller **Slet** ud for den enkelte nøgle.
 
-#### Betydningen af de indbyggede konfigurationer
+### Betydningen af de indbyggede konfigurationer
 Alle værdier uden _ foran bestemmes af adminsitet, mens værdier med _ bestemmes af computeren / klienten.
 Det vil i praksis sige, at hvis man eks. ændrer os2borgerpc_version på computeren, så vil den blive overskrevet efter næste tjek-ind med adminsitet.
 
-#### Klientversionen styres via en konfiguration
+### Klientversionen styres via en konfiguration
 
 OS2BorgerPC og OS2BorgerPC Kiosk installationer kommunikerer med administrationssiden via en klient kaldet <a href="https://github.com/os2borgerpc/os2borgerpc-client" target="_blank" rel="noopener">OS2BorgerPC-client.</a>
 

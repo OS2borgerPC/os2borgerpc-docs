@@ -1,6 +1,6 @@
 ---
 title: Sites
-parent: "Administrationssiden"
+parent: "Manual til OS2BorgerPC Admin"
 nav_exclude: false
 ---
 
