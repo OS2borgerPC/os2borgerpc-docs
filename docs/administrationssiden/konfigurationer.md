@@ -29,7 +29,7 @@ For at rette eller slette en værdi, skal du klikke på **Redigér** eller **Sle
 Alle værdier uden _ foran bestemmes af adminsitet, mens værdier med _ bestemmes af computeren / klienten.
 Det vil i praksis sige, at hvis man eks. ændrer os2borgerpc_version på computeren, så vil den blive overskrevet efter næste tjek-ind med adminsitet.
 
-### Klientversionen styres via en konfiguration
+## Manuel styring af klientversion via en konfiguration
 
 OS2BorgerPC og OS2BorgerPC Kiosk installationer kommunikerer med administrationssiden via en klient kaldet <a href="https://github.com/os2borgerpc/os2borgerpc-client" target="_blank" rel="noopener">OS2BorgerPC-client.</a>
 
@@ -42,7 +42,7 @@ Den aktuelt installerede version af OS2BorgerPC-client på en enhed kan findes u
 *Installeret version af os2borgerpc-client*
 
 
-## Manuel styring af version
+### Manuel styring af version
 Det er muligt at styre, hvilken version af OS2BorgerPC-client der bruges på en enhed, ved at konfigurere nøglen **os2borgerpc_client_version**.
 
 Denne indstilling kan angives på følgende niveauer:

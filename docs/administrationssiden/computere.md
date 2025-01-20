@@ -3,7 +3,7 @@ title: Computere
 parent: "Manual til OS2BorgerPC Admin"
 nav_exclude: false
 ---
-Menupunktet **Computere** i venstremenuen åbner en liste med alle computere for sitet. Der er sorteret med nye/inaktive computere, der venter på at blive aktiverede øverst, og ellers efter hvornår de senest er set.
+Menupunktet **Computere** i venstremenuen åbner en liste med alle computere for det [site](https://os2borgerpc.github.io/os2borgerpc-docs/docs/administrationssiden/sites.html), du er inde på. Der er sorteret med nye/inaktive computere, der venter på at blive aktiverede øverst, og ellers efter hvornår de senest er set.
 
 Du kan klikke på den enkelte computer for at se nærmere info om den.
 
@@ -12,9 +12,12 @@ Du kan klikke på den enkelte computer for at se nærmere info om den.
 *Detaljer for en computer*
 
 
-Klikker du på en computer i computerlisten åbner **Detaljer**. 
+Klikker du på en computer i computerlisten åbner fanen **Detaljer**. 
 
-Øverst på siden vises tidspunkt for seneste tjek-ind, tidspunkt for seneste sikkerhedshændelse og hvornår computeren blev tilmeldt admin-sitet.
+Øverst på siden vises:
+- tidspunkt for seneste tjek-ind
+- tidspunkt for seneste sikkerhedshændelse
+- tidspunkt for tilmelding til admin-sitet
 
 Nedenunder vises stamdata om computeren:
 
@@ -24,11 +27,11 @@ Nedenunder vises stamdata om computeren:
 **Placering**: Kan udfyldes hvis man ønsker det.\
 **Aktiveret**: Når en computer tilmeldes admin-sitet er den ikke aktiveret. Den skal aktiveres før man kan sende scripts til den. Læs mere om [aktivering af computer](XXX)
 
-#### Grupper
+### Grupper
 Til højre kan du se computerens gruppemedlemskaber og ændre i dem.
-- Tilføjer til gruppe ved at klikke på **Tilføj computer til gruppe**. Hvis der findes grupper, som computeren endnu ikke er medlem, af vil de dukke op i en liste. Klik på de grupper, som du ønsker at tilføje. 
+- Klik på **Tilføj computer til gruppe**. Hvis der findes grupper, som computeren endnu ikke er medlem, af vil de dukke op i en liste. Klik på de grupper, som du ønsker at tilføje. 
 
-- Fjern fra gruppe ved at klikke på det X, som vises til højre for gruppens navn i listen over gruppetilhørsforhold. 
+- **Fjern fra gruppe** ved at klikke på det X, som vises til højre for gruppens navn i listen over gruppetilhørsforhold. 
 
 **Husk at ændringerne ikke bliver permanente, før du har klikket på "Gem ændringer" nederst i skærmbilledet.**
 
@@ -45,11 +48,7 @@ Bemærk: En af grundene til, at alle computere skal aktiveres manuelt, er at for
 På fanen **jobhistorik** ser du en historik over jobs der er kørt på computeren. Hvis du klikker på info-ikonet til højre for det enkelte job, får du mulighed for at se log-output for jobbet samt for at køre jobbet igen, hvis det er afsluttet (primært relevant hvis det fejlede).
 
 ## Konfigurationer
-{: .warning }
-Slet eller rediger ikke konfigurationer, medmindre du er sikker på, hvad du gør!
-
-{: .highlight }
-Konfigurationer er funktionalitet henvendt primært til teknisk fejlfinding, systemadministratorer og scriptudviklere, og derfor formentlig ikke relevant for de fleste.
+**Slet eller rediger ikke konfigurationer, medmindre du er sikker på, hvad du gør!**
 
 På fanebladet **Konfigurationer** kan du se alle konfigurationer der er sat for computeren. Konfigurationer bruges til at udveksle information mellem admin-sitet og de tilknyttede computere, i begge retninger.
 Dvs. det er både muligt fra adminsitet at specificere en værdi som en eller flere computere så vil modtage, og ligeledes sender en computer værdier til adminsitet.
@@ -65,6 +64,8 @@ Det kan i nogle tilfælde være relevant at vide ift. fejlfinding.
 - Man ønsker ifm. udviklingen af et script at sende konfiguration dertil via adminsitet, som så kan opdateres uden genkørsel af scripts, eller som kan variere ml. grupper eller computere.
 
 Mange konfigurationer styres af adminsitet fremfor på den enkelte computer. Dvs. hvis du ændrer værdien på den enkelte computer, vil den oftest blive ændret tilbage til hvad adminsitet siger ved næste tjek-ind (værdier uden _ foran bestemmes af adminsitet).
+
+[Læs mere om konfigurationer](https://os2borgerpc.github.io/os2borgerpc-docs/docs/administrationssiden/konfigurationer.html)
 
 
 
