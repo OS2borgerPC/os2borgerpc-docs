@@ -7,7 +7,7 @@ nav_exclude: false
 
 # Retningslinjer for bidrag (Contribution Guidelines)
 
-Tak fordi du ønsker at bidrage til dette projekt! For at sikre en god udviklingsproces, bedes du følge nedenstående retningslinjer.
+Tak fordi du ønsker at bidrage til Os2BorgerPC! For at sikre en god udviklingsproces, bedes du følge nedenstående retningslinjer.
 
 ## Generelle principper
 - Vær respektfuld og konstruktiv i din kommunikation.
