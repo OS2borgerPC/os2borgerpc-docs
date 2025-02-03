@@ -11,8 +11,6 @@ Tak fordi du ønsker at bidrage til Os2BorgerPC! For at sikre en god udviklingsp
 
 ## Generelle principper
 - Vær respektfuld og konstruktiv i din kommunikation.
-- Skriv klare commit-beskeder.
-- Opret issues for at diskutere større ændringer, før du implementerer dem.
 
 ## GitHub Flow
 Dette projekt følger GitHub Flow. Det betyder, at alle ændringer sker via feature branches og pull requests. Følg disse trin, når du vil bidrage:
