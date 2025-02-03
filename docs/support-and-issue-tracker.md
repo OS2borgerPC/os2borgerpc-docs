@@ -24,7 +24,9 @@ Det kræver et login til Github for at kunne oprette issues. Man kan selv oprett
 
 [**OS2BorgerPC Image**: Fejl og udviklingsøsnker](https://github.com/OS2borgerPC/os2borgerpc-image/issues){: .btn }
 
-[**OS2BorgerPC Kiosk image**: Fejl og udviklingsønsker](https://github.com/OS2borgerPC/os2borgerpc-kiosk-image){: .btn }
+[**OS2BorgerPC Kiosk image**: Fejl og udviklingsønsker](https://github.com/OS2borgerPC/os2borgerpc-kiosk-image/issues){: .btn }
+
+Der er også en issue tracker til [OS2borgerpc Klienten](https://github.com/OS2borgerPC/os2borgerpc-client/issues) og [OS2BorgerPC dokumentationssiden](https://github.com/OS2borgerPC/os2borgerpc-docs/issues).
 
 ## Sagsbehandling
 Alle sager behandles af OS2BorgerPC koordinationsgruppen. Koordinationsgruppen mødes en gang månedligt.
