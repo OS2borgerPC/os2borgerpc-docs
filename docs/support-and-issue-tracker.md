@@ -20,11 +20,11 @@ Det kræver et login til Github for at kunne oprette issues. Man kan selv oprett
 \
 [**Administrationssiden**: Fejl og udviklingsønsker](https://github.com/OS2borgerPC/os2borgerpc-admin-site/issues){: .btn }
 
-[Scripts: Fejl og udviklingsønsker](https://github.com/OS2borgerPC/os2borgerpc-core-scripts/issues){: .btn }
+[**Scripts**: Fejl og udviklingsønsker](https://github.com/OS2borgerPC/os2borgerpc-core-scripts/issues){: .btn }
 
-[OS2BorgerPC Image: Fejl og udviklingsøsnker](https://github.com/OS2borgerPC/os2borgerpc-image/issues){: .btn }
+[**OS2BorgerPC Image**: Fejl og udviklingsøsnker](https://github.com/OS2borgerPC/os2borgerpc-image/issues){: .btn }
 
-[OS2BorgerPC Kiosk image: Fejl og udviklingsønsker](https://github.com/OS2borgerPC/os2borgerpc-kiosk-image){: .btn }
+[**OS2BorgerPC Kiosk image**: Fejl og udviklingsønsker](https://github.com/OS2borgerPC/os2borgerpc-kiosk-image){: .btn }
 
 ## Sagsbehandling
 Alle sager behandles af OS2BorgerPC koordinationsgruppen. Koordinationsgruppen mødes en gang månedligt.
