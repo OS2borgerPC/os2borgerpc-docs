@@ -12,6 +12,7 @@ Det er driftsleverandøren, der yder support på OS2BorgerPC. Det sker i henhold
 ## Fejl og udviklingsønsker
 
 Fejl og udviklingsønsker indberettes som issues på Github enten af kommunen selv eller af kommunens driftsleverandør.
+Beskriv problemet eller forslaget så detaljeret som muligt.
 
 Det kræver et login til Github for at kunne oprette issues. Man kan selv oprette login herfra: [https://github.com/signup](https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home)
 
