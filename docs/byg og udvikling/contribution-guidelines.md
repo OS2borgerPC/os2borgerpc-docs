@@ -18,6 +18,7 @@ Dette projekt følger GitHub Flow. Det betyder, at alle ændringer sker via feat
 ### 1. Opret issue
 - Det er OS2BorgerPC koordinationsgruppen der iværksætter og godkender bidrag til OS2BorgerPC projektet.
 - Start med at oprette et issue. Der tager vi den forudgående dialog, hvor vi sammen får afstemt forventningerne. Derved undgår vi misforståelser og spildt arbejde.
+- [Links til issue trackers](https://os2borgerpc.github.io/os2borgerpc-docs/docs/support-and-issue-tracker.html)
 
 ### 2. Klon
 - Klon repository til din lokale maskine.
