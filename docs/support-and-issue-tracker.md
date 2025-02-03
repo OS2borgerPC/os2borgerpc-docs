@@ -30,7 +30,7 @@ Der er også en issue tracker til [OS2borgerpc Klienten](https://github.com/OS2b
 
 ## Sagsbehandling
 Alle sager behandles af OS2BorgerPC koordinationsgruppen. Koordinationsgruppen mødes en gang månedligt.
-Hastesager der vedrører sikkerhed eller driftsstabilitet behandles hurtigere.
+Hastesager, der vedrører sikkerhed eller driftsstabilitet, behandles hurtigere.
 
 Spørgsmål til sagsbehandling kan rettes til [os2borgerpc@os2.eu](mailto:os2borgerpc@os2.eu)
 
