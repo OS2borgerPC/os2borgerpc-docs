@@ -5,13 +5,13 @@ nav_exclude: false
 ---
 
 Overvågning kan bruges til at opdage:
-- computere der offline
+- computere der er offline
 - sikkerhedshændelser på computere
 - låst brugerkonto som følge af sikkerhedshændelse
 
 Overvågning kan sende email-notifikationer, når der indtræffer en hændelse. 
 
-#### Under Overvågning i venstremenuen er tre menupunkter:
+### Under Overvågning i venstremenuen er tre menupunkter:
 
 ## Hændelser
 
@@ -19,44 +19,78 @@ XX Indsæt billede XX
 
 Venstremenuens **Hændelser** åbner en kronologisk oversigt over registerede hændelser. I oversigten kan man se, hvad det er for en regel, der har udløst hændelsen og hvilken computer det drejer sig om. Som standard vises alle ikke-løste hændelser med en alvorlighedsgrad over normal. 
 
-Fra oversigten kan man håndtere hændelser. En hændelse har enten status `ny`, `tildelt` eller `løst`. Når du markerer en hændelser dukker knappen `Håndter 1 ud af 20 hændelser` op. Ved håndterering ændrer du hændelsens status, tildeler opgaven til en bruger på sitet og tilføjer evt. en note. Flere hændelser kan håndteres på en gang. 
+Fra oversigten kan man håndtere hændelser. En hændelse har enten status **Ny**, **Tildelt** eller **Løst**. 
+
+Når du markerer en hændelser dukker knappen **Håndter 1 ud af 20 hændelser** op. Ved håndterering ændrer du hændelsens status, tildeler opgaven til en bruger på sitet og tilføjer evt. en note. Flere hændelser kan håndteres på en gang. 
 
 
 ## Overvågningsregler
-Under **Overvågningsregler** i venstremenuen kan man se hvilke sikkerhedsregler og off-line regler, der er aktive på sitet. Man kan også oprette nye off-line regler og sikkerhedsregler. Når man opretter en regel kan man vælge hvilke computere/grupper, der skal overvåges og hvilke email-adresser der skal notificeres ved en hændelse.
+Under **Overvågningsregler** i venstremenuen kan man se, hvilke sikkerhedsregler og off-line regler, der er aktive på sitet. 
+Når man opretter nye regler, vælger man hvilke computere/grupper, der skal overvåges, og hvilke email-adresser der skal notificeres ved en hændelse.
 
-**Off-line regler** bruges til at opdage computere, der er off-line. Det kan skyldes netværksudfald, at computeren er blevet slukket på knappen eller hardwarefejl. På lokationer uden personale opdager man ikke nødvendigvis fejl på skærme og computere, og her er overvågning særlig smart. Der kan sendes email-notifikationer ved off-line hændelser, så man ikke behøver at logge ind i admin-sitet for at opdage hændelsen. XXLæs om oprettelse af off-line regler.XX
+**Off-line regler** bruges til at opdage computere, der er off-line. Det kan skyldes netværksudfald, at der er blevet trykket på tænd/sluk-knappen på computeren eller hardwarefejl. 
+På lokationer uden personale opdager man ikke nødvendigvis fejl på skærme og computere, og her er overvågning særlig smart. Der kan sendes email-notifikationer ved off-line hændelser, så man ikke behøver at logge ind i admin-sitet for at opdage hændelsen. XXLæs om oprettelse af off-line regler.XX
 
-**Sikkerhedsregler**
-Sikkerhedsregler er baseret på sikkerhedsscripts, som kører på BorgerPCerne og overvåger deres tilstand. Hvert sikkerhedsscript tjekker for noget helt bestemt, f. eks. om der tilsluttes et nyt keyboard til computeren. Ud fra kriterierne i den opsatte sikkerhedsregel udløses en sikkerhedshændelse. Der kan sendes email-notifikationer ved sikkerhedshændelser, så man ikke behøver at logge ind i admin-sitet for at opdage hændelsen.
+**Sikkerhedsregler** er baseret på sikkerhedsscripts, som kører på computerne og overvåger deres tilstand. 
+Hvert sikkerhedsscript tjekker for noget helt bestemt, f. eks. om der tilsluttes et nyt keyboard til computeren. 
+Ud fra kriterierne i den opsatte sikkerhedsregel udløses en sikkerhedshændelse, hvis det som scriptet tjekker for sker. 
+Der kan sendes email-notifikationer ved sikkerhedshændelser, så man ikke behøver at logge ind i admin-sitet for at opdage hændelsen.
 
 ## Sikkerhedsscripts
 Der er pt. tre sikkerhedsscripts indbygget i OS2BorgerPC Admin.
 
-#### Detekter nytilsluttet keybord
-Nogle kommuner har oplevet at svindlere har tilsluttet nye keyboards, der opsamler information om tastetryk. Det er derfor værd at holde øje med om nye keybords tilsluttes. XLæs mere om sikkerhedsscriptet Detekter nytilsluttet keybordX
+### Detekter nytilsluttet keybord
+Nogle kommuner har oplevet at svindlere har tilsluttet keyboards med indbyggede "keyloggers", der opsamler information om tastetryk. 
+Det er derfor værd at holde øje med om nye keybords tilsluttes. XLæs mere om sikkerhedsscriptet Detekter nytilsluttet keybordX
 
-#### Detekter sudo-kørsel
-Hvis man forsøger at afvikle et program på BorgerPC med administratorrettigheder, kaldes det en sudo-kørsel. Sikkerhedshændelsen udløses selvom det ikke er lykkedes. Dvs. det er selve forsøget, der udløser hændelsen. Programmer kan kun køres med administratorrettigheder, hvis man kender password på administratorbrugeren (superuser), og det gør borgerne jo ikke, så hændelsen betyder ikke at der rent faktisk er sket et sikkerhedsbrud.
+### Detekter sudo-kørsel
+Når man på et Linux-system eksekverer et program med administratorrettigheder, kaldes det en sudo-kørsel. 
+Scriptet "Detekter sudo-kørsel" overvåger om nogen *forsøger* at eksekvere et program med administratorrettigheder. Bemærk at sikkerhedshændelsen udløses selvom det ikke lykkedes. 
+Dvs. det er selve forsøget, der udløser hændelsen. 
+
+Programmer kan kun eksekveres med administratorrettigheder, hvis man kender password på administratorbrugeren (superuser), og det gør borgerne jo ikke.
+Derfor vil hændelsen ofte kunne opstå uden at der rent faktisk er sket et sikkerhedsbrud.
 XLæs om sikkerhedsscriptet Detekter sudo-kørselX
 
-#### Detekter lås Borgerkonto
+### Detekter låst Borgerkonto
+Overvåger om  Borger-kontoen er blevet låst for login/sat til udløbet.
+Scriptet bruges i kombination med fire andre scripts i en samlet arbejdsgang for sikkerhedsstyring.
+
+Bruges sammen med en eller begge af følgende: 
+1. "Bloker for login ved USB-event" + "Sæt bruger aktiv efter blokeret login"
+2. "OS2borgerPC - Bloker for login ved hård nedlukning" + "Sæt bruger aktiv efter blokeret login"
+
+## Sikkerhedsworkflow omkring USB-events
+Nogle kommuner har sikret deres computere fysisk ved at låse dem inde i metal-kabinetter, der gør det fysisk umuligt at isætte USB-sticks eller keybords.
+I OS2BorgerPC regi er lavet en produktionstegning til et metalkabinet, som nogle kommuner har valgt at få produceret hos en smed. XXSe tegning til metal-kabinet her.XX
+
+Kan man ikke sikre sine computerne fysisk, kan man i stedet implementere en arbejdsgang for at opnå samme sikkerhedsniveau.
+1. Når en usb-enhed isættes eller fjernes, blokeres borgerlogin på computeren øjeblikkeligt. Dvs. computeren kan ikke længere bruges og af samme årsag bliver ingen eksponeret for en evt. keylogger der er blevet isat.
+2. Nedlåsningen af computeren registreres af sikkerhedsscriptet "Detekter låst brugerkonto" og der oprettes en sikkerhedshændelse., som personalet notificeres om via email.
+2. Personale bevæger sig ud til computeren, og sikerer sig at der ikke er tilsluttet uautoriserde USB-enheder til computeren.
+4. Personale behandler sikkerhedshændelsen på OS2BorgerPC administrationssiden
+3. Personale kører fra OS2BorgerPC administrationssiden et script på computeren der fjerner låsen, så borgere igen kan benytte den pågældende computer.
+
+Det høje sikkerhedsniveau kan kun opretholdes hvis borgerne ikke har adgang til computerne, når de er slukkede. Er en computer slukket, mens der isættes en USB-enhed, bliver det ikke opdaget.
+Af samme grund har off-line reglerne også et sikkerhedsaspekt. Slukker man en PC, ved at tage strømmen, kan der isættes en USB-logger uden at det opdages.
+
+
+
+
+
+---
+UNDER UDARBEJDELSE
+
+Dette script virker kun på OS2borgerPC, ikke OS2borgerPC Kiosk.
+
+
+
+
+
 
 Man kan lokalt tilføje sine egne sikkerhedsscripts.
 
 Sikkerhedsscriptet afvikles hver gang en computer tjekker ind på admin-sitet.
-Dette Sikkerhedsscript giver en Sikkerhedshændelse hvis Borger bliver låst ude/sat til udløbet.
-
-Dette script virker kun på OS2borgerPC, ikke OS2borgerPC Kiosk.
-
-Bruges sammen med en eller begge af følgende: 
-- "Bloker for login ved USB-event" + "Sæt bruger aktiv efter blokeret login"
-- "OS2borgerPC - Bloker for login ved hård nedlukning" + "Sæt bruger aktiv efter blokeret login"
-
-
-
-
-
 
 
 
