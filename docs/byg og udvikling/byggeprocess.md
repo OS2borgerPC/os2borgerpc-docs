@@ -50,7 +50,9 @@ Byggeprocesserne kan trigges på to måder:
 5. ISO filen publiceres:
    - **Manuelt byg**
      - Der genereres en midlertidig artifakt (*-dev.iso*), som kan downloades direkte fra GitHub Actions:\
-       <img src="artifakt.png" width="1000"/>
+       ![artifakt](https://github.com/user-attachments/assets/d4ac338a-b3c1-4118-81cc-01c6f6641553)
+       *Development iso-fil kan downloades dirkete fra Github*
+
    - **Automatisk byg**
      - Ved release:
        - ISO-filen uploades til en ekstern hosting service (AWS S3 kompatibel).
