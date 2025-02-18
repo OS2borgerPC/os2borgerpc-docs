@@ -1,4 +1,8 @@
-# Oprydning af gamle scripts
+---
+title: "Oprydning af gamle scripts"
+parent: "Drift og hjemtagelse"
+nav_exclude: false
+---
 
 **ADVARSEL**\
 I denne guide vises hvordan scripts fjernes ved at tilgå Djangos adminside. Django er den underliggende teknologi for OS2 Admin Site, som har sin egen adminside. Denne adminside giver ubegrænset adgang til alt data, der findes for hele ens Admin Site. Man kan derfor nemt **ødelægge sin installation**, eller **slette data for bestandigt**, hvis man ikke ved hvad man laver. **Følg derfor denne guide grundigt**, eller bestil fjernelsen af scripts hos en leverandør.\ 
