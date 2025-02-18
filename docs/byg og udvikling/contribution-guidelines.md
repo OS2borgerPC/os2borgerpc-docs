@@ -1,7 +1,6 @@
 ---
 title: "Contribution Guidelines"
-nav_order: 1
-layout: default
+parent: "Byg og udvikling"
 nav_exclude: false
 ---
 

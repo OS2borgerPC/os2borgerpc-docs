@@ -1,6 +1,6 @@
 ---
 title: Scripts
-parent: "Administrationssiden"
+parent: "Manual: OS2BorgerPC Admin"
 nav_exclude: false
 ---
 

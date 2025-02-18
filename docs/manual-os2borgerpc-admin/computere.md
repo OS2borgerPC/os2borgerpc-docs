@@ -1,6 +1,6 @@
 ---
 title: Computere
-parent: "Manual til OS2BorgerPC Admin"
+parent: "Manual: OS2BorgerPC Admin"
 nav_exclude: false
 ---
 Menupunktet **Computere** i venstremenuen åbner en liste med alle computere for det [site](https://os2borgerpc.github.io/os2borgerpc-docs/docs/administrationssiden/sites.html), du er inde på. Der er sorteret med nye/inaktive computere, der venter på at blive aktiverede øverst, og ellers efter hvornår de senest er set.

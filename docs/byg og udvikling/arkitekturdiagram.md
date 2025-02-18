@@ -1,6 +1,6 @@
 ---
-title: "Technical Documentation"
-parent: "Admin Site"
+title: "Arkitektur og databaseopbygning"
+parent: "Byg og udvikling"
 nav_exclude: false
 ---
 

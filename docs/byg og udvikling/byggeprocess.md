@@ -1,4 +1,8 @@
-# Byggeprocesser i OS2BorgerPC
+---
+title: "Byggeprocesser i OS2BorgerPC"
+parent: "Byg og udvikling"
+nav_exclude: false
+---
 
 ## Indledning
 For at sikre en ensartet og veldefineret udviklingsproces er der opsat automatiske byggeprocesser for tre centrale komponenter i OS2BorgerPC-projektet:

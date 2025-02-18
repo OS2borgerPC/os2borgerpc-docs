@@ -1,6 +1,7 @@
 ---
 title: Om OS2BorgerPC
 layout: home
+nav_order: 1
 ---
 
 ## Hvad er OS2borgerPC?

@@ -1,6 +1,6 @@
 ---
 title: Konfigurationer
-parent: "Manual til OS2BorgerPC Admin"
+parent: "Manual: OS2BorgerPC Admin"
 nav_exclude: false
 ---
 

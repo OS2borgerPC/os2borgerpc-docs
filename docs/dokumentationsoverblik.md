@@ -1,8 +1,8 @@
 ---
-title: "Eksisterende dokumentation"
-nav_order: 1
+title: "Dokumentationsoverblik"
+nav_order: 50
 layout: default
-nav_exclude: false
+nav_exclude: true
 ---
 Oversigt over den dokumentation der pt. findes i OS2BorgerPC.
 

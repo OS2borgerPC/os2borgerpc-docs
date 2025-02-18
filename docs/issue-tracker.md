@@ -1,13 +1,9 @@
 ---
-title: "Support og issue tracker"
-nav_order: 1
-layout: default
+title: "Issue tracker"
+nav_order: 2
 nav_exclude: false
 ---
 
-## Support
-
-Det er driftsleverandøren, der yder support på OS2BorgerPC. Det sker i henhold til den aftale, som kommunen selv har indgået med sin driftsleverandøren.
 
 ## Fejl og udviklingsønsker
 
