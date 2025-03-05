@@ -1,6 +1,6 @@
 ---
 title: "Issue tracker"
-nav_order: 2
+nav_order: 10
 nav_exclude: false
 ---
 
