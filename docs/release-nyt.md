@@ -4,10 +4,10 @@ nav_order: 5
 nav_exclude: false
 ---
 
-##  Release notes
-Release notes bliver skrevet på dansk i et lettilgængeligt sprog. 
 Brug release notes til at holde dig orienteret om nye features i OS2BorgerPC.
 
+##  Release notes
+Release notes bliver skrevet på dansk i et lettilgængeligt sprog. 
 
 Links til release notes:
 
