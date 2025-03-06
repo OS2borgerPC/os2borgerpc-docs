@@ -27,4 +27,8 @@ Du kan få email notifikationer, når der kommer nye releases i  OS2BorgerPC. S�
 3. Klik ind på det delprojekt som du gerne vil modtage emails om.
 4. 
 
+![watch](https://github.com/user-attachments/assets/dd05d5b3-9e85-4fea-a595-0c58e8093340)
 
+
+
+![releases](https://github.com/user-attachments/assets/2b552d23-b7f6-456f-8410-0f8a74879375)
