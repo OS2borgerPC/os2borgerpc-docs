@@ -52,20 +52,21 @@ Opret et issue og beskriv, hvad det er, du gerne vil. Så starter en dialog, hvo
 Test dine ændringer grundigt hos dig selv, inden du opretter pull request og anmoder koordinationsgruppen om code review og test.
 - Udvikler du på os2borgerpc-admin kan du via byggeprocesser i Github få bygget af docker-image ud fra din feature-branch.
 - Udvikler du på os2borgerpc-image eller os2borgerpc-kiosk-image kan en ISO-fil genereres via byggerprocesserne.
-[Læs mere om byggeprocesserne.]()
+[Læs mere om byggeprocesserne](https://os2borgerpc.github.io/os2borgerpc-docs/docs/byg-og-udvikling/byggeprocess.html)
 
-### 5. Opret en Pull Request (PR) og afvent review
+### 6. Opret en Pull Request (PR) og afvent review
 - Gå til det oprindelige repository på GitHub.
 - Opret en pull request fra din branch til `main`.
 - Beskriv dine ændringer kort og præcist.
 - Vent på feedback og lav eventuelle nødvendige ændringer.
 
-### 6. Merge og slet branch
-- Når PR'en er godkendt og merged, kan du slette din branch:
-  ```sh
-  git branch -d feature/mit-nye-feature
-  git push origin --delete feature/mit-nye-feature
-  ```
+### 7. Koordinationsgruppen organserer review og test
+- Koordinationsgruppen organiserer review af koden og test af den nye funktionalitet
+- Der vil være dialog i pull request kommentartråden om evt. påkrævede tilretninger
+
+### 6. Review, Merge og Release
+- Når PR'en er godkendt og merged kan feature branch slettes.
+- Koordinationsgruppen tagger evt. en ny release. hvis det skønnes nødvendigt.
 
 Tak for din hjælp til at forbedre projektet!
 
