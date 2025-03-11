@@ -46,7 +46,13 @@ Opret et issue og beskriv, hvad det er, du gerne vil. Så starter en dialog, hvo
   git push origin feature/mit-nye-feature
   ```
 
-### 5. Opret en Pull Request (PR)
+### 5. Afprøv lokalt
+Test dine ændringer grundigt hos dig selv, inden du opretter pull request og anmoder koordinationsgruppen om code review og test.
+- Udvikler du på os2borgerpc-admin kan du via byggeprocesser i Github få bygget af docker-image ud fra din feature-branch.
+- Udvikler du på os2borgerpc-image eller os2borgerpc-kiosk-image kan en ISO-fil genereres via byggerprocesserne.
+[Læs mere om byggeprocesserne.]()
+
+### 5. Opret en Pull Request (PR) og afvent review
 - Gå til det oprindelige repository på GitHub.
 - Opret en pull request fra din branch til `main`.
 - Beskriv dine ændringer kort og præcist.
@@ -58,12 +64,6 @@ Opret et issue og beskriv, hvad det er, du gerne vil. Så starter en dialog, hvo
   git branch -d feature/mit-nye-feature
   git push origin --delete feature/mit-nye-feature
   ```
-
-## Kodekvalitet og tests
-- Følg projektets kodestandarder og best practices.
-- Tilføj eller opdater tests, hvis det er relevant.
-- Kør tests lokalt, før du laver en PR.
-
 
 Tak for din hjælp til at forbedre projektet!
 
