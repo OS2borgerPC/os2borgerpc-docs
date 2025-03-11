@@ -1,5 +1,5 @@
 ---
-title: "Contribution Guidelines"
+title: "Retningslinjer for kodebidrag"
 parent: "Byg og udvikling"
 nav_exclude: false
 ---
