@@ -12,15 +12,14 @@ Beskriv problemet eller forslaget så detaljeret som muligt.
 
 Det kræver et login til Github for at kunne oprette issues. Man kan selv oprette login herfra: [https://github.com/signup](https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home)
 
-### Vælg den rigige issue tracker:
-\
-[**Administrationssiden**: Fejl og udviklingsønsker](https://github.com/OS2borgerPC/os2borgerpc-admin-site/issues){: .btn }
+Der er flere issue trackere - en for hvert komponent i OS2BorgerPC-projektet.
 
-[**Scripts**: Fejl og udviklingsønsker](https://github.com/OS2borgerPC/os2borgerpc-core-scripts/issues){: .btn }
+Vælg den rigtige issue tracker:
 
-[**OS2BorgerPC Image**: Fejl og udviklingsøsnker](https://github.com/OS2borgerPC/os2borgerpc-image/issues){: .btn }
-
-[**OS2BorgerPC Kiosk image**: Fejl og udviklingsønsker](https://github.com/OS2borgerPC/os2borgerpc-kiosk-image/issues){: .btn }
+- [Administrationssiden](https://github.com/OS2borgerPC/os2borgerpc-admin-site/issues)
+- [Core scripts](https://github.com/OS2borgerPC/os2borgerpc-core-scripts/issues)
+- [OS2BorgerPC Image](https://github.com/OS2borgerPC/os2borgerpc-image/issues)
+- [OS2BorgerPC Kiosk image](https://github.com/OS2borgerPC/os2borgerpc-kiosk-image/issues)
 
 Der er også en issue tracker til [OS2borgerpc Klienten](https://github.com/OS2borgerPC/os2borgerpc-client/issues) og [OS2BorgerPC dokumentationssiden](https://github.com/OS2borgerPC/os2borgerpc-docs/issues).
 
