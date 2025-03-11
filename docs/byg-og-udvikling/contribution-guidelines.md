@@ -19,7 +19,9 @@ Opret et issue og beskriv, hvad det er, du gerne vil. Så starter en dialog, hvo
 - [Links til issue trackers](https://os2borgerpc.github.io/os2borgerpc-docs/docs/support-and-issue-tracker.html)
 
 ### 2. Klon fra Github
-- Gå ind på OS2BorgerPC på Github og klon det repository som du vil bidrage til ned på din lokale maskine.
+- Gå ind på OS2BorgerPC på Github og klon det repository, som du vil bidrage til, ned på din lokale maskine.
+  
+  ![Klon](https://github.com/user-attachments/assets/e7327d5b-5dd8-41cb-82d2-1649de3ab2ef)
 
 - Sørg for at have den nyeste version af `main` ved at køre:
   ```sh
