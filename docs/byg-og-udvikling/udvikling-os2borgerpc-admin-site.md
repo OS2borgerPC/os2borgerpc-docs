@@ -26,7 +26,7 @@ For at udvikle på dette projekt skal du have følgende software installeret og 
    - Docker Desktop inkluderer Docker Compose, men hvis du har brug for at installere det separat, følg instruktionerne her: [Installer Docker Compose](https://docs.docker.com/compose/install/)
    - Bekræft installationen ved at køre:
      ```sh
-     docker-compose --version
+     docker compose --version
      ```
 
 3. **Git**:
