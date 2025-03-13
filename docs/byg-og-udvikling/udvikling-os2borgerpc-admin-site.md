@@ -11,11 +11,7 @@ nav_exclude: false
 For at udvikle på dette projekt skal du have følgende software installeret og konfigureret på din udviklingsmaskine:
 
 1. **Docker**:
-   - Docker er nødvendigt for at bygge og køre containerne, der er defineret i 
-
-compose.yaml
-
--filen.
+   - Docker er nødvendigt for at bygge og køre containerne, der er defineret i compose.yaml-filen.
    - Installer Docker ved at følge instruktionerne for dit operativsystem:
      - [Docker til Linux](https://docs.docker.com/engine/install/)
      - [Docker til Windows](https://docs.docker.com/docker-for-windows/install/)
