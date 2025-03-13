@@ -1,7 +1,8 @@
 ---
 title: "Arkitektur og databaseopbygning"
-parent: "Byg og udvikling"
+parent: "Udvikling og byg"
 nav_exclude: false
+nav_order: 15
 ---
 
 ## Architectural Diagram

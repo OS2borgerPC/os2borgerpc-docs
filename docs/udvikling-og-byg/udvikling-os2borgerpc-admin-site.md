@@ -1,7 +1,8 @@
 ---
 title: "Intro til udvikling på OS2BorgerPC Admin Site"
-parent: "Byg og udvikling"
+parent: "Udvikling og byg"
 nav_exclude: false
+nav_order: 5
 ---
 
 

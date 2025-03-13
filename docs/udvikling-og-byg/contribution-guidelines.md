@@ -1,7 +1,8 @@
 ---
 title: "Retningslinjer for kodebidrag"
-parent: "Byg og udvikling"
+parent: "Udvikling og byg"
 nav_exclude: false
+nav_order: 10
 ---
 
 Tak fordi du ønsker at bidrage til Os2BorgerPC! For at sikre en god udviklingsproces, bedes du følge nedenstående retningslinjer.
