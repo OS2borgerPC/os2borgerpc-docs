@@ -3,4 +3,4 @@ title: Browser
 parent: Script bibliotek
 nav_exclude: false
 ---
-Browser
+Konfiguration af Chrome, Chromium og Firefox. 
