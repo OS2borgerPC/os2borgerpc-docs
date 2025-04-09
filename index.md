@@ -6,43 +6,34 @@ nav_order: 1
 
 ## Hvad er OS2borgerPC?
 
-OS2BorgerPC er en open-source software løsning til computere, der stilles til rådighed for borgere på biblioteker, i borgerservice eller i andre offentlige rum.
+OS2BorgerPC er en open-source softwareløsning til de computere, som borgerne bruger på biblioteker, i borgerservice eller andre offentlige steder.
 
-Systemet er udformet så borgerne kan udføre nødvendige digitale opgaver, som at bruge internettet, arbejde med et tekstdokument, printe og samarbejde med offentlige myndigheder. 
+Systemet er designet så borgerne kan udføre nødvendige digitale opgaver som at bruge internettet, arbejde med tekstdokumenter, printe og kommunikere med offentlige myndigheder.
 
-OS2borgerPC har indbyggede sikkerhedsforanstaltninger, der beskytter brugernes personlige data, som automatisk log-ud, automatisk sletning af brugerdata og omfattende sikkerhedsadvarsler.
+OS2BorgerPC indeholder indbyggede sikkerhedsforanstaltninger, der beskytter brugernes personlige data, herunder automatisk log-ud, automatisk sletning af brugerdata og løbende sikkerhedsmonitorering.
 
-OS2borgerPC er et omkostningseffektivt og driftsstabilt alternativ til licensbelagt software til offentligt tilgængelige arbejdsstationer. 
+OS2BorgerPC udgør et omkostningseffektivt og driftsstabilt alternativ til licensbaseret software til offentlige arbejdsstationer.
 
 
 
 ## Sikkerhed frem for alt
 
-Det skal være sikkert for en borger at logge ind på en OS2borgerPC. Af den grund har sikkerhed en meget høj prioritet.
-
-- OS2BorgerPCerne henter automatisk sikkerhedsopdateringer til operativsystemet om natten.
-
-- Adgang til central udrulning af softwareopdateringer via administrationssystemet kan sikre et ensartet og højt sikkerhedsniveau
+Det skal være sikkert for en borger at logge ind på en OS2borgerPC. Af den grund har sikkerhed en meget høj prioritet
 
 - Overvågningsregler kan detektere sikkerhedskritiske hændelser på OS2BorgerPCerne, som medarbejdere kan undersøge og håndtere.
-
+- OS2BorgerPCerne henter automatisk sikkerhedsopdateringer til operativsystemet om natten.
+- Adgang til central udrulning af softwareopdateringer via administrationssystemet kan sikre et ensartet og højt sikkerhedsniveau
 - På Github er opsat automatisk sikkerhedsovervågning af softwarekomponenter der indgår i produkterne
-
-- Der vedligeholdes specifikationer for en anbefalet pakke af sikkerhedscripts for hver udgave af OS2BorgerPC
-
 
 ## Administrationsmodul
 
-Det webbaserede administrationsmodul giver et samlet overblik over driftsstatus og sikkerhedsadvarsler på alle tilknyttede OS2BorgerPCer. Driftsinformation logges og kan tilgås via et API.
+- Det webbaserede administrationsmodul giver et samlet overblik over driftsstatus og sikkerhedsadvarsler på alle tilknyttede OS2BorgerPCer. Driftsinformation logges og kan tilgås via et API.
 
-Administrationssystemet er inddelt i sites, så løsningen kan matche kommunens behov for ansvarsfordeling mellem institutioner/afdelinger.
+- Fra administrationssystemet er der adgang til et globalt script-katalog med scripts til de mest almindelige tilpasninger af OS2BorgerPC'erne. Hvis en kommune har særlige behov, kan der oprettes lokale scripts, som enten kommunen selv eller dens leverandør har udviklet.
 
-OS2BorgerPCer kan tilknyttes grupper, der definerer script-policy-pakker. Når en pc indmeldes i en gruppe, bliver gruppens scripts udført på den. Derved sikres at OS2BorgerPCer, der er tilmeldt de samme grupper, har den samme tilstand.
+- Via administrationssystemet kan automatisk nedlukning i hverdage, weekender og ferier konfigureres, så der spares på strømmen.
 
-Fra administrationssystemet er der adgang til et globalt script-katalog, med scripts til ofte benyttede tilpasninger af OS2BorgerPCerne. Har man i en kommune særlige behov, kan man oprette lokale scripts, som man enten selv eller ens leverandør har programmeret.
-
-Via administrationssystemet kan automatisk nedlukning i hverdage, weekender og ferier konfigureres, så der spares på strømmen.
-
+- Administrationsmodulet er opbygget med adskilte sites, så adgangen kan tilpasses kommunens behov for ansvarsopdeling mellem institutioner eller afdelinger.
 
 
 ## OS2BorgerPC Kiosk
