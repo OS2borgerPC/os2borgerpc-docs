@@ -51,6 +51,30 @@ mkdir -p os2borgerpc-admin
 # Udpakker til mappen
 tar -xvzf <FILNAVN>.tar.gz -C os2borgerpc-admin
 ```
+
+### Præ-installationskrav
+Der skal oprettes en konfigurationsfil (`.env`) med lokale systemindstillinger.
+
+1. Kopier filen `.env.example.` til `.env`.
+
+```bash
+cp .env.example .env
+```
+
+Åbn `.env` i en text editor som f. eks. `nano`.
+
+```bash
+nano .env
+```
+2. Tilret indstillinger til jeres lokale forhold.
+Som minimum skal disse indstillinger ændres.
+- `DOMAIN`: Dit domænenavn som skal matche dit SSL certifikat
+- `DB_PASSWORD`: Angiv et stærkt password
+- `SECRET_KEY`: Angiv en stærk nøgle.
+- `ALLOWED_HOSTS`: Begræns hvilke domæner/ip-adresser der skal have adgang til admin-site, hvis det er på internettet.
+
+Her er en oversigt over alle systemindstillinger. XX
+
 ### Installation med task
 Kør `task`. Der vises en menu med alle tilgængelige kommandoer.
 
@@ -76,7 +100,7 @@ Man installerer ved at køre denne kommando:
 ```bash
 task install
 ```
-Der er nogle præ-installations krav, der skal være opfyldt. Læs mere om præ-installationskravene her.
+Der er nogle præ-installations krav, der skal være opfyldt. Læs mere om præ-installationskravene her. XX
 
 Tast `yes` for at fortsætte.
 
@@ -108,27 +132,6 @@ Username: admin
 Password: admin
 ```
 
-### Præ-installationskrav
-Lokale systemindstillinger sættes i filen `.env`.
-
-Kopier filen `.env.example.` til `.env`.
-
-```bash
-cp .env.example .env
-```
-
-Åbn `.env` i en text editor som f. eks. `nano`.
-
-```bash
-nano .env
-```
-
-Af sikkerhedshensyn opdaterer ALTID disse indstillinger med dine egne værdier:
-- `DOMAIN`: Dit domænenavn som skal matche dit SSL certifikat
-- `DB_PASSWORD`: Angiv et stærkt password
-- `SECRET_KEY`: Angiv en stærk nøgle.
-
-
 ### Oversigt over systemindstillinger
 
 | Variabel                     | Forklaring                                                                 | Standardværdi                                           | Påkrævet |
@@ -145,7 +148,7 @@ Af sikkerhedshensyn opdaterer ALTID disse indstillinger med dine egne værdier:
 | `CORE_SCRIPT_COMMIT_HASH`    | Hver version af globale scripts har et matchende commit-hash. Find det i release beskrivelsen her: https://github.com/OS2borgerPC/os2borgerpc-core-scripts/releases                                          | `a96d19567bf5c002c76d16cf80f6c894c2af499`             | Ja       |
 | `PC_IMAGE_RELEASES_URL`      | URL til download af BorgerPC ISO images                                    | `https://github.com/OS2borgerPC/os2borgerpc-image/releases` | Nej      |
 | `KIOSK_IMAGE_RELEASES_URL`   | URL til download af Kiosk ISO images                                       | `https://github.com/OS2borgerPC/os2borgerpc-kiosk-image/releases` | Nej      |
-| `DEBUG`                      | Aktiverer debug-tilstand i Django                                          | `True`                                                | Nej      |
+| `DEBUG`                      | Aktiverer debug-tilstand i Django                                          | `False`                                                | Nej      |
 | `SECRET_KEY`                 | Hemmelig nøgle til Django                                                  | `v3rys1kr3t`                                          | Ja       |
 | `ADMIN_USERNAME`             | Brugernavn for admin-bruger                                                | `admin`                                               | Ja       |
 | `ADMIN_EMAIL`                | Email for admin-bruger. Kan ændres i GUI efter installation (Hovedmenu > Brugere).                                                     | `os2borgerpc_admin@os2borgerpc-vendor.example`        | Ja       |
@@ -158,143 +161,104 @@ Af sikkerhedshensyn opdaterer ALTID disse indstillinger med dine egne værdier:
 | `CITIZEN_LOGIN_API_VALIDATOR`| Validator for citizen login API                                            | `system.utils.always_validate_citizen`               | Nej      |
 | `USE_X_FORWARDED_HOST`       | Aktiverer brug af `X-Forwarded-Host` header bag proxy                      | `True`                                                | Nej      |
 | `SECURE_PROXY_SSL_HEADER`    | Header til at indikere SSL bag proxy                                       | `('HTTP_X_FORWARDED_PROTO', 'https')`                | Nej      |
+| `HTTPS_GUARANTEED`           | Aktiverer middleware for behandling af HTTP som HTTPS bag en proxy. Sæt til `true` hvis du er bag en reverse proxy, der håndterer SSL. | `false`                                               | Nej      |
 
 
 ---
-## Introduktion
 
+### On premice drift
+OS2BorgerPC Admininstartionssitet egener sig meget fint til hjemtagelse. Som regel er det ret få medarbejdere der skal tilgå systemet, og man kan derfor vælge at placere serveren på et internt netværk frem for internettet. Arbejdes der hjemme kan sitet evt. nås via VPN. Det gør sikkerheden lettere at håndtere.
 
-**OS2BorgerPC admin-site** er designet som et Docker-image. Bygning og publicering håndteres af en [GitHub-pipeline](https://github.com/OS2borgerPC/os2borgerpc-admin-site/actions/workflows/docker-image.yml), som uploader Docker-image'et til [GitHub Packages](https://github.com/orgs/OS2borgerPC/packages?repo_name=os2borgerpc-admin-site). Her kan du finde image-tags og URLs.
+Nedetid på OS2BorgerPC Administrationssitet påvirker ikke BorgerPC-maskinerne. De kører fint videre, selvom serveren ikke er tilgængelig. Skulle serveren drille en dag hvor jeres system administrator holder fridag, mærkes det ikke på biblioteket, i jobcenteret eller hvor ellers jeres BorgerPC maskinerne står.
 
-Konfiguration sker via miljøvariabler (beskrevet nedenfor) og omfatter desuden specifikationer for driftskrav. En `compose.yaml`-fil leveres som reference til udvikling og konfiguration.
+Sønderborg Kommune har selv hostet OS2BorgerPC Administrationssitet i 5 år med gode erfaringer.
 
-**Bemærk:** `compose.yaml` er ikke opdateret til at understøtte de nye cron job-endpoints. Til produktion anbefales brug af de nye cron job endpoints.
+### Automatiserede Jobs (Cron Jobs)
+Cron er en facilitet indbygget i Ubuntu ,som kan bruges til at planlægge kørsler af jobs.
 
----
+På et OS2BorgerPC Administrationssite er der to jobs, der skal køres regelmæssigt:
+- Et der udsender email notifikationer ved sikkerhedshændelser
+- Et der rydder op i forældede data i databasen
 
-## Drift Anbefalinger
+2. Gå ind i crontab hvor cronjobs registreres:
+```bash
+crontab -e
+```
+Måske bliver du bedt om at vælge, hvilken tekst editor du vil benytte. Vælg Nano, da den er mest brugervenlig.
 
-For at understøtte leverandører og kommuner i at sætte OS2BorgerPC admin-site i drift samt håndtere opgraderinger anbefales følgende fremgangsmåde:
+3. 
+Indsæt følgende linjer i crontab:
 
-### Drift Opsætning
-1. **Undgå brug af `docker-compose` i produktion:**
-   - `docker-compose` er velegnet til udvikling, men anbefales ikke til produktion.
-   - Brug en orkestreringsløsning som Kubernetes eller Docker Swarm til at håndtere containere.
+HUSK! Udskift `demo.os2borgerpc.dk` med dit eget domænenavn:
 
-2. **Ønskes brug af docker-compose alligevel eller sammen med Docker Swarm:**
-   - Lav ny docker-compose fil med udgangspunkt i `compose.yaml`
-   - Fjern unødvendige services som `frontend` og tilpas `cron-service` som beskrevet nedenfor.
-   - Konfigurer admin-site til at pege på et specifikt Docker-image-tag, f.eks.:
-     ```yaml
-     image: ghcr.io/os2borgerpc/os2borgerpc-admin-site:<specific-tag>
-     ```
-   - Indstil miljøvariabler i henhold til dokumentationen.
+```bash
+# Run check_notifications every 10 minutes
+*/10 * * * * curl http://demo.os2borgerpc.dk:8080/jobs/check_notifications -f 
 
-3. **Volumenhåndtering:**
-   - Sørg for at mount persistente volumes til `/media` for at sikre, at scripts og andre uploads bevares mellem genstarter.
-   - Eksempel:
-     ```yaml
-     volumes:
-       - admin-media:/media
-     ```
+# Run clean_up_database once a week (Sunday at midnight)
+0 0 * * 0 curl http://demo.os2borgerpc.dk:8080/jobs/clean_up_database -f 
 
-4. **Sikkerhed:**
-   - Angiv en stærk `SECRET_KEY` i miljøvariablerne.
-   - Begræns `ALLOWED_HOSTS` til de domæner, der skal have adgang til admin-site.
+```
+Har du brug for at køre cron jobbene manuelt kan det gøres via kommandoen:
+```bash
+task cron
+```
 
-### Opgradering af Admin-Site
-1. **Forberedelse:**
-   - Gennemgå release-notes for den nye version.
-   - Test opgraderingen i et udviklings- eller staging-miljø.
+### Persistens og backup
 
-2. **Opdatering:**
-   - Opdater Docker-image-tagget til den ønskede version i din orkestreringsopsætning.
-   - Genstart admin-site-containere for at anvende ændringerne.
+For at sikre, at scripts og andre uploads bevares mellem genstarter og ved opgradering gemmes de på et persistent volume, der hedder `admin-media`.
 
-3. **Validering:**
-   - Bekræft, at opgraderingen er succesfuld ved at teste kernefunktionalitet.
-   - Tjek logfiler for fejl eller advarsler.
+Volume data ligger på denne sti. Stien kan variere lidt alt efter hvordan docker blev installeret.
+```bash
+/var/lib/docker/volumes/os2borgerpc-admin-site-deployment_admin-media
+```
 
-### Fejlfinding
-- Hvis der opstår problemer under opgradering, kan du rulle tilbage til det tidligere Docker-image-tag.
-- Kontroller logfiler i admin-site-containere for detaljerede fejlmeddelelser.
+Tilsvarende ligger databasen på et persistent volume, der hedder `postgres-data`.
+```bash
+/var/lib/docker/volumes/os2borgerpc-admin-site-deployment_postgres-data
+```
+Man kan lave et database dump via task-værktøjet:
+```bash
+task db_dump
+```
 
----
+Ønsker man daglige db-dumps til backup formål, kan et cron-job opsættes.
 
-## Bootstrapping
-For at initialisere admin-site og få adgang til Djangos administrationsside (`<base URL>/admin`), skal en admin-bruger oprettes med følgende miljøvariabler:
+HUSK! Tilret stien hen til installationsmappen. Udskift `mitbrugernavn` med dit eget.
 
-- `ADMIN_USERNAME`
-- `ADMIN_PASSWORD`
-- `ADMIN_EMAIL`
+```bash
+0 2 * * * cd /home/mitbrugernavn/os2borgerpc-admin-site-deployment && task backup_db
+0 2 * * * find /home/mitbrugernavn/os2borgerpc-admin-site-deployment -mtime +10 -type f -delete
+```
 
-**Bemærk:** `ADMIN_EMAIL` anvendes af Djangos indbyggede brugerhåndtering. Den oprettede admin-bruger kan også administrere sites og klienter.
+Eksemplet her laver et db_dump hver nat kl. 02:00. Samtidig slettes db_dumps der er ældre end 10 dage.
 
----
-
-## Database
-Konfiguration af databaseforbindelsen sker via følgende miljøvariabler:
-
-- `DB_HOST`
-- `DB_PORT`
-- `DB_USER`
-- `DB_PASSWORD`
-- `DB_NAME`
-
-Se `compose.yaml` for eksempler.
-
----
-
-## Scripts
-Scripts gemmes i Djangos mediamappe (`/media`). For at sikre persistens mellem genstarter skal en persistent volume mountes på denne sti.
 
 ### Globale Scripts
-Globale scripts downloades fra [OS2's core-script repository](https://github.com/OS2borgerPC/os2borgerpc-core-scripts) under opstart. Konfiguration sker med:
+OS2BorgerPC Admin fødes uden globale scripts. I forbindelse med opstart udfyldes globale scripts med indholdet af [os2borgerpc-core-scripts](https://github.com/OS2borgerPC/os2borgerpc-core-scripts/releases). 
 
-- `CORE_SCRIPT_VERSION_TAG`: Version af de globale scripts (f.eks. `v0.1.5`).
-- `CORE_SCRIPT_COMMIT_HASH`: Matchende commit-hash for versionen (f.eks. `5340bdc128e2de8c01def5dc50e8680399631f53`).
+Hvilken version af script-pakken, der indlæses under opstart, styres via disse to variabler:
 
-#### Sådan Finder du Commit-Hash
-1. Gå til [commit-historik](https://github.com/OS2borgerPC/os2borgerpc-core-scripts/commits/main).
-2. Find det commit, der matcher versionstagget.
-3. Kopiér commit-hash.
+- `CORE_SCRIPT_VERSION_TAG`: Version af de globale scripts (f.eks. `v1.0.1`).
+- `CORE_SCRIPT_COMMIT_HASH`: Matchende commit-hash for versionen (f.eks. `6a96d19567bf5c002c76d16cf80f6c894c2af499`).
+
 
 #### Opdatering af Globale Scripts
+Vil man indlæse en nyere version af core-scripts er det så simpelt som at opdatere de to variable og genstarte.
+
+Det kan gøres via 
 1. Opdater `CORE_SCRIPT_VERSION_TAG` og `CORE_SCRIPT_COMMIT_HASH`.
-2. Genstart containeren.
+
+Man finder commit hash øverst i release notes.
+https://github.com/OS2borgerPC/os2borgerpc-core-scripts/releases
+
+2. Genstart. F. eks. via
+```bash
+task stop
+```
+```bash
+task up
+```
 
 **Bemærk:** Eksisterende scripts fjernes ikke automatisk og skal ryddes manuelt via SQL eller `/admin`.
 
----
-
-## Cron Jobs
-Admin-site understøtter to cron jobs:
-
-1. **`check_notifications`**: Sender notifikationer. *(Forslag: `*/10 * * * *`)*
-2. **`clean_up_database`**: Rydder op i databasen. *(Forslag: `0 19 * * 6`)*
-
-### Kørsel af Cron Jobs
-Via HTTP:
-```bash
-curl http://admin-site-url:8080/jobs/check_notifications -f
-curl http://admin-site-url:8080/jobs/clean_up_database -f
-```
-
-Manuelt fra container:
-```bash
-/code/admin_site/manage.py check_notifications
-/code/admin_site/manage.py clean_up_database
-```
-
----
-
-## Diverse Konfigurationsparametre
-
-- **`HTTPS_GUARANTEED`**: 
-  - true | false (default: false).
-  - Aktiverer middleware for behandling af HTTP som HTTPS bag en proxy.
-
-- **`PC_IMAGE_RELEASES_URL`** og **`KIOSK_IMAGE_RELEASES_URL`**:
-  - URLs til download af BorgerPC ISO images.
-
----
