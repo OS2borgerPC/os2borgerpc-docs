@@ -3,12 +3,15 @@ title: "Installation og drift"
 nav_exclude: false
 ---
 
+
 ## Download OS2BorgerPC Admin indstallationspakke
 
 Den nyeste version af **OS2BorgerPC Admin installationspakken** kan downloades som en tar.gz-pakke via nedenstående link:
 
-[Download OS2BorgerPC Admin](https://github.com/OS2borgerPC/os2borgerpc-admin-site-deployment/releases/latest){: .btn .btn-blue }
+[Download OS2BorgerPC Admin installationspakken](https://github.com/OS2borgerPC/os2borgerpc-admin-site-deployment/releases/latest){: .btn .btn-blue }
 
+1. TOC
+{:toc}
 
 ## Installationsvejledning
 Installationspakken er testet på Ubuntu Server 22.04 og 24.04.
@@ -72,7 +75,7 @@ Som minimum skal disse indstillinger ændres.
 - `SECRET_KEY`: Angiv en stærk nøgle.
 - `ALLOWED_HOSTS`: Begræns hvilke domæner/ip-adresser der skal have adgang til admin-site, hvis det er på internettet.
 
-Her er en oversigt over alle systemindstillinger. XX
+Her er en [oversigt over alle systemindstillinger](https://os2borgerpc.github.io/os2borgerpc-docs/docs/installation-og-drift/#oversigt-over-systemindstillinger).
 
 ### Installation med task
 Kør `task`. Der vises en menu med alle tilgængelige kommandoer.
@@ -85,21 +88,22 @@ task
 ```
 Menuen ser sådan ud:
 ```bash
-task: Available tasks for this project:
-* default:         The default task that shows help
-* down:            Remove all containers and volumes
-* install:         Install the project
-* reinstall:       Reinstall from scratch. Removes the database, all containers, and volumes.
-* stop:            Stop all containers without altering anything else
-* up:              Take the environment up without altering the existing state of the containers
-* upgrade:         Upgrades the admin site to a newer version
+Available tasks:
+task install - Install OS2BorgerPC Adminsite
+task upgrade - Upgrade OS2BorgerPC Adminsite to a newer version
+task start - Start the application by bringing all containers up
+task stop - Stop the application by stopping all containers
+task reinstall - Reinstall the application. WARNING Deletes volumes and containers
+task down - Remove the application. Deletes all volumes and containers
+task cron - Run cron jobs manually
+task backup_db - Perform a database dump
+
 ```
 Man installerer ved at køre denne kommando:
 
 ```bash
 task install
 ```
-Der er nogle præ-installations krav, der skal være opfyldt. Læs mere om præ-installationskravene her. XX
 
 Tast `yes` for at fortsætte.
 
@@ -109,10 +113,11 @@ Pre-installation Requirements
 ====================================================
 
 To proceed with the installation, ensure the following steps are completed:
-1. Update '.env'. Change the passwords and secret keys.
+1. Update '.env'. Change at least DOMAIN, DB_PASSWORD and SECRET_KEY.
 2. Place your SSL certificate files ('nginx.crt' and 'nginx.key') in the 'ssl' directory.
 
 Have you completed the above pre-installation steps? (yes/no)
+
 ```
 
 Installationen kører færdig uden yderligere interaktion.
@@ -123,12 +128,17 @@ Til slut vises info om, hvordan du logger ind. Det der vises afhænger af dine i
 ====================================================
 OS2Borgerpc Admin is now available via the URLs below
 ====================================================
-Admin: https://display-devs.sonderborg.dk
-Django Backend: https://display-devs.sonderborg.dk/admin
+Admin: https://demo.os2borgerpc.dk
+Django Backend: https://demo.os2borgerpc.dk/admin
 ====================================================
 You can log in with the following credentials:
 Username: admin
 Password: admin
+====================================================
+IMPORTANT: Please change the password of the admin user right away.
+You can do this from the menu item 'Brugere' in the main menu of OS2BorgerPC Admin.
+====================================================
+
 ```
 
 ### Oversigt over systemindstillinger
@@ -225,8 +235,10 @@ task db_dump
 HUSK! Tilret stien hen til installationsmappen. Udskift `mitbrugernavn` med dit eget.
 
 ```bash
-0 2 * * * cd /home/mitbrugernavn/os2borgerpc-admin-site-deployment && task backup_db
-0 2 * * * find /home/mitbrugernavn/os2borgerpc-admin-site-deployment -mtime +10 -type f -delete
+# Make a database backup at 2AM and save it to os2borgerpc-admin/db_backups
+0 2 * * * cd /home/mitbrugernavn/os2borgerpc-admin && task backup_db
+# Cleanup database backups older than 10 days
+0 2 * * * find /home/mitbrugernavn/os2borgerpc-admin -mtime +10 -type f -delete
 ```
 
 Eksemplet her laver et db_dump hver nat kl. 02:00. Samtidig slettes db_dumps der er ældre end 10 dage.
