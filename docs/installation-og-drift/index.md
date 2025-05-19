@@ -1,6 +1,5 @@
 ---
-title: "Installation og drift af OS2BorgerPC Admin"
-parent: "Drift og hjemtagelse"
+title: "Installation og drift"
 nav_exclude: false
 ---
 
@@ -166,15 +165,10 @@ Password: admin
 
 ---
 
-### On premice drift
-OS2BorgerPC Admininstartionssitet egener sig meget fint til hjemtagelse. Som regel er det ret få medarbejdere der skal tilgå systemet, og man kan derfor vælge at placere serveren på et internt netværk frem for internettet. Arbejdes der hjemme kan sitet evt. nås via VPN. Det gør sikkerheden lettere at håndtere.
-
-Nedetid på OS2BorgerPC Administrationssitet påvirker ikke BorgerPC-maskinerne. De kører fint videre, selvom serveren ikke er tilgængelig. Skulle serveren drille en dag hvor jeres system administrator holder fridag, mærkes det ikke på biblioteket, i jobcenteret eller hvor ellers jeres BorgerPC maskinerne står.
-
-Sønderborg Kommune har selv hostet OS2BorgerPC Administrationssitet i 5 år med gode erfaringer.
+## Drift og backup
 
 ### Automatiserede Jobs (Cron Jobs)
-Cron er en facilitet indbygget i Ubuntu ,som kan bruges til at planlægge kørsler af jobs.
+Cron er en facilitet indbygget i Linux, som kan bruges til at planlægge kørsler af jobs.
 
 På et OS2BorgerPC Administrationssite er der to jobs, der skal køres regelmæssigt:
 - Et der udsender email notifikationer ved sikkerhedshændelser
@@ -204,7 +198,7 @@ Har du brug for at køre cron jobbene manuelt kan det gøres via kommandoen:
 task cron
 ```
 
-### Persistens og backup
+### Filer og backup
 
 For at sikre, at scripts og andre uploads bevares mellem genstarter og ved opgradering gemmes de på et persistent volume, der hedder `admin-media`.
 
@@ -212,6 +206,10 @@ Volume data ligger på denne sti. Stien kan variere lidt alt efter hvordan docke
 ```bash
 /var/lib/docker/volumes/os2borgerpc-admin-site-deployment_admin-media
 ```
+
+Det er vigtigt at du sikrer dig at der tages backup af filerne.
+
+### Database backup
 
 Tilsvarende ligger databasen på et persistent volume, der hedder `postgres-data`.
 ```bash
@@ -234,31 +232,48 @@ HUSK! Tilret stien hen til installationsmappen. Udskift `mitbrugernavn` med dit 
 Eksemplet her laver et db_dump hver nat kl. 02:00. Samtidig slettes db_dumps der er ældre end 10 dage.
 
 
-### Globale Scripts
-OS2BorgerPC Admin fødes uden globale scripts. I forbindelse med opstart udfyldes globale scripts med indholdet af [os2borgerpc-core-scripts](https://github.com/OS2borgerPC/os2borgerpc-core-scripts/releases). 
+## Globale Scripts
+OS2BorgerPC Admin fødes uden indhold i globale scripts. Når serveren startes befolkes globale scripts med de scripts med indholdet af [os2borgerpc-core-scripts](https://github.com/OS2borgerPC/os2borgerpc-core-scripts/releases). 
 
-Hvilken version af script-pakken, der indlæses under opstart, styres via disse to variabler:
+Du styrer selv hvilken version af core-script-pakken, der skal indlæses under opstart via disse to variabler:
 
 - `CORE_SCRIPT_VERSION_TAG`: Version af de globale scripts (f.eks. `v1.0.1`).
 - `CORE_SCRIPT_COMMIT_HASH`: Matchende commit-hash for versionen (f.eks. `6a96d19567bf5c002c76d16cf80f6c894c2af499`).
 
 
-#### Opdatering af Globale Scripts
+### Opdatering af globale Scripts
 Vil man indlæse en nyere version af core-scripts er det så simpelt som at opdatere de to variable og genstarte.
 
-Det kan gøres via 
 1. Opdater `CORE_SCRIPT_VERSION_TAG` og `CORE_SCRIPT_COMMIT_HASH`.
+  Man finder versionsnummer og commit hash øverst i [release notes for os2borgerpc-core-scripts pakken](
+https://github.com/OS2borgerPC/os2borgerpc-core-scripts/releases).
 
-Man finder commit hash øverst i release notes.
-https://github.com/OS2borgerPC/os2borgerpc-core-scripts/releases
-
-2. Genstart. F. eks. via
+2. Genstart serveren. F. eks. via
 ```bash
 task stop
-```
-```bash
 task up
 ```
 
 **Bemærk:** Eksisterende scripts fjernes ikke automatisk og skal ryddes manuelt via SQL eller `/admin`.
+
+### Fjern ældre udgaver fra globale scripts
+
+Globale scripts i ældre versioner kan  slettes via Djangos adminside og dermed fjernes fra script-oversigten.
+
+Ændringerne på denne side **kan ikke fortrydes**.
+
+1. Gå ind på Djangos adminside på path `/admin/`.\
+F.eks.:\
+```https://demo.os2borgerpc.dk/admin/```
+
+2. Log ind med admin-brugeren (kun denne har adgang).
+
+3. Tryk på `Scripts`\
+![](opryd_scripts_1.png)
+4. Vælg de scripts der skal slettes ved at sætte hak ud for dem. Brug evt. søgefunktionen.\
+![](opryd_scripts_2.png)
+5. Vælg `Slet valgte scripts` og tryk `Udfør` for at slette dem.\
+![](opryd_scripts_3.png)
+
+**Bemærk:** Efter dette trin er de valgte scripts slettet permanent og kan ikke gendannes.
 
