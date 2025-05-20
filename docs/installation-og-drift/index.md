@@ -238,10 +238,10 @@ HUSK! Tilret stien hen til installationsmappen. Udskift `mitbrugernavn` med dit 
 # Make a database backup at 2AM and save it to os2borgerpc-admin/db_backups
 0 2 * * * cd /home/mitbrugernavn/os2borgerpc-admin && task backup_db
 # Cleanup database backups older than 10 days
-0 2 * * * find /home/mitbrugernavn/os2borgerpc-admin -mtime +10 -type f -delete
+0 2 * * * find /home/mitbrugernavn/os2borgerpc-admin/db_backups -mtime +10 -type f -delete
 ```
 
-Eksemplet her laver et db_dump hver nat kl. 02:00. Samtidig slettes db_dumps der er ældre end 10 dage.
+Eksemplet her laver en database backup hver nat kl. 02:00. Samtidig slettes database backups der er ældre end 10 dage.
 
 
 ## Globale Scripts
