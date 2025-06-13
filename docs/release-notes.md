@@ -1,6 +1,6 @@
 ---
-title: "Release nyheder"
-nav_order: 5
+title: "Release notes"
+nav_order: 11
 nav_exclude: false
 ---
 

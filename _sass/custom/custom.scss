@@ -31,6 +31,7 @@ table.script-parameters {
   }
 }
 
+/* Script display styling */
 
 summary {
   list-style: none;
@@ -69,7 +70,7 @@ details {
   box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
 }
 
-/* CSS for TOC items with light gray background */
+/* Styling the TOC with a light gray background */
 .toc .toc-item {
   background-color: #f1f1f1; /* Light gray background color */
   padding: 20px; /* Add some padding for spacing */
@@ -79,4 +80,14 @@ details {
 
 .toc .toc-item.core {
   background-color: #d1e7f1; /* Light blue background color */
+}
+
+/* Hide nav-list-expander in navigation sidebar because it is buggy*/
+.nav-list .nav-list-item .nav-list-expander {
+  display: none;
+}
+
+/* Less margin around hr */
+hr {
+  margin: 1rem 0;
 }

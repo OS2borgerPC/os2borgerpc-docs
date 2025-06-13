@@ -5,9 +5,17 @@ layout: default
 {% capture page_top %}
   {% if page.title %}
     <h1>{{ page.title }}</h1>
+    {% assign children = site.pages | where: "parent", page.title %}
+    {% if children.size == 0 %}
+      <hr>
+    {% endif %}
   {% endif %} 
   {% if page.summary %}
-    <p class="fs-6 fw-300">{{ page.summary }}</p>
+    <p class="fs-5 fw-500">{{ page.summary }}</p>
+    {% assign children = site.pages | where: "parent", page.title %}
+    {% if children.size == 0 %}
+      <hr>
+    {% endif %}
   {% endif %} 
   {% if page.source %}
     {% include script_metadata.html %}
