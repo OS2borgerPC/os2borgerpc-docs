@@ -11,11 +11,13 @@ Release notes bliver skrevet på dansk i et lettilgængeligt sprog.
 
 Links til release notes:
 
-- [Core scripts](https://github.com/OS2borgerPC/os2borgerpc-core-scripts/releases)
-- [OS2BorgerPC Admin](https://github.com/OS2borgerPC/os2borgerpc-admin-site/releases)
-- [OS2BorgerPC Image](https://github.com/OS2borgerPC/os2borgerpc-image/releases)
-- [OS2BorgerPC Kiosk Image](https://github.com/OS2borgerPC/os2borgerpc-kiosk-image/releases)
-- [OS2BorgerPC Klient](https://github.com/OS2borgerPC/os2borgerpc-client/releases)
+| Projekt                 | Release notes                                                                                                   | Seneste version                                                                                                               |
+|-------------------------|-----------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|
+| OS2BorgerPC Core scripts            | [Release notes](https://github.com/OS2borgerPC/os2borgerpc-core-scripts/releases)                               | [![GitHub release](https://img.shields.io/github/v/release/os2borgerpc/os2borgerpc-core-scripts)](https://github.com/os2borgerpc/os2borgerpc-core-scripts/releases) |
+| OS2BorgerPC Admin       | [Release notes](https://github.com/OS2borgerPC/os2borgerpc-admin-site/releases)                                 | [![GitHub release](https://img.shields.io/github/v/release/os2borgerpc/os2borgerpc-admin-site)](https://github.com/os2borgerpc/os2borgerpc-admin-site/releases)     |
+| OS2BorgerPC Image       | [Release notes](https://github.com/OS2borgerPC/os2borgerpc-image/releases)                                      | [![GitHub release](https://img.shields.io/github/v/release/os2borgerpc/os2borgerpc-image)](https://github.com/os2borgerpc/os2borgerpc-image/releases)               |
+| OS2BorgerPC Kiosk Image | [Release notes](https://github.com/OS2borgerPC/os2borgerpc-kiosk-image/releases)                                | [![GitHub release](https://img.shields.io/github/v/release/os2borgerpc/os2borgerpc-kiosk-image)](https://github.com/os2borgerpc/os2borgerpc-kiosk-image/releases)   |
+| OS2BorgerPC Klient      | [Release notes](https://github.com/OS2borgerPC/os2borgerpc-client/releases)                                     | [![GitHub release](https://img.shields.io/github/v/release/os2borgerpc/os2borgerpc-client)](https://github.com/os2borgerpc/os2borgerpc-client/releases)             |
 
 
 ## Bliv notificeret, når der kommer en ny release
