@@ -11,7 +11,7 @@ For at sikre en ensartet og veldefineret udviklingsproces er der opsat automatis
 - **PC ISO Image**
 - **Kiosk ISO Image**
 
-Disse processer sikrer, at der altid er en officiel, opdateret og identisk version af softwaren tilgængelig. Dette gør det lettere at samarbejde, fejlmelde og foreslå forbedringer.
+Disse processer sikrer, at der altid er en officiel, opdateret og identisk version af softwaren tilgængelig. Dette gør det lettere at samarbejde, fejlmelde og foreslå forbedringer..
 
 ## Formål med automatiske byggeprocesser
 De automatiske byggeprocesser har flere formål:
