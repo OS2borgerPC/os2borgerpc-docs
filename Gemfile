@@ -1,8 +1,8 @@
 source "https://rubygems.org"
 
-gem "jekyll", "~> 4.3"
-gem "just-the-docs", "~> 0.10"
-gem "git", "~> 2.3"
+gem "jekyll", "~> 4.3.4"
+gem "just-the-docs", "~> 0.10.1"
+gem "git", "~> 2.3.1"
 
 
 group :development do
