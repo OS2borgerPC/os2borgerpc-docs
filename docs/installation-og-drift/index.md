@@ -264,7 +264,7 @@ https://github.com/OS2borgerPC/os2borgerpc-core-scripts/releases).
 2. Genstart serveren. F. eks. via
 ```bash
 task stop
-task up
+task start
 ```
 
 **Bemærk:** Eksisterende scripts fjernes ikke automatisk og skal ryddes manuelt via SQL eller `/admin`.
