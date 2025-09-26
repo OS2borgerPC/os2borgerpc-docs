@@ -266,6 +266,11 @@ https://github.com/OS2borgerPC/os2borgerpc-core-scripts/releases).
 task stop
 task start
 ```
+eller
+
+```bash
+docker compose exec --user root os2borgerpc-admin python ./manage.py fetch_and_install_core_scripts --commitHash 6a96d19567bf5c002c76d16cf80f6c894c2af499 --versionTag v1.0.1
+```
 
 **Bemærk:** Eksisterende scripts fjernes ikke automatisk og skal ryddes manuelt via SQL eller `/admin`.
 
