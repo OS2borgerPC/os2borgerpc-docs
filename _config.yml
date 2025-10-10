@@ -7,6 +7,9 @@ favicon_ico: "/assets/site/favicon.ico"
 
 color_scheme: os2borgerpc
 
+plugins:
+  - jekyll-redirect-from
+
 # Aux links for the upper right navigation
 aux_links:
   OS2BorgerPC på OS2.eu: https://os2.eu/os2borgerpc
