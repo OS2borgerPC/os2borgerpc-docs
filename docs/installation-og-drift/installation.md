@@ -57,7 +57,7 @@ Omdøb mappen så versionsnummeret fjernes. Omdøb f. eks. fra `os2borgerpc-admi
 Alternativt kan projektet hentes ned via git clone.
 
 ```bash
-git clone https://github.com/OS2borgerPC/os2borgerpc-admin-site-deployment.git`
+git clone https://github.com/OS2borgerPC/os2borgerpc-admin-site-deployment.git
 ```
 
 ### 3. Opret lokal konfigurationsfil
