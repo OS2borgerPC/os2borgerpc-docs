@@ -65,7 +65,7 @@ Der skal oprettes en konfigurationsfil (`.env`) med lokale systemindstillinger.
 
 ```bash
 # Gå ind i mappen
-cd os2borgerpc-admin
+cd os2borgerpc-admin-site-deployment
 ```
 
 Kopier filen `.env.example.` til `.env`.
