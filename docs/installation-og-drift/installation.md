@@ -102,7 +102,7 @@ Start installationsscriptet.
 
 ```bash
 # Gå ind i mappen
-cd os2borgerpc-admin
+cd os2borgerpc-admin-site-deployment
 ```
 
 Man installerer ved at køre denne kommando:
