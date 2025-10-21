@@ -50,10 +50,14 @@ Download OS2BorgerPC Admin installationspakken. [Her er link til seneste release
 Udpak den downloadede fil:
 
 ```bash
-# Opretter en mappe til systemet
-mkdir -p os2borgerpc-admin
-# Udpakker til mappen
-tar -xvzf <FILNAVN>.tar.gz -C os2borgerpc-admin
+tar -xvzf <FILNAVN>.tar.gz
+```
+Omdøb mappen så versionsnummeret fjernes. Omdøb f. eks. fra `os2borgerpc-admin-site-deployment-1.2.1` til `os2borgerpc-admin-site-deployment`.
+
+Alternativt kan projektet hentes ned via git clone.
+
+```bash
+git clone https://github.com/OS2borgerPC/os2borgerpc-admin-site-deployment.git`
 ```
 
 ### 3. Opret lokal konfigurationsfil
