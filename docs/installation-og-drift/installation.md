@@ -146,8 +146,13 @@ You can do this from the menu item 'Brugere' in the main menu of OS2BorgerPC Adm
 ====================================================
 
 ```
+### 6. Skift adgangskode for admin-brugeren
+Straks efter installation skal du ændre admin-brugerens adgangskode.
+1. Log ind i OS2BorgerPC administrationsportalen
+2. Tryk på menupunktet *Brugere* i hovedmenuen
+3. Skift adgangskoden for admin-brugeren
 
-
+---
 
 ### Oversigt over systemindstillinger
 
