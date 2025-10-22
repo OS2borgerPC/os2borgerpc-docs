@@ -45,4 +45,7 @@
     {% endif %}
   {% endif %}
   <div>{% if nav_child.summary %}{{ nav_child.summary }}{% endif %}</div>
+  {% if nav_child.parent contains "Nyheder" %}
+    <a class="fs-5 fw-500" href="{{ nav_child.url | relative_url }}">Læs mere her</a>
+  {% endif %}
 </div>
