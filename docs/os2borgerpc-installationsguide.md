@@ -47,6 +47,53 @@ Når du har downloadet OS2BorgerPC image (ISO) skal du have det overført til et
 2. Åbn programmet **Startup Disk Creator**. Det er præinstallereret i Ubuntu 22.04.
 3. XX mangler noget XX
 
+## Tilret BIOS før installation
+1. **Sæt strømstik, skærm, mus og tastatur** til computeren.  
+3. **Tilslut kablet netværk**, hvis det er muligt:   
+   - Installation kan også gennemføres **uden netværk** – i så fald hentes en hel masse opdateringer første gang computeren sættes til netværk.  
+4. Isæt **OS2BorgerPC Bootable USB-stick**.  
+5. **Tænd computeren** og gå ind i BIOS. Adgang til BIOS, får man ved at trykke på en bestem tast under opstart. Hvilken tast man skal trykke på varierer. Det kan være **F2**, **Delete** eller noget tredje. BIOS kan være beskyttet med et password. 
+6. **Boot options**\
+    Indstil computeren til at boote fra USB (ikke fra harddisk) ved næste genstart.  
+     - At **UEFI Boot**  er aktiveret
+     - At **UEFI USB** ligger **over harddisken (UEFI SATA)** i boot order  
+     - At *Secure Boot* **ikke er valgt**
+7. **Aktivér at computeren kan startes via tryk på tastatur/mus**\
+   Hvis computeren, som det anbefales, er fysisk sikret, kan borgerne ikke komme til tænd/sluk knappen. Computeren tændes i stedet ved bevægelse af mus eller tryk på tilfældig tast på tastaturet.
+
+---
+
+
+
+For at kunne starte computeren ved at trykke på en knap på keyboard eller mus, skal det aktiveres i BIOS.
+
+9. Under **Advanced**, tryk på **Power**.  
+10. Under **Secondary Power Settings**, vælg **Power On** ved *After Power Failure*.  
+11. Under **Secondary Power Settings**, scroll ned i bunden af menuen.  
+12. Sæt flueben i **USB S4/S5 Power**.  
+13. Scroll ned i bunden af menuen igen.  
+14. Sæt flueben i **Wake on USB from S5**.
+
+---
+
+## 🔒 Sæt BIOS-adgangskode
+
+For at sikre, at borgere ikke har adgang til BIOS, sættes et BIOS-password.
+
+15. Tryk på fanen **Security**.  
+16. Tryk på knappen **Set Supervisor Password**.  
+17. Sæt password til:  
+    ```
+    Admin6400
+    ```
+18. Tryk **F10** for *Save and Exit*.  
+19. Tryk **Yes** for at gemme.
+
+---
+
+✅ **BIOS er nu konfigureret, og computeren vil boote fra USB-stikket ved næste opstart.**
+
+
 
 
 
