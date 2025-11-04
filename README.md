@@ -1,14 +1,18 @@
 # OS2BorgerPC
-## Formål
-OS2BorgerPC er open-source løsning til computere, der stilles til rådighed på biblioteker, i borgerservice eller andre borgervendte rum i de danske kommuner.
-Systemet er er udformet så borgerne kan udføre nødvendige digitale opgaver, som at skrive jobansøgninger, søge ydelser, betale regninger, printe og kommunikere med offentlige myndigheder.  
 
-OS2borgerPC har indbyggede sikkerhedsforanstaltninger, der beskytter brugernes personlige data, som automatisk log-ud, automatisk sletning af brugerdata og sikkerhedsadvarsler. 
+## Documentation
+Visit our user-friendly documentation website: [https://os2borgerpc.github.io/os2borgerpc-docs/](https://os2borgerpc.github.io/os2borgerpc-docs/)
 
-OS2BorgerPC er et omkostningseffektivt og driftsstabilt alternativ til licensbelagt software til offentligt tilgængelige arbejdsstationer.  
+## Purpose
+OS2BorgerPC is an open-source solution for computers made available in libraries, citizen service centers, or other public spaces in Danish municipalities.  
+The system is designed to allow citizens to carry out necessary digital tasks such as writing job applications, applying for benefits, paying bills, printing, and communicating with public authorities.  
 
-## Dokumentation
-Besøg vores brugervenlige dokumentations website på adressen https://os2borgerpc.github.io/os2borgerpc-docs/
+OS2BorgerPC includes built-in security features that protect users’ personal data, such as automatic logout, automatic deletion of user data, and security alerts.  
 
-Dokumentation af systemet er bygget med [OS2offdig/os2-docs-template](https://github.com/OS2offdig/os2-docs-template) og udgivet via Github Pages.
+OS2BorgerPC is a cost-effective and operationally stable alternative to proprietary software for publicly accessible workstations.  
+
+## Documentation
+System documentation is built with [OS2offdig/os2-docs-template](https://github.com/OS2offdig/os2-docs-template) and published via GitHub Pages.
+
+
 
