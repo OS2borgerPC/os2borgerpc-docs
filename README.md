@@ -1,7 +1,8 @@
 # OS2BorgerPC
 
-## Documentation
-Visit our user-friendly documentation website: [https://os2borgerpc.github.io/os2borgerpc-docs/](https://os2borgerpc.github.io/os2borgerpc-docs/)
+## Important Links
+[![Project News](https://img.shields.io/badge/Project_News-0078D4?style=for-the-badge)](https://os2borgerpc.github.io/os2borgerpc-docs/)
+[![User Manual](https://img.shields.io/badge/User_Manual-0078D4?style=for-the-badge)](https://os2borgerpc.github.io/os2borgerpc-docs/docs/manual-os2borgerpc-admin/)
 
 ## Purpose
 OS2BorgerPC is an open-source solution for computers made available in libraries, citizen service centers, or other public spaces in Danish municipalities.  
