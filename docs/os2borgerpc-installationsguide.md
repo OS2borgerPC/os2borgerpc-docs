@@ -12,7 +12,7 @@ Download den nyeste version her:
 
 *Bemærk at du skal bruge et andet image, hvis du vil installere en OS2BorgerPC Kiosk, der er en specialudgave af OS2BorgerPC til storskærms-PCer.*
 
-## Hardware
+## Hardware-krav
 OS2BorgerPC image kan installeres på de fleste computere med en Intel/AMD x86 (64 bit) arkitektur.
 Også ældre computere der ikke kan køre Windows 11, vil I mange tilfælde kunne køre OS2BorgerPC.
 
