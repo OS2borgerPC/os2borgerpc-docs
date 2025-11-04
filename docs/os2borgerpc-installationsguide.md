@@ -47,7 +47,7 @@ Når du har downloadet OS2BorgerPC image (ISO) skal du have det overført til et
 2. Åbn programmet **Startup Disk Creator**. Det er præinstallereret i Ubuntu 22.04.
 3. XX mangler noget XX
 
-## Tilret BIOS før installation
+## Klargør PC og tilret BIOS før installation
 1. **Sæt strømstik, skærm, mus og tastatur** til computeren.  
 3. **Tilslut kablet netværk**, hvis det er muligt:   
    - Installation kan også gennemføres **uden netværk** – i så fald hentes en hel masse opdateringer første gang computeren sættes til netværk.  
