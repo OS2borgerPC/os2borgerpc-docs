@@ -22,6 +22,34 @@ Fordi OS2BorgerPC kræver mindre computerkraft og harddiskplads end Windows, kan
 
 Står man overfor at skulle indkøbe mange nye BorgerPCer, kan det anbefales, at lave en prøveinstallation og idriftsætning af 2-3 maskiner, hvor man verificerer at alt virker efter hensigten.
 
+## Bootable USB
+Den eneste metode til at installere OS2BorgerPC-image er via en bootable USB.
+Når du har downloadet OS2BorgerPC image (ISO) skal du have det overført til et USB-stick på en særlig måde, så der kan bootes fra USB-stick.
+
+### Det skal du bruge:
+- En USB-nøgle på mindst 8 GB (helst tom — den bliver slettet).
+- OS2BorgerPC image (ISO) fil
+
+### Lav Bootable USB på Windows
+
+1. Download og installer programmet **Rufus** fra [https://rufus.ie](https://rufus.ie)  (Kræver administrator-rettigheder).
+2. Indsæt USB stick i computeren
+3. Åbn **Rufus**  
+4. Under **Device**, vælg dit USB enhed.  
+5. Under **Boot selection**, klik **SELECT** og vælg OS2BorgerPC ISO file  
+6. Under **Partition scheme**, vælg **GPT**
+7. Klik **START** og bekræft at du vil slette alt på USB-enheden.  
+8. Vent til Rufus siger **READY**
+
+
+### Lav Bootable USB på Ubuntu Linux
+1. Indsæt USB stick i computeren
+2. Åbn programmet **Startup Disk Creator**. Det er præinstallereret i Ubuntu 22.04.
+3. XX mangler noget XX
+
+
+
+
 
 
 
