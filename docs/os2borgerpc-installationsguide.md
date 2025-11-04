@@ -1,12 +1,13 @@
 
-**BorgerPC image (ISO)** er det image du kan lægge på PCer, der skal fungere som borgervendte PCer.
+**OS2BorgerPC image (ISO)** er det image, du kan installere på PCer, for at gøre dem til borger PCer.
 
-Du får en PC, der er designet så borgerne kan udføre nødvendige digitale opgaver som at bruge internettet, arbejde med tekstdokumenter, printe og kommunikere med offentlige myndigheder.
-Det er en sikret PC, der beskytter brugernes personlige data via automatisk log-ud, automatisk sletning af brugerdata og løbende sikkerhedsmonitorering.
+Når du installerer en PC med **OS2BorgerPC Image** får du en PC, der er designet, så borgerne kan udføre nødvendige digitale opgaver som at bruge internettet, arbejde med tekstdokumenter, printe og kommunikere med offentlige myndigheder.
+
+Du får også en sikret PC, der beskytter brugernes personlige data via automatisk log-ud, automatisk sletning af brugerdata og løbende sikkerhedsmonitorering.
 
 Download den nyeste version her:
 
-Bemærk at der findes et særligt image til 
+*Bemærk at du skal bruge et andet image, hvis du vil installere en OS2BorgerPC Kiosk, der er en specialudgave af OS2BorgerPC til storskærms-PCer.*
 
 ## Hardware
 der kan installeres på en computer som man vil bruge tilde fleste computere med en Intel/AMD x86 (64 bit) arkitektur.
