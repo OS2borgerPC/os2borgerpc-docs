@@ -58,7 +58,7 @@ Når du har downloadet OS2BorgerPC image (ISO) skal du have det overført til et
      - At **UEFI Boot**  er aktiveret
      - At **UEFI USB** ligger **over harddisken (UEFI SATA)** i boot order  
      - At *Secure Boot* **ikke er valgt**
-7. **Aktivér at computeren kan startes via tryk på tastatur/mus**\
+7. **Vælg at computeren kunne tændes via tryk på tastatur/mus**\
    Hvis computeren, som det anbefales, er fysisk sikret, kan borgerne ikke komme til tænd/sluk knappen. Computeren tændes i stedet ved bevægelse af mus eller tryk på tilfældig tast på tastaturet.
 
 ---
