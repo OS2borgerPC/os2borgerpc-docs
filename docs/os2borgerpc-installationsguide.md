@@ -116,7 +116,33 @@ Når du ikke at logge ind som Superuser i første forsøg, så log ud og prøv i
 2.	I menuen vælg **Sluk/log ud**
 3.	Vælg **Log ud**
 4. Vælg **Superuser** i menuen.
-5.	Skriv superusers adgangskode. Standard-adgangskoden er **superuser**, indtil du via et script ændrer det.
+5.	Skriv superusers adgangskode. (Standard-adgangskoden er **superuser**, indtil du via et script ændrer det).
+
+## Opdater alle pakker
+Åbn en terminal. 
+
+Opdater alt med 
+```
+sudo apt update
+```
+og så
+```
+sudo apt upgrade
+```
+
+## Registrer BorgerPC i administrationssystem
+OBS! Hvis PC’en allerede er i systemet skal den slettes, inden den kan oprettes på ny.
+•	På skrivebordet ligger der et ikon der hedder Registrer i OS2BorgerPC Admin. Dobbeltklik på det.
+•	Du får en dialogboks hvor der står Enter your password to perform administrative tasks. Tast superuser
+•	Nu starter en terminal hvor du skal svare på nogle spørgsmål:
+1.	Indtast venligst et nyt navn for denne computer:
+Kald den BIB-BORGER<nummer på PC’en>
+F. eks. BIB-BORGER058
+Bemærk at det skal skrives med STORE bogstaver
+2.	Tast hvor computeren hører til
+Tast 1 for Bibliotekerne
+
+
 
 
 
