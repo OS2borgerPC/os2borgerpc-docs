@@ -86,6 +86,44 @@ Husk at gemme ændringer til sidst.
 - Tryk **F10** for *Save and Exit*.  
 - Tryk **Yes** for at gemme.
 
+## Installation af OS2borgerPC fra USB-stick
+
+- Efter du har gemt BIOS-ændringer genstarter PC’en. Den starter med et disktjek. Tryk Ctrl + C for at afbryde for at spare tiden.
+- Den starter med et grønt skærmbillede.
+- Så dukker denne boks op. Vælg det øverste punkt. (Hvis man overskriver en eksisterende installation ser det lidt anderledes ud. Så står der ”Slet Ubuntu 20.04 LTS og geninstaller”)
+  
+<img width="641" height="488" alt="image" src="https://github.com/user-attachments/assets/66362813-f6ab-4195-9f7a-3b138d628daa" />
+
+- Tryk **Fortsæt**
+  
+<img width="647" height="213" alt="image" src="https://github.com/user-attachments/assets/2022c47c-c22c-4275-9b66-835c73b2a79e" />
+
+- Nu kører installationen. Det kan tage nogle minutter.
+  
+<img width="615" height="466" alt="image" src="https://github.com/user-attachments/assets/6a096b18-e0f9-4a87-9fa6-7538ff01b4cb" />
+
+- Installationen er fuldført og der trykkes **Genstart nu**.
+  
+<img width="641" height="486" alt="image" src="https://github.com/user-attachments/assets/d66a76f2-7750-45cd-9635-bad5e92b7110" />
+
+- Du kan nu tage USB-sticket ud af computeren.
+
+## Start BorgerPC og log ind som superuser
+BorgerPC’en starter op. Den logger automatisk ind som Borger. For at kunne lave de nødvendige ændringer, skal man være logget ind som Superuser. 
+Når du ikke at logge ind som Superuser i første forsøg, så log ud og prøv igen.
+
+1.	I øverste højre hjørne tryk på det lille tænd/sluk ikon
+2.	I menuen vælg **Sluk/log ud**
+3.	Vælg **Log ud**
+4. Vælg **Superuser** i menuen.
+5.	Skriv superusers adgangskode. Standard-adgangskoden er **superuser**, indtil du via et script ændrer det.
+
+
+
+
+
+
+
 
 
 
