@@ -25,7 +25,7 @@ Tilsvarende ligger databasen på et persistent volume, der hedder `postgres-data
 ```
 Vil du gerne hav et sql-dump af databasen, kan det laves via task-værktøjet:
 ```bash
-task db_dump
+task backup_db
 ```
 
 Ønsker man daglige db-dumps til backup formål, kan et cron-job opsættes.
