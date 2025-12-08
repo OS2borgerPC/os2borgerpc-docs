@@ -7,5 +7,5 @@ gem "jekyll-redirect-from", "~> 0.16"
 
 
 group :development do
-  gem "webrick", "~> 1.8" # needed for local serve with Ruby 3
+  gem "webrick", "~> 1.9" # needed for local serve with Ruby 3
 end
