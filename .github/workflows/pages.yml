@@ -59,9 +59,7 @@ jobs:
           
           # Convert specific pages to PDF
           # Adjust URLs and output filenames as needed
-          puppeteer print --no-sandbox "file://${{ github.workspace }}/_site/docs/dokumentationsoverblik.html" "./_site/pdfs/dokumentationsoverblik.pdf"
-          puppeteer print --no-sandbox "file://${{ github.workspace }}/_site/docs/om-os2borgerpc.html" "./_site/pdfs/om-os2borgerpc.pdf"
-          puppeteer print --no-sandbox "file://${{ github.workspace }}/_site/docs/installation-og-drift/index.html" "./_site/pdfs/installationsguide.pdf"
+          puppeteer print --no-sandbox "file://${{ github.workspace }}/_site/docs/installation-og-drift/index.html" "./asset/files/installationsguide.pdf"
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v3
