@@ -55,15 +55,13 @@ jobs:
       - name: Generate PDFs
         run: |
           npm install -g puppeteer-cli
-          mkdir -p ./assets/files
           mkdir -p ./_site/assets/files
           
-          # Convert specific pages to PDF
-          # Adjust URLs and output filenames as needed
-          puppeteer print --no-sandbox "file://${{ github.workspace }}/_site/docs/installation-og-drift/index.html" "./assets/files/installationsguide.pdf"
+          # Convert specific pages to PDF directly to _site
+          puppeteer print --no-sandbox "file://${{ github.workspace }}/_site/docs/installation-og-drift/index.html" "./_site/assets/files/installationsguide.pdf"
           
-          # Copy PDFs to _site directory for deployment
-          cp -r ./assets/files ./_site/assets/
+          # Verify PDF was created
+          ls -lah ./_site/assets/files/
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v3
