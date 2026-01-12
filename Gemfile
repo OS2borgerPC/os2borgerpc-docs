@@ -2,7 +2,7 @@ source "https://rubygems.org"
 
 gem "jekyll", "~> 4.3.4"
 gem "just-the-docs", "~> 0.10.1"
-gem "git", "~> 2.3.1"
+gem "git", "~> 4.2.0"
 gem "jekyll-redirect-from", "~> 0.16"
 
 
