@@ -48,20 +48,6 @@ jobs:
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
-      - name: Setup Node.js for PDF generation
-        uses: actions/setup-node@v4
-        with:
-          node-version: '18'
-      - name: Generate PDFs
-        run: |
-          npm install -g puppeteer-cli
-          mkdir -p ./_site/assets/files
-          
-          # Convert specific pages to PDF directly to _site
-          puppeteer print --no-sandbox "file://${{ github.workspace }}/_site/docs/installation-og-drift/index.html" "./_site/assets/files/installationsguide.pdf"
-          
-          # Verify PDF was created
-          ls -lah ./_site/assets/files/
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v3
