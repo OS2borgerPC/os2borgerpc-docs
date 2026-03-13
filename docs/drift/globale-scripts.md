@@ -1,6 +1,6 @@
 ---
 title: "Globale scripts"
-parent: "Installation og drift"
+parent: "For driftsleverandører"
 nav_exclude: false
 nav_order: 25
 ---

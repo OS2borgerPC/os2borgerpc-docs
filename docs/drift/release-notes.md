@@ -1,5 +1,6 @@
 ---
 title: "Release notes"
+parent: "For driftsleverandører"
 nav_order: 11
 nav_exclude: false
 ---

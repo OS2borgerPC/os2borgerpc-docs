@@ -1,6 +1,6 @@
 ---
 title: "Byggeprocesser i OS2BorgerPC"
-parent: "Udvikling og byg"
+parent: "For udviklere"
 nav_exclude: false
 nav_order: 15
 ---

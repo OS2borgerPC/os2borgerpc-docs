@@ -1,5 +1,6 @@
 ---
 title: Om OS2BorgerPC
+parent: "Sådan bruger du OS2BorgerPC"
 nav_order: 60
 nav_exclude: false
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Installation"
-parent: "Installation og drift"
+parent: "For driftsleverandører"
 nav_exclude: false
 nav_order: 0
 ---
