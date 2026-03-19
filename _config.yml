@@ -1,6 +1,7 @@
 title: OS2BorgerPC dokumentationssite
 description: Dokumentation af administrationssite, images og scripts.
 theme: just-the-docs
+baseurl: ""
 
 logo: "/assets/site/logo.svg"
 favicon_ico: "/assets/site/favicon.ico"
