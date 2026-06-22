@@ -1,10 +1,8 @@
 ---
 title: Selvevaluering (formular)
 layout: default
-parent: Evalueringer
-nav_order: 1
-has_children: false
-has_toc: false
+parent: Produktforvaltning
+nav_exclude: false
 ---
 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
