@@ -13,8 +13,7 @@ Nedenfor finder du en trinvis forklaring på, hvordan processen fungerer.
 
 ## 1. Kontroller din nuværende version
 
-Når OS2BorgerPC Adminsite installeres via `task install`, oprettes der en fil med navnet `VERSION`.  
-Denne fil indeholder det versionsnummer, du aktuelt kører med.
+Åbn filen `.env` og tjek hvad der står i variablen `VERSION`.
 
 ---
 
